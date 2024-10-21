@@ -1,0 +1,2492 @@
+:root {
+    --blue: "#002960";
+    --green: "0097b2";
+}
+
+* {
+    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+    font-family: "Roboto", sans-serif;
+}
+
+body .Header {
+    height: 780px;
+    /* background: linear-gradient(0deg, rgba(0,41,96,1) 0%, rgba(0,84,200,0.64) 100%); */
+}
+
+.container .row .bg-light {
+    background-color: #ffffff !important;
+}
+
+.navbar-collapse {
+    flex-grow: 0.6 !important;
+    align-items: center;
+}
+
+
+.navbar-nav {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: .25rem 1rem;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    margin: 15px 0px;
+    padding: 5px 30px;
+    text-align: inherit;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+
+.btn-outline-success {
+    color: #002960 !important;
+    border-color: #002960 !important;
+}
+
+.btn-outline-success:hover {
+    background-color: #002960 !important;
+    color: white !important;
+    border-color: white !important;
+}
+
+.Header .container .Row {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+.Row .Header_Content h1 {
+    color: #002960;
+    font-weight: 700;
+    font-size: 45px;
+    padding-top: 150px;
+    margin-bottom: 30px;
+}
+
+.Header_Content a {
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid;
+    margin-top: 30px;
+    border-radius: 15px;
+    background-color: #002960;
+}
+
+.Row .Landing_main {
+    width: 840px;
+    position: absolute;
+    right: 0px;
+    top: 85px;
+}
+
+.Row .Responsive_Main {
+    width: 840px;
+    position: absolute;
+    right: 0px;
+    top: 85px;
+    display: none;
+}
+
+
+.About .About_Background {
+    width: 50%;
+    position: absolute;
+    height: 1041px;
+}
+
+.About_Section {
+    padding-top: 100px;
+    position: relative;
+    margin-bottom: 80px;
+    height: 1041px;
+}
+
+
+
+.About_Section .Row {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.Row .About_Image_Cart .Main_Image {
+    width: 85%;
+    top: 100px;
+    position: relative;
+    z-index: 1;
+    /* width: 40%; */
+}
+
+.About_Image_Cart .Back_Bubble {
+    position: absolute;
+    top: 576px;
+    width: 38%;
+    left: 78px;
+}
+
+.About_Image_Cart .Company_Exp {
+    position: absolute;
+    top: 200px;
+    background-color: #0097b2;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    padding: 20px;
+    height: 26%;
+    width: 13.6%;
+    margin-left: 8px;
+}
+
+.Company_Exp h4 {
+    font-size: 3rem;
+}
+
+.Company_Exp hr {
+    width: 30px;
+    margin-left: 36%;
+    height: 5px;
+}
+
+.Company_Exp p {
+    font-size: 1.2rem;
+    margin-top: 39px;
+}
+
+.About_Section .About_Content {
+    padding: 20px;
+    padding-top: 200px;
+}
+
+.About_Content h2 {
+    font-size: 2rem;
+    color: #0097b2;
+    margin-bottom: 20px;
+}
+
+.About_Content h5 {
+    color: #002960;
+    margin-bottom: 20px;
+}
+
+.About_Content .Management_Info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    border-bottom: 5px solid #0097b2;
+    padding-bottom: 50px;
+}
+
+.About_Content .Anchertag {
+    margin-top: 50px;
+    float: right;
+    width: 28%;
+}
+
+.About_Content a {
+    padding: 10px 15px;
+    background-color: #002960;
+    border-radius: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.Body-Image img {
+    width: 85%;
+    margin-bottom: 100px;
+    margin-left: 110px;
+}
+
+.Work_Section {
+    /* background-color: #002960; */
+    position: relative;
+}
+
+.Work_Section .Half_Back {
+    position: absolute;
+    /* left: 90px; */
+    /* right: 0px; */
+    width: 100%;
+    height: 1300px;
+    z-index: -1;
+}
+
+#Responsive {
+    display: none;
+}
+
+.Work_Section .Buble_Image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+section .Work_Row {
+    color: #f9f9f9;
+    padding-top: 80px;
+    text-align: center;
+}
+
+.Work_Row_Content {
+    z-index: 1;
+}
+
+.Work_Row .Work_Row_Content h2 {
+    font-size: 3rem;
+}
+
+.Work_Row .Work_Cart_Section {
+    margin-top: 80px;
+    margin-left: 11%;
+    z-index: 1;
+}
+
+.Work_Cart_Section .First_Row,
+.Work_Cart_Section .Second_Row {
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 30px;
+    /* margin-bottom: 40px; */
+    /* align-items: center; */
+}
+
+.First_Row,
+.Second_Row {
+    padding-bottom: 100px;
+}
+
+.First_Row .Web_Cart,
+.App_Cart,
+.Ui_Cart,
+.Seo_Cart,
+.Digit_Cart,
+.E-Pup_Cart {
+    /* background-color: #f9f9f9; */
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
+    z-index: 1;
+}
+
+.First_Row .Web_Cart:hover,
+.App_Cart:hover,
+.Ui_Cart:hover,
+.Second_Row .Seo_Cart:hover,
+.Digit_Cart:hover,
+.E-Pup_Cart:hover {
+    box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.1)inset,
+        -10px -10px 10px white inset;
+}
+
+/* .First_Row .Web_Cart:hover+.Web_Cart,
+.App_Cart:hover,
+.Ui_Cart:hover,
+.Second_Row .Seo_Cart:hover,
+.Digit_Cart:hover,
+.E-Pup_Cart:hover {
+    backdrop-filter: blur(10px);
+} */
+
+
+.Web_Cart .Web_Cart_Img img,
+.Seo_Cart .Seo_Cart_Img img {
+    width: 100%;
+    margin-top: 30px;
+    border: 10px solid black;
+    border-radius: 20px;
+}
+
+.Web_Cart .Web_Cart_Content,
+.Seo_Cart .Seo_Cart_Content {
+    margin-top: 20px;
+}
+
+.Web_Cart .Web_Cart_Content h4,
+.App_Cart .App_Cart_Content h4,
+.Ui_Cart .Ui_Cart_Content h4,
+.Seo_Cart_Content h4,
+.Digit_Cart_Content h4,
+.E-Pup_Cart_Content h4 {
+    font-size: 1rem;
+    color: #0097b2;
+    margin-bottom: 20px;
+}
+
+.Web_Cart_Img,
+.Seo_Cart_Img {
+    margin-left: 24px;
+}
+
+.Ui_Cart .Ui_Cart_Img img,
+.E-Pup_Cart .E-Pup_Cart_Img img {
+    width: 100%;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+.Ui_Cart_Img,
+.E-Pup_Cart .E-Pup_Cart_Img {
+    margin-left: 24px;
+    margin-bottom: 23px;
+}
+
+.App_Cart .App_Cart_Img img,
+.Digit_Cart .Digit_Cart_Img img {
+    width: 95%;
+}
+
+.App_Cart_Img,
+.Digit_Cart_Img {
+    margin-left: 31px;
+    margin-bottom: 3px;
+}
+
+
+.Counter_List {
+    /* background-color: #002960; */
+    margin-top: 100px;
+    /* height: 360px; */
+    margin-bottom: 100px;
+    position: relative;
+}
+
+.Counter_List .Conection_Image {
+    position: absolute;
+    right: 29px;
+    height: 247px;
+    top: 265px;
+}
+
+.Counter_List .Row {
+    display: flex;
+    gap: 5px;
+    height: 240px;
+}
+
+.Counter_List .Counter_Row {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.Counter_List .Counter_Row .Counter_One,
+.Counter_Two,
+.Counter_Three,
+.Counter_Four {
+    position: relative;
+    color: #002960;
+}
+
+.Counter_Row .Counter_One img,
+.Counter_Two img,
+.Counter_Three img,
+.Counter_Four img {
+    position: absolute;
+    width: 87%;
+    margin-left: 17px;
+}
+
+.Counter_One .Counter_Value,
+.Counter_Two .Counter_Value,
+.Counter_Three .Counter_Value,
+.Counter_Four .Counter_Value{
+    display: flex;
+    justify-content: center;
+}
+
+.Counter_One span,
+.Counter_Two span,
+.Counter_Three span,
+.Counter_Four span {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 3.5rem;
+    padding-top: 60px;
+}
+
+.Counter_One h6,
+.Counter_Two h6,
+.Counter_Three h6,
+.Counter_Four h6 {
+    text-align: center;
+    color: #0097b2;
+}
+
+.Review_Section {
+    background-color: #002960;
+    position: relative;
+    padding-top: 100px;
+    height: 1300px;
+}
+
+.Review_Section .Message_Box_Left {
+    position: relative;
+}
+
+.Message_Box_Left {
+    left: 20px;
+    top: 800px;
+    width: 186px;
+}
+
+.Message_Box_Right {
+    right: 20px;
+    position: absolute;
+    top: 600px;
+    width: 150px;
+}
+
+.Like {
+    right: 355px;
+    position: absolute;
+    width: 60px;
+    top: 318px;
+}
+
+.Review_Section .Review_Heading {
+    text-align: center;
+}
+
+.Review_Section .Review_Heading h6 {
+    color: #0097b2;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.Review_Section .Row {
+    height: 1000px;
+}
+
+.Review_Heading h2 {
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.Review_Heading img {
+    padding-top: 20px;
+    width: 313px;
+}
+
+.Review_Section .Review_Main_Body {
+    padding-top: 50px;
+}
+
+.Review_Main_Body .LapTop {
+    position: absolute;
+    left: 125px;
+}
+
+.Review_Main_Body .Character_Standing {
+    position: absolute;
+    top: 257px;
+    left: 118px;
+    z-index: 1;
+}
+
+.Review_Main_Body .carousel {
+    top: 95px;
+    height: 471px;
+    width: 74%;
+    z-index: 1;
+    left: 170px;
+    position: relative;
+}
+
+.carousel .carousel-caption {
+    position: unset;
+    display: flex;
+    gap: 30px;
+    /* border: 1px solid #002960; */
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 125px;
+    width: 70%;
+}
+
+.carousel-caption .Reviews .Details .img img {
+    width: 16%;
+    position: unset;
+    border-radius: 50%;
+}
+
+.Contact-Section .Background {
+    position: absolute;
+    width: 71%;
+    right: 0px;
+    z-index: -1;
+}
+
+.Contact-Section .container {
+    margin-left: 0px;
+    padding-left: 0px;
+    margin-top: 100px;
+}
+
+.Contact-Section .container .row .contact_Image img {
+    width: 100%;
+    padding-top: 70px;
+}
+
+.Contact_Input {
+    float: right;
+    padding-top: 130px;
+    padding-left: 50px;
+}
+
+.Contact_Input h2 {
+    color: #002960;
+    font-size: 40px;
+}
+
+.Contact_Input form {
+    padding-top: 5px;
+}
+
+.Contact_Input .right_input {
+    float: right;
+}
+
+.right_input p,
+.left_input p {
+    margin-bottom: 10px;
+    margin-top: 20px;
+    color: #002960;
+}
+
+
+.right_input input,
+.left_input input {
+    width: 88%;
+    border: 1px solid #72727273;
+    height: 36px;
+    border-radius: 6px;
+}
+
+form input {
+    padding-left: 5px;
+}
+
+form .Project_Input {
+    width: 95%;
+    height: 59px;
+    border: 1px solid #72727273;
+    border-radius: 6px;
+}
+
+form .Privacy_Check {
+    display: flex;
+    gap: 10px;
+    padding-top: 36px;
+}
+
+.Contact_Input p {
+    margin-top: 36px;
+    margin-bottom: 10px;
+    color: #002960;
+}
+
+.Privacy_Check p {
+    margin-top: 13px;
+}
+
+/* ---------------------------MEDIA----------------------------------- */
+
+@media(min-width:200px) {
+
+    .Header_Content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .Row .Landing_main {
+        width: 80%;
+        right: 0px;
+        top: 227px;
+    }
+
+    body .Header {
+        height: 450px;
+    }
+
+    .Row .Header_Content h1 {
+        font-size: 25px;
+        padding-top: 54px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .Header_Content a {
+        font-size: 10px;
+        margin-left: 0%;
+    }
+
+
+    .About_Section .Row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .About .About_Background {
+        width: 90%;
+        height: auto;
+    }
+
+    .About_Section {
+        padding-top: 21px;
+        position: relative;
+        margin-bottom: 100px;
+        height: auto;
+    }
+
+    .About_Image_Cart .Main_Image {
+        width: 80% !important;
+        top: 44px !important;
+    }
+
+    .About_Image_Cart .Company_Exp {
+        top: 60px;
+        border-radius: 6px;
+        padding: 2px;
+        height: auto;
+        width: 25.6%;
+    }
+
+    .Company_Exp h4 {
+        font-size: 1rem;
+        margin-top: 2px;
+        margin-left: 21%;
+    }
+
+    .Company_Exp hr {
+        width: 32px;
+        margin-left: 23%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        height: 5px;
+    }
+
+    .Company_Exp p {
+        font-size: .5rem;
+        margin-top: 24%;
+    }
+
+    .About_Image_Cart .Back_Bubble {
+        position: absolute;
+        top: 23%;
+        width: 38%;
+        left: 37%;
+    }
+
+    .About_Section .About_Content {
+        padding: 0px;
+        padding-top: 100px;
+        width: 100%;
+    }
+
+    .About_Content h2 {
+        font-size: 1rem;
+        margin-bottom: 5px;
+    }
+
+    .About_Content h5 {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .About_Content p {
+        font-size: 10px;
+    }
+
+    .About_Content .Management_Info {
+        margin-top: 9px;
+        padding-bottom: 2px;
+    }
+
+    .Management_Info h6 {
+        font-size: 12px;
+    }
+
+    .About_Content .Anchertag {
+        margin-top: 24px;
+        float: right;
+        width: 73%;
+    }
+
+    .About_Content a {
+        padding: 6px 7px;
+        font-size: 10px;
+        border-radius: 10px;
+    }
+
+    .About_Content .Anchertag {
+        display: flex;
+        justify-content: end;
+        margin-top: 24px;
+        /* float: right; */
+        width: 100%;
+    }
+
+    .Body-Image img {
+        width: 85%;
+        margin-bottom: 13%;
+        margin-left: 10%;
+    }
+
+    .Work_Section {
+        background-color: #f9f9f9;
+        position: relative;
+        padding-top: 10px;
+        height: auto;
+        margin: 20px 0px;
+    }
+
+    .Work_Section .Half_Back {
+        display: none;
+    }
+
+    section .Work_Row {
+        color: #002960;
+        padding-top: 10px;
+    }
+
+    .Work_Row .Work_Row_Content h2 {
+        font-size: 1.5rem;
+    }
+
+    .Work_Row_Content p {
+        font-size: 13px;
+    }
+
+    .Work_Row .Work_Cart_Section {
+        margin-top: 30px;
+        margin-left: 5%;
+    }
+
+    .Work_Cart_Section .First_Row,
+    .Work_Cart_Section .Second_Row {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .Web_Cart_Img,
+    .Seo_Cart_Img {
+        margin-left: 10%;
+    }
+
+    .Web_Cart .Web_Cart_Img img,
+    .Seo_Cart .Seo_Cart_Img img {
+        width: 50%;
+        margin-top: 2px;
+        border: 4px solid black;
+        border-radius: 8px;
+    }
+
+    .App_Cart .App_Cart_Img img,
+    .Digit_Cart .Digit_Cart_Img img {
+        width: 70%;
+    }
+
+    .App_Cart_Img,
+    .Digit_Cart_Img {
+        margin-left: 10%;
+        margin-bottom: 3px;
+    }
+
+    .First_Row .Web_Cart,
+    .App_Cart,
+    .Ui_Cart,
+    .Seo_Cart,
+    .Digit_Cart,
+    .E-Pup_Cart {
+        padding: 1%;
+        border-radius: 8px;
+        width: 70%;
+    }
+
+    .Ui_Cart .Ui_Cart_Img img,
+    .E-Pup_Cart .E-Pup_Cart_Img img {
+        width: 70%;
+        margin-top: 1%;
+    }
+
+    .Ui_Cart_Img,
+    .E-Pup_Cart .E-Pup_Cart_Img {
+        margin-left: 10%;
+        margin-bottom: 2%;
+    }
+
+    .Web_Cart .Web_Cart_Content h4,
+    .App_Cart .App_Cart_Content h4,
+    .Ui_Cart .Ui_Cart_Content h4,
+    .Seo_Cart_Content h4,
+    .Digit_Cart_Content h4,
+    .E-Pup_Cart_Content h4 {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .Web_Cart .Web_Cart_Content p,
+    .App_Cart .App_Cart_Content p,
+    .Ui_Cart .Ui_Cart_Content p,
+    .Seo_Cart_Content p,
+    .Digit_Cart_Content p,
+    .E-Pup_Cart_Content p {
+        font-size: 10px;
+
+    }
+
+    .Counter_List .Counter_Row {
+        padding-top: 15px;
+        padding-bottom: 20px;
+    }
+
+    .Counter_List {
+        /* background-color: #002960; */
+        margin-top: 20px;
+        height: auto;
+        margin-bottom: 20px;
+        position: relative;
+    }
+
+    .Counter_List .Row {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 35px;
+        height: auto;
+    }
+
+    .Counter_Row .Counter_One img,
+    .Counter_Two img,
+    .Counter_Three img,
+    .Counter_Four img {
+        position: absolute;
+        width: 70%;
+        /* margin-top: 80px; */
+        margin-left: 17px;
+    }
+
+    .Counter_List .Counter_Row .Counter_One,
+    .Counter_Two,
+    .Counter_Three,
+    .Counter_Four {
+        width: 90%;
+    }
+
+    .Counter_One span,
+    .Counter_Two span,
+    .Counter_Three span,
+    .Counter_Four span {
+        text-align: center;
+        font-size: 1.5rem;
+        padding-left: 0%;
+        padding-top: 20%;
+    }
+
+    .Counter_One h6,
+    .Counter_Two h6,
+    .Counter_Three h6,
+    .Counter_Four h6 {
+        margin-top: 40px;
+    }
+
+    .Counter_List .Conection_Image {
+        display: none;
+    }
+
+    .Review_Section .container {
+        height: 270px;
+    }
+
+    .Review_Section .Row {
+        height: auto;
+    }
+
+    .Review_Section .Review_Heading h6 {
+        font-size: 1.5rem;
+        margin-bottom: 5px;
+    }
+
+    .Review_Heading h2 {
+        font-size: 1rem;
+    }
+
+    .Review_Heading img {
+        padding-top: 0px;
+        width: 100px;
+    }
+
+    .Review_Section .Review_Main_Body {
+        padding-top: 7px;
+    }
+
+    .Review_Main_Body .LapTop {
+        left: 10%;
+    }
+
+    .Review_Main_Body .Character_Standing {
+        top: 138px;
+        left: 11%;
+        width: 40px;
+    }
+
+    .Message_Box_Right {
+        display: none;
+    }
+
+    .Message_Box_Left {
+        display: none;
+    }
+
+    .Review_Main_Body .carousel {
+        top: 14px;
+        height: 94px;
+        width: 67%;
+        z-index: 1;
+        left: 17%;
+    }
+
+    .Review_Section {
+        padding-top: 30px;
+        height: auto;
+    }
+
+    .carousel-inner {
+        width: 100%;
+        height: 64px;
+    }
+
+    .carousel .carousel-caption {
+        margin-left: 10%;
+    }
+
+    .carousel-item {
+        position: relative;
+        display: none;
+        /* float: left; */
+        width: 100%;
+        height: 64px;
+        margin-right: 10%;
+    }
+
+    .Like {
+        right: calc(100% - 92%);
+        position: absolute;
+        width: 20px;
+        top: 120px;
+    }
+
+
+    /* --- */
+
+    .Contact-Section {
+        overflow: hidden;
+        position: relative;
+    }
+
+    .Contact-Section .Background {
+        width: 100%;
+        height: 450px;
+        top: 238px;
+    }
+
+
+    .Contact-Section .container {
+        margin-top: 10px;
+        margin-left: 0%;
+    }
+
+    .Contact-Section .container .Row {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .Contact_Input {
+        padding-top: 10px;
+        padding-left: 0px;
+        margin-left: 5%;
+    }
+
+    .Contact-Section .container .row .contact_Image img {
+        width: 74%;
+        padding-top: 19px;
+    }
+
+    .Contact_Input h2 {
+        font-size: 22px;
+    }
+
+    .Contact_Input form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Contact_Input p {
+        margin-top: 20px;
+        margin-bottom: 7px;
+        font-size: 15px;
+    }
+
+    .Contact_Input .Company {
+        margin-top: 212px;
+    }
+
+    .Contact_Input .right_input,
+    .Contact_Input .left_input {
+        width: 100%;
+    }
+
+    .right_input input,
+    .left_input input {
+        height: 40px;
+        font-size: 14px;
+    }
+
+}
+
+@media(min-width:300px) {
+
+    body .Nav_Bar {
+        position: sticky;
+        top: 0px;
+        z-index: 1010;
+    }
+
+    .navbar-collapse {
+        width: 95%;
+        z-index: 1010;
+        background-color: white;
+        position: absolute;
+        top: 60px;
+        left: 0px;
+        padding-left: 45px;
+        padding-bottom: 50px;
+    }
+
+    .About_Image_Cart .Company_Exp {
+        width: 24.6%;
+        top: 70px;
+    }
+
+    .About_Content h2 {
+        font-size: 1.5rem;
+        margin-bottom: 5px;
+    }
+
+    .Counter_List .Row {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 35px;
+        height: auto;
+    }
+
+    .Counter_Row .Counter_One img,
+    .Counter_Two img,
+    .Counter_Three img,
+    .Counter_Four img {
+        position: absolute;
+        width: 85%;
+        /* margin-top: 80px; */
+        margin-left: 6%;
+    }
+
+    .Counter_One span,
+    .Counter_Two span,
+    .Counter_Three span,
+    .Counter_Four span {
+        padding-top: 25%;
+    }
+
+    .Counter_List .Counter_Row .Counter_One,
+    .Counter_Two,
+    .Counter_Three,
+    .Counter_Four {
+        width: 35%;
+    }
+
+    .Counter_One h6,
+    .Counter_Two h6,
+    .Counter_Three h6,
+    .Counter_Four h6 {
+        margin-top: 47px;
+    }
+
+    .Review_Main_Body .carousel {
+        top: 14px;
+        height: 143px;
+    }
+
+    .Review_Section .container {
+        height: 333px;
+    }
+
+    .Review_Main_Body .Character_Standing {
+        top: 110px;
+        left: 12%;
+        width: 50px;
+    }
+
+    /* ------ */
+    .Contact-Section {
+        position: relative;
+        margin-top: 100px;
+    }
+
+    .Contact-Section .Background {
+        top: 400px;
+        width: 100%;
+        height: 800px;
+    }
+
+    .Contact_Input {
+        padding-top: 10px;
+        padding-left: 45px;
+    }
+
+
+
+    .Company_Exp h4 {
+        font-size: 2rem;
+        margin-top: 2px;
+        margin-left: 7%;
+    }
+}
+
+@media(min-width:400px) {
+
+    body .Header {
+        height: 500px;
+    }
+
+    .Row .Landing_main {
+        top: 249px;
+    }
+
+    .Row .Header_Content h1 {
+        font-size: 37px;
+    }
+
+    .Company_Exp p {
+        font-size: 1rem;
+        margin-top: 24%;
+    }
+
+    .Company_Exp hr {
+        width: 33px;
+        margin-left: 34%;
+        margin-top: 20%;
+    }
+
+    .About_Content h5 {
+        font-size: 16px;
+    }
+
+    .About_Content p {
+        font-size: 13px;
+    }
+
+    .Work_Row .Work_Row_Content h2 {
+        font-size: 2rem;
+    }
+
+    .Work_Row_Content p {
+        font-size: 13px;
+    }
+
+    .Web_Cart .Web_Cart_Content h4,
+    .App_Cart .App_Cart_Content h4,
+    .Ui_Cart .Ui_Cart_Content h4,
+    .Seo_Cart_Content h4,
+    .Digit_Cart_Content h4,
+    .E-Pup_Cart_Content h4 {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .Web_Cart .Web_Cart_Content p,
+    .App_Cart .App_Cart_Content p,
+    .Ui_Cart .Ui_Cart_Content p,
+    .Seo_Cart_Content p,
+    .Digit_Cart_Content p,
+    .E-Pup_Cart_Content p {
+        font-size: 13px;
+    }
+
+    .Counter_One h2,
+    .Counter_Two h2,
+    .Counter_Three h2,
+    .Counter_Four h2 {
+        text-align: center;
+        font-size: 2.5rem;
+        padding-right: 6%;
+        padding-top: 26%;
+    }
+
+    .Counter_One h6,
+    .Counter_Two h6,
+    .Counter_Three h6,
+    .Counter_Four h6 {
+        margin-top: 56px;
+        font-size: 1.2rem;
+    }
+
+    .Review_Section .Review_Heading h6 {
+        font-size: 1.5rem;
+        margin-bottom: 5px;
+    }
+
+    .Review_Heading h2 {
+        font-size: 1.5rem;
+    }
+
+    .Review_Main_Body .Character_Standing {
+        top: 110px;
+        left: 12%;
+        width: calc(37% - (40px + 38px));
+    }
+
+    .Review_Main_Body .carousel {
+        top: 14px;
+        height: 184px;
+    }
+
+    .Review_Section .container {
+        height: 360px;
+    }
+
+    /* ======== */
+    .Contact_Input h2 {
+        font-size: 22px;
+    }
+
+    .Contact_Input p {
+        margin-top: 15px;
+        margin-bottom: 3px;
+        font-size: 17px;
+    }
+
+    .right_input input,
+    .left_input input {
+        height: 45px;
+    }
+
+    .Contact_Input .Company {
+        margin-top: 195px;
+    }
+
+    .Contact_Input h2 {
+        font-size: 20px;
+    }
+
+    .Contact-Section .Background {
+        top: 404px;
+        width: 100%;
+        height: 700px;
+    }
+}
+
+
+@media(min-width:576px) {
+
+    body .Header {
+        height: 650px;
+    }
+
+    .Row .Landing_main {
+        top: 313px;
+    }
+
+    .Header .container .row .Banner {
+        width: 80%;
+    }
+
+    .Header_Content {
+        position: relative;
+        z-index: 1000;
+        color: white;
+    }
+
+    .Row .Header_Content h1 {
+        padding-top: 120px;
+        text-align: center;
+        font-size: 40px;
+    }
+
+
+    .About .About_Background {
+        width: 100%;
+        height: 800px;
+    }
+
+    .About_Section .Row {
+        flex-direction: column;
+    }
+
+    .Row .About_Image_Cart .Main_Image {
+        padding-left: 10%;
+        top: 155px !important;
+    }
+
+    .About_Image_Cart .Main_Image {
+        width: 85% !important;
+    }
+
+    .About_Image_Cart {
+        height: 670px;
+    }
+
+    .About_Image_Cart .Company_Exp {
+        width: 24%;
+        top: 183px;
+        margin-left: 56px;
+        height: 14%;
+    }
+
+    .Company_Exp h4 {
+        font-size: 2rem;
+    }
+
+    .Company_Exp p {
+        margin-top: 5px;
+    }
+
+    .About_Image_Cart .Back_Bubble {
+        position: absolute;
+        top: 46%;
+        width: 57%;
+        left: 27%;
+    }
+
+    .About_Section .About_Content {
+        padding-top: 100px;
+    }
+
+    .About_Content h2 {
+        font-size: 2rem;
+        margin-bottom: 5px;
+    }
+
+    .About_Content h5 {
+        font-size: 21px;
+    }
+
+    .About_Content .Management_Info {
+        flex-wrap: nowrap;
+        flex-direction: row;
+        gap: 40px;
+        margin-top: 20px;
+        padding-bottom: 10px;
+    }
+
+    .Management_Info h6 {
+        font-size: 15px;
+    }
+
+    .Body-Image {
+        margin-bottom: 100px;
+        margin-top: 100px;
+    }
+
+    .Body-Image img {
+        width: 100%;
+        margin-left: 0px;
+        margin-bottom: 0px;
+    }
+
+    .Work_Section .Half_Back {
+        display: none;
+    }
+
+    .Work_Row_Content p {
+        font-size: 18px;
+    }
+
+    #Responsive {
+        display: block;
+        position: absolute;
+        z-index: -1;
+        width: 100%;
+    }
+
+    .Work_Cart_Section .First_Row,
+    .Work_Cart_Section .Second_Row {
+        flex-direction: row;
+        gap: 25px;
+    }
+
+    .Work_Row_Content {
+        padding-top: 90px;
+    }
+
+    .First_Row .Web_Cart,
+    .First_Row .App_Cart,
+    .First_Row .Ui_Cart,
+    .First_Row .Seo_Cart,
+    .First_Row .Digit_Cart,
+    .First_Row .E-Pup_Cart {
+        width: 45%;
+    }
+
+    .App_Cart .App_Cart_Img img,
+    .Digit_Cart .Digit_Cart_Img img {
+        width: 62%;
+    }
+
+    .Ui_Cart .Ui_Cart_Img img,
+    .E-Pup_Cart .E-Pup_Cart_Img img {
+        width: 87%;
+    }
+
+    .Work_Row .Work_Cart_Section {
+        margin-left: 5%;
+    }
+
+    /* .Web_Cart_Img,
+    .Seo_Cart_Img {
+        margin-left: 39px;
+    }
+
+    .App_Cart_Img,
+    .Digit_Cart_Img {
+        margin-left: 55px;
+        margin-bottom: 3px;
+    }
+
+    .Ui_Cart_Img,
+    .E-Pup_Cart .E-Pup_Cart_Img {
+        margin-left: 43px;
+        margin-bottom: 23px;
+    } */
+
+    .Counter_List {
+        margin-top: 0px;
+    }
+
+    .Counter_List .Counter_Row {
+        height: auto;
+    }
+
+    .Counter_List .Row {
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-content: space-around;
+        flex-direction: row;
+        margin-left: 0%;
+    }
+
+    .Counter_List .Counter_Row .Counter_One,
+    .Counter_Two,
+    .Counter_Three,
+    .Counter_Four {
+        margin-bottom: 20px;
+    }
+
+    .Counter_List .Counter_Row .Counter_One,
+    .Counter_List .Counter_Row .Counter_Two,
+    .Counter_List .Counter_Row .Counter_Three,
+    .Counter_List .Counter_Row .Counter_Four {
+        width: 37%;
+    }
+
+    .Review_Section .Review_Heading h6 {
+        font-size: 2rem;
+    }
+
+    .Review_Heading h2 {
+        font-size: 2rem;
+    }
+
+    .Review_Heading img {
+        width: 225px;
+        padding-top: 0px;
+    }
+
+    .Review_Main_Body .Character_Standing {
+        top: 200px;
+        left: 25px;
+    }
+
+    .Like {
+        right: 75px;
+        top: 205px;
+        width: 47px;
+    }
+
+    .Review_Main_Body .LapTop {
+        left: 40px;
+        top: 319px;
+    }
+
+    .Review_Main_Body .carousel {
+        top: 15px;
+        height: 256px;
+        left: 60px;
+    }
+
+    .Message_Box_Right {
+        width: 84px;
+        right: 6px;
+        top: 500px;
+    }
+
+    .Review_Section .Message_Box_Left {
+        display: none;
+    }
+
+    .Review_Section .Review_Main_Body {
+        padding-top: 0px;
+    }
+
+    .carousel-item {
+        height: 255px;
+    }
+
+    .Review_Section {
+        height: 700px;
+    }
+
+    .Review_Section .Row {
+        height: 600px;
+    }
+
+    .Review_Section .Row {
+        padding-top: 20px;
+        padding-left: 10px;
+    }
+
+    .Contact-Section {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .Contact-Section .Background {
+        top: 590px;
+        height: 900px;
+        width: 100%;
+    }
+
+    .Contact-Section .container .row {
+        width: 100%;
+    }
+
+    .Contact_Input {
+        padding-top: 10px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .Contact_Input .right_input,
+    .Contact_Input .left_input {
+        width: 50%;
+    }
+
+    .Contact_Input h2 {
+        font-size: 35px;
+        margin-top: 100px;
+    }
+
+    .right_input p,
+    .left_input p {
+        margin-bottom: 10px;
+        margin-top: 20px;
+        color: #002960;
+    }
+
+    .Contact_Input .Company {
+        margin-top: 20px;
+    }
+
+    .Contact_Input .Company {
+        margin-top: 20px;
+    }
+
+    .right_input input,
+    .left_input input {
+        width: 90%;
+        height: 40px;
+    }
+
+    .Contact-Section .container .Row .contact_Image img {
+        padding-top: 30px;
+    }
+
+}
+
+@media(min-width:680px) {
+    body .Header {
+        height: 750px;
+    }
+
+    .About_Section .About_Content {
+        margin-top: 50px;
+    }
+
+    .Web_Cart .Web_Cart_Img img,
+    .Seo_Cart .Seo_Cart_Img img {
+        width: 72%;
+    }
+
+    .Review_Main_Body .Character_Standing {
+        top: 171px;
+    }
+
+    .Review_Main_Body .carousel {
+        top: 54px;
+        height: 346px;
+        left: 60px;
+    }
+}
+
+
+@media (min-width:768px) {
+
+    body .Header {
+        height: 850px;
+    }
+
+    .Row .Header_Content h1 {
+        padding-top: 50px;
+        text-align: center;
+    }
+
+    .About {
+        height: 1500px;
+    }
+
+    .About .About_Background {
+        width: 100%;
+        height: 900px;
+    }
+
+    .About_Section .Row {
+        flex-direction: column;
+    }
+
+    .About_Image_Cart {
+        height: 700px;
+    }
+
+    .Row .About_Image_Cart .Main_Image {
+        width: 75% !important;
+        margin-left: 4%;
+        padding-left: 10%;
+    }
+
+    .About_Image_Cart .Company_Exp {
+        width: 21%;
+        margin-left: 14%;
+        height: 12%;
+    }
+
+    .Company_Exp h4 {
+        font-size: 3rem;
+        margin-top: 20px;
+    }
+
+
+
+    .About_Image_Cart .Back_Bubble {
+        top: 37%;
+        left: 26%;
+    }
+
+    .About .container {
+        height: 1500px;
+    }
+
+    .About_Section .About_Image_Cart {
+        height: 800px;
+    }
+
+    .About_Section .About_Content {
+        margin-top: 100px;
+    }
+
+    .About_Content p {
+        font-size: 16px;
+    }
+
+    .About_Content a {
+        font-size: 15px;
+    }
+
+    .Management_Info h6 {
+        font-size: 17px;
+    }
+
+    .Company_Exp hr {
+        margin-top: 30px;
+
+    }
+
+    .Company_Exp p {
+        margin-top: 15px;
+    }
+
+    .Work_Cart_Section .First_Row {
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .Work_Section {
+        overflow: hidden;
+    }
+
+    .Work_Section .Half_Back {
+        display: block;
+        width: 168%;
+    }
+
+    .Web_Cart_Img,
+    .Seo_Cart_Img {
+        margin-left: 24px;
+    }
+
+    .App_Cart_Img,
+    .Digit_Cart_Img {
+        margin-left: 27px;
+    }
+
+    .App_Cart .App_Cart_Img img,
+    .Digit_Cart .Digit_Cart_Img img {
+        width: 58%;
+    }
+
+    .Ui_Cart .Ui_Cart_Img img,
+    .E-Pup_Cart .E-Pup_Cart_Img img {
+        width: 79%;
+    }
+
+    .Web_Cart .Web_Cart_Content h4,
+    .App_Cart .App_Cart_Content h4,
+    .Ui_Cart .Ui_Cart_Content h4,
+    .Seo_Cart_Content h4,
+    .Digit_Cart_Content h4,
+    .E-Pup_Cart_Content h4 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .Web_Cart .Web_Cart_Content p,
+    .App_Cart .App_Cart_Content p,
+    .Ui_Cart .Ui_Cart_Content p,
+    .Seo_Cart_Content p,
+    .Digit_Cart_Content p,
+    .E-Pup_Cart_Content p {
+        font-size: 15px;
+    }
+
+    .Ui_Cart_Img,
+    .E-Pup_Cart .E-Pup_Cart_Img {
+        margin-left: 30px;
+    }
+
+    .Counter_List .Counter_Row {
+        height: 800px;
+    }
+
+    .Counter_List .Row {
+        flex-direction: row;
+        height: 700px;
+    }
+
+    .Counter_Row .Counter_One img,
+    .Counter_Two img,
+    .Counter_Three img,
+    .Counter_Four img {
+        width: 97%;
+        margin-left: 0px;
+    }
+
+    .Counter_One span,
+    .Counter_Two span,
+    .Counter_Three span,
+    .Counter_Four span {
+        font-size: 4rem;
+    }
+
+    .Counter_One h6,
+    .Counter_Two h6,
+    .Counter_Three h6,
+    .Counter_Four h6 {
+        margin-top: 0px;
+        font-size: 1.7rem;
+    }
+
+    .Review_Section {
+        padding-top: 70px;
+        height: 800px;
+    }
+
+    .Review_Main_Body .Character_Standing {
+        top: 160px;
+    }
+
+    .carousel-inner {
+        height: 330px;
+    }
+
+    .carousel .carousel-caption {
+        height: 300px;
+    }
+
+    .Review_Main_Body .carousel {
+        height: 360px;
+    }
+
+    .Reviews {
+        width: 123%;
+    }
+
+    .carousel .carousel-caption {
+        margin-left: 80px;
+    }
+
+    .left_input .Company {
+        margin-top: 21px;
+    }
+
+    .Contact-Section .Background {
+        top: 761px;
+        height: 650px;
+        width: 100%;
+    }
+}
+
+@media (min-width:992px) {
+
+
+    .navbar-collapse {
+        position: unset;
+        padding-left: 0px;
+        padding-bottom: 0px;
+        width: auto;
+    }
+
+
+    .navbar-collapse {
+        flex-grow: 0.4 !important;
+    }
+
+    .Header_Banner {
+        background-color: white;
+    }
+
+    .Row .Header_Content h1 {
+        color: #002960;
+        padding-top: 200px;
+        text-align: left;
+    }
+
+    .Header_Content a {
+        margin-left: 6%;
+    }
+
+    .Row .Landing_main {
+        display: block;
+        width: 650px;
+    }
+
+    .Row .Responsive_Main {
+        display: none;
+    }
+
+    .About {
+        height: 1000px;
+        margin-bottom: 100px;
+    }
+
+
+    .About .About_Background {
+        width: 50%;
+        height: 800px;
+    }
+
+    .About .container {
+        height: 1000px;
+    }
+
+    .About_Section .Row {
+        flex-direction: row;
+    }
+
+    .Row .About_Image_Cart .Main_Image {
+        padding-left: 0px;
+        top: 70px;
+    }
+
+    .About_Image_Cart .Company_Exp {
+        width: 12%;
+        top: 174px;
+        margin-left: 25px;
+        height: 15%;
+    }
+
+    .Company_Exp hr {
+        margin-top: 11px;
+    }
+
+    .Company_Exp h4 {
+        font-size: 2rem;
+    }
+
+    .Company_Exp p {
+        margin-top: 5px;
+    }
+
+    .About_Image_Cart .Back_Bubble {
+        position: absolute;
+        top: 383px;
+        width: 50%;
+        left: 0px;
+    }
+
+    .About_Section .About_Content {
+        padding-top: 150px;
+        width: 45%;
+    }
+
+    .Company_Exp p {
+        font-size: 1.2rem;
+        margin-top: 15px;
+    }
+
+    .About .About_Background {
+        height: 941px;
+    }
+
+    .About_Content .Anchertag {
+        width: 35%;
+    }
+
+    .Body-Image {
+        margin-top: 100px;
+        /* padding-top: 100px; */
+        /* padding-bottom: 100px; */
+    }
+
+    .Work_Section .Half_Back {
+        display: block;
+        width: 100%;
+    }
+
+    #Responsive {
+        display: none;
+    }
+
+    .Work_Row .Work_Cart_Section {
+        margin-left: 0px;
+    }
+
+    .Work_Row .Work_Row_Content h2 {
+        font-size: 3rem;
+    }
+
+    .Work_Cart_Section .First_Row {
+        gap: 40px;
+    }
+
+    .First_Row .Web_Cart,
+    .First_Row .App_Cart,
+    .First_Row .Ui_Cart,
+    .First_Row .Seo_Cart,
+    .First_Row .Digit_Cart,
+    .First_Row .E-Pup_Cart {
+        width: 30%;
+    }
+
+    .Counter_List {
+        margin: 100px auto;
+    }
+
+    .Counter_List .Counter_Row {
+        height: auto;
+    }
+
+    .Counter_List .Counter_Row .Counter_One,
+    .Counter_List .Counter_Row .Counter_Two,
+    .Counter_List .Counter_Row .Counter_Three,
+    .Counter_List .Counter_Row .Counter_Four {
+        width: 30%;
+    }
+
+    .Counter_List .Row {
+        height: 800px;
+        flex-wrap: wrap;
+    }
+
+    .Review_Section .Review_Heading h6 {
+        font-size: 2.5rem;
+    }
+
+    .Review_Heading img {
+        width: 220px;
+        padding-top: 0px;
+    }
+
+    .Review_Main_Body .Character_Standing {
+        top: 168px;
+        left: 111px;
+        width: 180px;
+    }
+
+    .Review_Section {
+        height: 1000px;
+    }
+
+    .Review_Main_Body .Character_Standing img {
+        width: 170px;
+    }
+
+    .Like {
+        width: 51px;
+        right: 265px;
+    }
+
+    .Review_Main_Body {
+        padding-top: 20px !important;
+    }
+
+    .Review_Main_Body .LapTop {
+        left: 100px;
+    }
+
+    .Review_Main_Body .carousel {
+        top: 45px;
+        height: 403px;
+        width: 72%;
+        z-index: 1;
+        left: 147px;
+        position: relative;
+    }
+
+    .Message_Box_Right {
+        width: 100px;
+        top: 470px;
+    }
+
+    .Message_Box_Left {
+        width: 135px;
+        top: 600px;
+    }
+
+    .Contact-Section .Background {
+        width: 70%;
+        top: 100px;
+        height: 727px;
+    }
+
+    .Contact-Section .container .row .contact_Image img {
+        width: 100%;
+        padding-top: 70px;
+    }
+
+    .Contact_Input {
+        padding-top: 80px;
+        padding-left: 5px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .right_input p,
+    .left_input p {
+        margin-bottom: 10px;
+        margin-top: 20px;
+        color: #002960;
+    }
+
+    .Contact_Input h2 {
+        margin-top: 0px;
+    }
+
+    .right_input input,
+    .left_input input {
+        width: 94%;
+        height: 36px;
+    }
+
+}
+
+@media (min-width:1200px) {
+
+    .Row .Landing_main {
+        top: 85px;
+        width: 840px;
+    }
+
+
+    .Row .Header_Content h1 {
+        font-size: 45px;
+        text-align: center;
+    }
+
+    .Header_Content a {
+        margin-left: 0%;
+    }
+
+    .About_Image_Cart .Company_Exp {
+        height: 18%;
+    }
+
+    .Company_Exp hr {
+        margin-top: 37px;
+    }
+
+    .About_Image_Cart .Back_Bubble {
+        top: 420px;
+    }
+
+    .Body-Image img {
+        width: 85%;
+        margin-left: 10%;
+    }
+
+    .First_Row .Web_Cart,
+    .First_Row .App_Cart,
+    .First_Row .Ui_Cart,
+    .First_Row .Seo_Cart,
+    .First_Row .Digit_Cart,
+    .First_Row .E-Pup_Cart {
+        width: 25%;
+        margin-left: 5%;
+    }
+
+    .Counter_List .Row {
+        height: auto;
+        flex-wrap: nowrap;
+    }
+
+    .Counter_List .Counter_Row {
+        height: auto;
+    }
+
+    .Counter_List .Counter_Row .Counter_One,
+    .Counter_List .Counter_Row .Counter_Two,
+    .Counter_List .Counter_Row .Counter_Three,
+    .Counter_List .Counter_Row .Counter_Four {
+        width: 20%;
+    }
+
+    .Counter_One h6,
+    .Counter_Two h6,
+    .Counter_Three h6,
+    .Counter_Four h6 {
+        margin-top: 80px;
+        font-size: 1.7rem;
+    }
+
+    .Review_Section .Review_Heading h6 {
+        font-size: 3rem;
+    }
+
+    .Like {
+        width: 63px;
+        right: 324px;
+    }
+
+    .Review_Main_Body .Character_Standing {
+        top: 212px;
+        left: 179px;
+        width: 200px;
+    }
+
+    .Review_Main_Body .LapTop {
+        left: 174px;
+        top: 380px;
+        width: 70%;
+    }
+
+    .Review_Main_Body .carousel {
+        width: 68%;
+        left: 166px;
+        top: 18px;
+    }
+
+    .carousel .carousel-caption {
+        margin-left: 110px;
+    }
+
+    .Message_Box_Right {
+        width: 135px;
+        top: 415px;
+        right: 110px;
+    }
+
+    .Review_Section .Message_Box_Left {
+        display: block;
+        width: 150px;
+        left: 85px;
+    }
+
+    .Contact-Section .Background {
+        width: 70%;
+        top: 25px;
+        height: 727px;
+    }
+
+    .left_input {
+        padding-top: 20px;
+    }
+
+    .left_input .Company {
+        margin-top: 0px;
+    }
+}
+
+@media (min-width:1310px) {
+
+    .carousel-item {
+        height: 485px;
+    }
+
+    .Review_Main_Body .LapTop {
+        left: 15%;
+    }
+
+    .Review_Main_Body .Character_Standing {
+        left: 17%;
+    }
+
+    .Review_Main_Body .Character_Standing {
+        top: 212px;
+    }
+
+    .carousel-inner {
+        height: 484px;
+    }
+
+    .carousel-item {
+        height: 4500px;
+    }
+
+    .Review_Main_Body .carousel {
+        height: 450px;
+    }
+
+    .carousel-item {
+        height: 450px;
+    }
+
+
+
+}
+
+@media (min-width:1400px) {
+
+    body .Header {
+        height: 664px;
+    }
+
+
+    .Row .Landing_main {
+        width: 750px;
+    }
+
+    .Row .Header_Content h1 {
+        margin-left: 55px;
+    }
+
+    .Header_Content a {
+        margin-left: 39%;
+    }
+
+    .About_Image_Cart .Company_Exp {
+        height: 21%;
+        width: 13%;
+    }
+
+    .Company_Exp h4 {
+        font-size: 3rem;
+    }
+
+    .Company_Exp p {
+        font-size: 1.5rem;
+    }
+
+    .About_Image_Cart .Back_Bubble {
+        width: 44%;
+        top: 488px;
+        left: 35px;
+    }
+
+    .Counter_Row .Counter_One img,
+    .Counter_Two img,
+    .Counter_Three img,
+    .Counter_Four img {
+        width: 80%;
+        margin-left: 33px;
+    }
+
+    .Review_Main_Body .LapTop {
+        width: 75%;
+    }
+
+    .Review_Main_Body .carousel {
+        top: 65px;
+        left: 200px;
+    }
+
+    .Contact_Input {
+        padding-top: 200px;
+    }
+
+    .Contact-Section .Background {
+        height: 950px;
+    }
+
+
+}
+
+@media (min-width:1600px) {
+
+    body .Header {
+        height: 900px;
+    }
+
+    .Row .Landing_main {
+        width: 1000px;
+    }
+
+    .Header_Banner .container {
+        margin-left: 0px;
+    }
+
+    .Row .Header_Content h1 {
+        font-size: 65px;
+        margin-left: 0px;
+        margin-top: 131px;
+    }
+
+    .Header_Content a {
+        margin-left: 34%;
+    }
+
+    .Review_Main_Body .LapTop {
+        width: 60%;
+        left: 320px;
+    }
+
+    .Review_Main_Body .Character_Standing {
+        left: 336px;
+    }
+
+    .Contact-Section .container {
+        margin-left: 0px;
+    }
+
+    .Review_Section {
+        height: 1050px;
+    }
+}
+
+@media (min-width:1900px) {
+
+    .Row .Header_Content {
+        width: 70%;
+    }
+
+    .Row .Header_Content h1 {
+        margin-left: 200px;
+    }
+
+    .Header_Content a {
+        margin-left: 20%;
+    }
+
+    .Counter_Row .Counter_One img,
+    .Counter_Two img,
+    .Counter_Three img,
+    .Counter_Four img {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .Counter_One h2,
+    .Counter_Two h2,
+    .Counter_Three h2,
+    .Counter_Four h2 {
+        padding-left: 0px;
+    }
+
+    .Review_Section {
+        height: 1150px;
+    }
+
+    .Review_Section .Review_Heading h6 {
+        font-size: 4rem;
+    }
+
+    .Review_Main_Body .Character_Standing {
+        left: 22%;
+    }
+
+    .Review_Main_Body .LapTop {
+        width: 60%;
+        left: 20%;
+    }
+
+    .carousel-item {
+        height: 500px;
+    }
+
+    .Review_Main_Body .carousel {
+        height: 544px;
+    }
+
+    .carousel-item {
+        height: 500px;
+    }
+
+    .Contact-Section .Background {
+        width: 85%;
+        top: 29px;
+    }
+
+    .Contact-Section .container .row {
+        width: 1800px;
+    }
+
+    .Contact-Section .container .row .contact_Image img {
+        width: 80%;
+    }
+
+    .right_input input,
+    .left_input input {
+        width: 94%;
+        height: 50px;
+        font-size: 18px;
+    }
+
+    .right_input p,
+    .left_input p {
+        margin-top: 50px;
+    }
+
+    .left_input .Company {
+        margin-top: 30px;
+    }
+
+    .Contact_Input h2 {
+        font-size: 4rem;
+    }
+
+    .Contact-Section .container .row form .Project_Text {
+        margin-top: 50px;
+    }
+
+}
