@@ -1,0 +1,1419 @@
+*{
+    font-family: "Roboto",sans-serif;
+    margin: 0px;
+    scroll-behavior: smooth;
+}
+
+ .container .row .bg-light {
+    background-color: #ffffff !important;
+}
+
+.navbar-collapse {
+    flex-grow: 0.6 !important;
+    align-items: center;
+}
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: .25rem 1rem;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    margin: 15px 0px;
+    padding: 5px 30px;
+    text-align: inherit;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+
+
+.navbar-nav {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.btn-outline-success{
+    color: #002960 !important;
+    border-color: #002960 !important;
+}
+
+.btn-outline-success:hover{
+    background-color: #002960 !important;
+    color: white !important;
+    border-color: white !important;
+}
+
+.Header{
+    height: 620px;
+    margin-bottom: 50px;
+}
+
+.Header .Background-Image{
+    position: relative;
+    width: 100%;
+    height: 620px;
+    z-index: -1;
+}
+
+.Header .Eclips_Image{
+    position: absolute;
+    width: 12%;
+    right: 40px;
+    top: 100px;
+}
+ 
+.Header .Vector_1{
+    position: absolute;
+    width: 14%;
+    left: 575px;
+    top: 450px;
+    z-index: 1;
+}
+
+.Header .vector_2{
+    position: absolute;
+    width: 9%;
+    left: 0px;
+    top: 254px;
+    z-index: 1;
+}
+
+.Header .Vector_3{
+    position: absolute;
+    width: 14%;
+    left: 525px;
+    top: 405px;
+    z-index: 1;
+}
+
+.Header .Dots{
+    position: absolute;
+    width: 16%;
+    right: 205px;
+    top: 100px;
+    z-index: 1;
+} 
+
+.Header .Charecter{
+    position: absolute;
+    width: 36%;
+    right: 90px;
+    top: 117px;
+    height: 482px;
+    z-index: 1;
+}
+
+.Header .container .row .Banner{
+    color: white;
+    position: absolute;
+    top: 190px;
+    margin-left: 85px;
+}
+
+.Banner h1{
+    font-size: 3.5rem;
+}
+
+.Banner p{
+    font-size: 17px;
+}
+/* ________________________________________________ */
+
+.About_Details{
+    margin-top: 100px;
+    padding: 50px 0px;
+}
+
+
+.About_Details .container .row .Company_Mission,
+.About_Details .container .row .Company_Vision{
+    width: 42%;
+    background-color: #002960;
+    color: white;
+    padding: 50px;
+    margin-top: 50px;
+    height: 350px;
+}
+
+.About_Details .container .row .Company_Mission{
+    margin-right: 80px;
+}
+
+.About_Details .container .row .Company_Vision{
+    margin-left: 80px;
+}
+
+.row .Border{
+    width: 10px;
+    padding: 0px;
+    height: 450px;
+    border-right: 5px solid #0097b2;
+}
+
+.Company_Mission h4,.Company_Vision h4{
+    padding-bottom: 30px;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+
+.Company_Mission p,.Company_Vision p{
+    line-height: 24px;
+}
+
+.About_Details .About_Banner{
+    margin: 100px 0px;
+    height: 332px;
+    color: white;
+}
+
+.About_Banner img{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+}
+
+.About_Banner .Banner_Content{
+    text-align: center;
+    padding-top: 180px;
+}
+
+.Banner_Content h2{
+    font-size: 4rem;
+}
+
+
+.Company_Overview{
+    background-color: #002960;
+    padding: 50px 0px;
+    margin: 50px 0px;
+}
+
+.Company_Overview .container .row .Overview{
+    color: white;
+    text-align: center;
+}
+
+.Overview h2{
+    margin-bottom: 30px;
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.Overview p{
+    text-align: left;
+    width: 80%;
+    margin-left: 10%;
+    line-height: 24px;
+}
+
+.Profile_Details{
+    margin: 100px 0px;
+    padding: 50px 0px;
+}
+
+.Profile_Details .container .row{
+    text-align: left;
+}
+
+.row .Profile{
+    display: flex;
+}
+
+.Profile .Profile_List{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    padding: 40px 0px;
+    margin-top: 40px;
+    border-right: 2px solid #0097b2;
+}
+
+.Profile_List button{
+    background-color: #ffffff;
+    border: 0px;
+    text-align: left;
+    height: 50px;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.Profile_List button:hover{
+    border-right: 5px solid #0097b2;
+}
+
+.Profile_Content .content {
+    padding-top: 100px;
+}
+
+.content .Who_Content{
+    display: block;
+}
+
+.content .Company_Content{
+    display: none;
+}
+
+.content .What_Content{
+    display: none;
+}
+
+.content .Design_Content{
+    display: none;
+}
+
+.content .Support_Content{
+    display: none;
+}
+
+
+.Who_Content h2 ,.Company_Content h2 ,.What_Content h2 ,.Design_Content h2, .Support_Content h2{
+    text-align: center;
+    font-size: 4rem;
+    color: #002960;
+}
+
+.Who_Content p ,.Company_Content p ,.What_Content p ,.Design_Content p, .Support_Content p{
+    width: 70%;
+    margin-left: 20%;
+}
+
+
+  
+
+.Chooseing {
+    margin: 50px 0px;
+    padding: 50px 0px;
+}
+
+.Chooseing .container .row .Why_We_Cart h3{
+    font-size: 3rem;
+    color: #002960;
+    margin-top: 30px;
+}
+
+.Why_We_Cart p{
+    margin-top: 30px;
+}
+
+.row .Why_We_Img img{
+    width: 100%;
+    padding-left: 10%;  
+}
+
+
+/* ____________________CONTACT ____________________________________ */
+
+
+
+.Contact-Section .Background{
+    position: absolute;
+    width: 71%;
+    right: 0px;
+    z-index: -1;
+}
+
+.Contact-Section .container{ 
+    margin-left: 0px;
+    padding-left: 0px;
+    margin-top: 100px;
+}
+
+.Contact-Section .container .Row .contact_Image img{
+    width: 100%;
+    padding-top: 70px;
+}
+
+.Contact_Input{
+    float: right;
+    padding-top: 130px;
+    padding-left: 50px;
+}
+
+.Contact_Input h2{
+    color: #002960;
+    font-size: 40px;
+}
+
+.Contact_Input form{
+    padding-top: 5px;
+}
+
+.Contact_Input .right_input{
+    float: right;
+}
+
+.right_input p, .left_input p {
+    margin-bottom: 10px;
+    margin-top: 20px;
+    color: #002960;
+}
+
+
+.right_input input ,.left_input input{
+    width: 88%;
+    border: 1px solid #72727273;
+    height: 36px;
+    border-radius: 6px;
+}
+
+form input{
+    padding-left: 5px;
+}
+
+form .Project_Input{
+    width: 95%;
+    height: 59px;
+    border: 1px solid #72727273;
+    border-radius: 6px;
+}
+
+form .Privacy_Check{
+    display: flex;
+    gap: 10px;
+    padding-top: 36px;
+}
+
+.Contact_Input p{
+    margin-top: 36px;
+    margin-bottom: 10px;
+    color: #002960;
+}
+
+.Privacy_Check p{
+    margin-top: 13px;
+}
+
+@media (min-width:200px) {
+
+    .Header{
+        height: 200px;
+        margin-bottom: 20px;
+    }
+
+    .Header .Background-Image {
+        height: 200px;
+    }
+
+    .Header .Eclips_Image{
+        top: 83px;
+        right: 10px;
+    }
+
+    .Header .vector_2 {
+        top: 150px;
+    }
+
+    .Header .Charecter{
+        top: 161px;
+        height: 78px;
+        right: 21px;
+        width: 30%;
+    }
+
+    .Header .Vector_3 {
+        top: 121px;
+        left: 121px;
+    }
+
+    .Header .Vector_1{
+        top: 112px;
+        left: 125px;
+    }
+
+    .Banner p {
+        font-size: 7px;
+        width: 66%;
+    }
+
+
+    .Header .container .row .Banner{
+        top: 95px;
+        width: 94%;
+        margin-left: 9px;
+    }
+    
+    
+
+    .About_Details {
+        margin-top: 0px;
+        padding: 0px 0px;
+        overflow: hidden;
+    }
+
+    .row .Border {
+        display: none;
+    }
+
+    .Banner h1 {
+        font-size: 20px;
+    }
+
+
+    .About_Details .container .row .Company_Mission, .About_Details .container .row .Company_Vision{
+        width: 100%;
+        margin-left: 5%;
+        margin-right: 0px;
+        height: 425px;
+        font-size: 13px;
+        padding: 10px;
+    }
+
+    .Company_Mission h4, .Company_Vision h4 {
+        padding-bottom: 10px;
+        padding-top: 15px;
+        font-size: 1rem;
+        font-weight: 300;
+    }
+
+    .About_Details .About_Banner {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        height: 67px;
+    }
+
+    .About_Banner .Banner_Content {
+        padding-top: 15px;
+    }
+
+    .Banner_Content h2 {
+        font-size: 1rem;
+    }
+    
+
+    .Company_Overview {
+        margin-top: 0px;
+    }
+
+    .Overview h2{
+        font-size: 1rem;
+    }
+
+    .Overview p{
+        font-size: 12px;
+    }
+
+    .Profile_Details{
+        margin: 30px 0px;
+        padding: 0px 0px;
+        overflow: hidden;
+    }
+
+    .Profile_Details .container{
+        padding-left: 3px;
+    }
+
+    .Profile_Details .container .row h2{
+        font-size: 1rem;
+    }
+
+    .Profile .Profile_List{
+        flex-direction: row;
+        gap: 5px;
+        width: 100%;
+        border-right: 0px;
+        /* border-bottom: 3px solid #0097b2; */
+        margin-top: 0px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .Profile_List button:hover {
+        border-right: none;
+    }
+
+    .Profile_List button {
+        font-size: 6px;
+    }
+
+    .Profile_List button:hover {
+        border-bottom: 5px solid #0097b2;
+    }
+
+    .Chooseing {
+        margin: 10px 0px;
+        padding: 10px 0px;
+    }
+
+    .Chooseing .container .row{
+        flex-direction: column-reverse;
+    }
+
+    .row .Why_We_Img img{
+        padding-left: 0px;
+    }
+
+    .Chooseing .container .row .Why_We_Cart h3 {
+        font-size: 1rem;
+    }
+
+    .Chooseing .container .row .Why_We_Cart p{
+        font-size: 10px;
+        margin-top: 10px;
+    }
+
+    .Contact-Section .container{
+        margin-top: 10px;
+    }
+
+    .Contact-Section .container .Row{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .Contact_Input {
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+
+    .Contact-Section .container .Row .contact_Image img{
+        padding-top: 10px;
+    }
+
+    .Contact_Input h2{
+        font-size: 15px;
+    }
+
+    .Contact_Input form{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Contact_Input p {
+        margin-top: 20px;
+        margin-bottom: 7px;
+        font-size: 15px;
+    }
+
+    .Contact_Input .Company{
+        margin-top: 212px;
+    }
+
+    .Contact_Input .right_input ,.Contact_Input .left_input{
+        width: 100%;
+    }
+
+    .right_input input, .left_input input {
+        height: 40px;
+        font-size: 14px;
+    }
+}
+
+@media (min-width:300px){
+
+    body .Nav_Bar{
+        position: sticky;
+        top: 0px;
+        z-index: 1000;
+    }
+
+    .navbar-collapse{
+        width: 95%;
+        z-index: 1000;
+        background-color: white;
+        position: absolute;
+        top: 60px;
+        left: 0px;
+        padding-left: 45px;
+        padding-bottom: 50px;
+    }
+
+
+    .Header{
+        height: 250px;
+        margin-bottom: 7%;
+    }
+
+    .Header .Background-Image{
+        height: 250px;
+    }
+
+    .Header .Eclips_Image{
+        right: 14px;
+    }
+
+    .Header .Vector_3 {
+        left: 59px;
+        top: 280px;
+    }
+
+    .Header .Vector_1{
+        top: 265px;
+        left: 59px;
+    }
+
+    .Header .vector_2{
+        top: 17%;
+    }
+
+    .Header .Charecter{
+        top: 132px;
+        height: 151px;
+        right: 19px;
+    }
+
+    .Header .container .row .Banner{
+        top: 105px;
+        margin-left: 24px;
+        width: 91%;
+    }
+
+    .Banner h1 {
+        font-size: 1rem;
+    }
+
+    .Banner p {
+        font-size: 10px;
+        width: 63%;
+    }
+
+    .About_Details .container .row .Company_Mission, .About_Details .container .row .Company_Vision{
+        margin-top: 20px;
+        height: 270px;
+    }
+
+    .About_Details .About_Banner {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        height: 100px;
+    }
+
+    .About_Banner .Banner_Content {
+        padding-top: 30px;
+        padding-top: 12%;
+
+    }
+
+    .Profile_List button {
+        font-size: 10px;
+    }
+
+    .Chooseing .container .row .Why_We_Cart h3 {
+        font-size: 1.5rem;
+    }
+
+    .Chooseing .container .row .Why_We_Cart p {
+        font-size: 13px;
+        margin-top: 10px;
+    }
+
+    .Contact-Section{
+        position: relative;
+    }
+
+    .Contact-Section .Background {
+        top: 516px;
+        width: 100%;
+        height: 800px;
+    }
+
+    .Contact_Input h2 {
+        font-size: 20px;
+    }
+
+    .Contact_Input {
+        padding-top: 10px;
+        padding-left: 45px;
+    }
+}
+
+@media (min-width:350px){
+    .About_Details .About_Banner {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        height: 122px;
+    }
+
+    .About_Banner .Banner_Content {
+        padding-top: 12%;
+    }
+
+    .row .Why_We_Img img {
+        padding-left: 15%;
+    }
+
+    .row .Why_We_Img img{
+        width: 80%;
+    }
+}
+
+@media(min-width:400px){
+    .Header .container .row .Banner{
+        margin-left: 33px;
+    }
+
+    .Header .Charecter{
+        right: 27px;
+        height: 150px;
+    }
+
+    .About_Details .container .row .Company_Mission, .About_Details .container .row .Company_Vision {
+        height: 225px;
+    }
+
+    .About_Details .About_Banner {
+        height: 135px;
+    }
+
+    .About_Banner .Banner_Content {
+        padding-top: 55px;
+    }
+
+    .Overview h2 {
+        font-size: 2rem;
+    }
+
+    .Profile .Profile_List {
+        flex-direction: column;
+        width: 40%;
+        border-right: 2px solid #0097b2;
+    }
+
+    .Profile_List button:hover {
+        border-bottom: none;
+        border-right: 5px solid #0097b2;
+    }
+
+    .Chooseing .container .row .Why_We_Cart h3 {
+        font-size: 2rem;
+    }
+
+    .Chooseing .container .row .Why_We_Cart p {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+
+    .Contact_Input h2 {
+        font-size: 22px;
+    }
+
+    .Contact_Input p {
+        margin-top: 15px;
+        margin-bottom: 3px;
+        font-size: 17px;
+    }
+
+    .right_input input, .left_input input {
+        height: 31px;
+    }
+
+    .Contact-Section .Background {
+        top: 576px;
+        width: 100%;
+        height: 625px;
+    }
+}
+
+@media(min-width:576px){
+    .Header .Background-Image {
+        height: 330px;
+    }
+
+    .Header {
+        height: 350px;
+    }
+
+    .Banner h1 {
+        font-size: 2rem;
+    }
+
+    .Header .container .row .Banner{
+        width: 80%;
+    }
+
+    .Header .Vector_3 {
+        left: 267px;
+        /* right: 200px; */
+        top: 275px;
+    }
+
+    .Header .Vector_1 {
+        left: 276px;
+        /* right: 200px; */
+        top: 256px;
+    }
+
+    .Header .vector_2 {
+        top: 22%;
+    }
+
+    .Header .Charecter {
+        right: 42px;
+        height: 219px;
+    }
+
+    .Banner p {
+        font-size: 12px;
+    }
+
+    .About_Details .container .row .Company_Mission, .About_Details .container .row .Company_Vision {
+        height: 200px;
+        margin-left: 2%;
+    }
+
+    .About_Details .About_Banner {
+        height: 225px;
+        margin-top: 50px;
+    }
+
+    .Banner_Content h2 {
+        font-size: 2rem;
+    }
+
+    .Profile_Details .container .row h2 {
+        font-size: 2rem;
+    }
+
+    .Profile_Details {
+        margin: 50px 0px;
+    }
+
+    .Profile_List button {
+        font-size: 15px;
+    }
+
+    .Profile .Profile_List {
+        margin-top: 50px;
+    }
+
+    .row .Why_We_Img img {
+        width: 85%;
+        margin-left: 7%;
+    }
+
+    .Chooseing .container .row .Why_We_Cart p {
+        font-size: 19px;
+        margin-top: 21px;
+    }
+
+    .Chooseing .container .row .Why_We_Cart h3 {
+        margin-top: 50px;
+    }
+
+    .Contact-Section {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .Contact-Section .Background {
+        top: 850px;
+        height: 900px;
+        width: 100%;
+    }
+
+    .Contact-Section .container .row {
+        width: 100%;
+    }
+
+    .Contact_Input {
+        padding-top: 10px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .Contact_Input .right_input, .Contact_Input .left_input {
+        width: 50%;
+    }
+
+    .Contact_Input h2 {
+        font-size: 35px;
+        margin-top: 100px;
+    }
+
+    .right_input p,
+    .left_input p {
+        margin-bottom: 10px;
+        margin-top: 20px;
+        color: #002960;
+    }
+
+    .right_input input, .left_input input {
+        width: 90%;
+        height: 40px;
+    }
+
+    .Contact_Input .Company {
+        margin-top: 20px;
+    }
+
+    .Contact-Section .container .Row .contact_Image img {
+        padding-top: 30px;
+    }
+}
+
+@media(min-width:768px){
+
+    .Header {
+        height: 425px;
+    }
+
+    .Header .Background-Image {
+        height: 425px;
+    }
+
+    .Header .Vector_1 {
+        left: 362px;
+        /* right: 200px; */
+        top: 291px;
+    }
+
+    .Header .Vector_3 {
+        left: 342px;
+        /* right: 200px; */
+        top: 316px;
+    }
+
+    .Header .Charecter {
+        right: 55px;
+        height: 301px;
+    }
+
+    .Contact-Section .Background {
+        top: 1061px;
+        height: 650px;
+        width: 100%;
+    }
+
+    .Header .container .row .Banner {
+        margin-left: 45px;
+        top: 150px;
+    }
+
+    .Banner h1 {
+        font-size: 2.5rem;
+    }
+
+    .Banner p {
+        font-size: 14px;
+    }
+
+    .About_Details .About_Banner {
+        height: 260px;
+        margin-bottom: 75px;
+        margin-top: 75px;
+    }
+
+    .About_Banner .Banner_Content {
+        padding-top: 90px;
+    }
+}
+
+@media (min-width:992px){
+
+    .navbar-collapse{
+        position: unset;
+        padding-left: 0px;
+        padding-bottom: 0px;
+        width: auto;
+    }
+
+    .Header {
+        height: 550px;
+    }
+
+
+    .Header .Background-Image {
+        height: 550px;
+    }
+
+    .Header .Vector_1 {
+        left: 462px;
+        /* right: 200px; */
+        top: 370px;
+    }
+
+    .Header .Vector_3 {
+        left: 431px;
+        /* right: 200px; */
+        top: 400px;
+    }
+
+    .Header .Charecter {
+        right: 73px;
+        height: 412px;
+    }
+
+    .Header .container .row .Banner {
+        margin-left: 10%;
+        top: 170px;
+        width: 80%;
+    }
+
+    .Banner p {
+        font-size: 17px;
+    }
+
+    .About_Details {
+        margin-top: 30px;
+        padding: 50px 0px;
+    }
+
+    .row .Border {
+        display: block;
+    }
+
+    .About_Details .container .row .Company_Mission, .About_Details .container .row .Company_Vision {
+        width: 45%;
+        font-size: 16px;
+        height: 235px;
+    }
+
+    .Company_Mission h4, .Company_Vision h4 {
+        font-size: 1.5rem;
+    }
+
+    .About_Details .container .row .Company_Mission {
+        margin-right: 20px;
+    }
+
+    .row .Border {
+        height: 265px;
+    }
+
+    .About_Details .About_Banner {
+        height: 336px;
+    }
+
+    .Banner_Content h2 {
+        font-size: 3rem;
+    }
+
+    .Overview h2 {
+        font-size: 3rem;
+    }
+
+    .Overview p {
+        font-size: 18px;
+    }
+
+    .Profile_Details {
+        margin: 100px 0px;
+    }
+
+    .Profile_List button {
+        font-size: 22px;
+    }
+
+    .Profile .Profile_List{
+        gap: 30px;
+    }
+
+    .Chooseing .container .row {
+        flex-direction: row;
+    }
+
+    .row .Why_We_Img img {
+        width: 97%;
+        margin-top: 84px;
+    }
+
+    .Chooseing .container .row .Why_We_Cart p {
+        font-size: 17px;
+    }
+
+    .Contact-Section {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    .Contact-Section .Background {
+        width: 70%;
+        top: 0px;
+        height: 727px;
+    }
+
+    .Contact-Section .container .Row {
+        flex-direction: row-reverse;
+    }
+
+    .Contact_Input {
+        padding-top: 80px;
+        padding-left: 5px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .right_input p,
+    .left_input p {
+        margin-bottom: 10px;
+        margin-top: 20px;
+        color: #002960;
+    }
+
+    .Contact_Input h2 {
+        margin-top: 0px;
+    }
+
+    .right_input input,
+    .left_input input {
+        width: 94%;
+        height: 36px;
+    }
+}
+
+@media(min-width:1100px){
+    .navbar-collapse {
+        flex-grow: 0.5 !important;
+    }
+
+    .Header .Vector_1 {
+        left: 530px;
+    }
+
+    .Header .Vector_3 {
+        left: 514px;
+    }
+
+    .About_Banner .Banner_Content {
+        padding-top: 120px;
+    }
+
+    .container {
+        max-width: 1100px;
+    }
+
+    .Header .container .row .Banner {
+        width: 78%;
+    }
+    
+}
+
+@media(min-width:1200px){
+    .Header {
+        height: 620px;
+    }
+
+    .Header .Background-Image {
+        height: 620px;
+    }
+
+    .Header .Vector_1 {
+        left: 571px;
+        top: 400px;
+    }
+
+    .Header .Vector_3 {
+        left: 546px;
+        top: 440px;
+    }
+
+    .Banner h1 {
+        font-size: 3rem;
+    }
+
+    .Header .container .row .Banner{
+        top: 190px;
+    }
+
+    .Header .Charecter {
+        right: 87px;
+        height: 473px;
+    }
+
+    .About_Details .About_Banner {
+        height: 432px;
+    }
+
+    .About_Banner .Banner_Content {
+        padding-top: 150px;
+    }
+
+
+}
+
+@media (min-width:1400px){
+
+    .Header .Vector_1 {
+        left: 675px;
+        top: 450px;
+    }
+
+    .Header {
+        height: 700px;
+    }
+
+    .Header .Background-Image {
+        height: 700px;
+    }
+
+    .Header .Vector_3 {
+        left: 640px;
+        top: 492px;
+    }
+
+    .Header .Charecter {
+        right: 100px;
+        height: 542px;
+    }
+
+    .Banner h1 {
+        font-size: 4rem;
+    }
+
+    .About_Banner .Banner_Content {
+        padding-top: 160px;
+    }
+
+    .Header .container .row .Banner {
+        top: 245px;
+    }
+
+    .About_Details .About_Banner {
+        height: 474px;
+    }
+
+    .Chooseing .container .row .Why_We_Cart h3 {
+        font-size: 4rem;
+    }
+
+    .Chooseing .container .row .Why_We_Cart p {
+        font-size: 22px;
+    }
+
+    .row .Why_We_Img img {
+        width: 93%;
+        margin-top: 31px;
+    }
+}
+
+@media(min-width:1600px){
+
+    .Header {
+        height: 810px;
+    }
+
+    .Header .Background-Image {
+        height: 811px;
+    }
+
+    .Header .Charecter {
+        top: 23%;
+        right: 7%;
+        height: 542px;
+    }
+
+    .Header .vector_2 {
+        top: 32%;
+    }
+
+    .Header .Vector_1 {
+        left: 763px;
+        top: 513px;
+    }
+
+    .Header .Vector_3 {
+        top: 560px;
+        left: 712px;
+    }
+
+    .Header .container .row .Banner{
+        width: 81%;
+    }
+
+    .About_Details .About_Banner {
+        height: 540px;
+    }
+
+    .Banner_Content h2 {
+        font-size: 4rem;
+    }
+}
+
+@media (min-width:1900px){
+    .Header {
+        height: 900px;
+    }
+
+    .Header .Background-Image {
+        height: 900px;
+    }
+
+    .Header .container .row .Banner {
+        width: 74%;
+        margin-left: 0px;
+    }
+
+    .Banner h1 {
+        font-size: 5rem;
+    }
+
+    .Header .Charecter {
+        top: 21%;
+        right: 7%;
+        height: 638px;
+    }
+
+    .Header .Vector_1 {
+        left: 900px;
+        top: 513px;
+    }
+
+    .Header .Vector_3 {
+        top: 577px;
+        left: 856px;
+    }
+
+    .Banner p {
+        font-size: 23px;
+    }
+
+    .About_Details .About_Banner {
+        height: 650px;
+    }
+
+    .Banner_Content h2 {
+        font-size: 6rem;
+    }
+
+    .About_Banner .Banner_Content {
+        padding-top: 181px;
+    }
+
+    .Contact-Section .Background {
+        width: 85%;
+        top: 29px;
+    }
+
+    .Contact-Section .container .Row{
+        width: 1800px;
+    }
+
+    .Contact-Section .container .row .contact_Image img {
+        width: 80%;
+    }
+
+    .right_input input, .left_input input {
+        width: 94%;
+        height: 50px;
+        font-size: 18px;
+    }
+
+    .right_input p, .left_input p {
+        margin-top: 50px;
+    }
+
+    .left_input .Company {
+        margin-top: 50px;
+    }
+
+    .Contact_Input h2{
+        font-size: 4rem;
+    }
+
+    .Contact-Section .container .Row form .Project_Text{
+        margin-top: 50px;
+    }
+
+    .Contact-Section .container .Row .contact_Image img {
+        width: 80%;
+    }
+
+}
+
