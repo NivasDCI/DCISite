@@ -1,0 +1,1981 @@
+*{
+    font-family: "Roboto",sans-serif;
+    margin: 0px;
+    scroll-behavior: smooth;
+    text-align: justify;
+
+}
+
+.container .row .bg-light {
+    background-color: #ffffff !important;
+}
+
+.navbar-collapse {
+    flex-grow: 0.6 !important;
+    align-items: center;
+}
+
+
+.navbar-nav {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.btn-outline-success{
+    color: #002960 !important;
+    border-color: #002960 !important;
+}
+
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: .25rem 1rem;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    margin: 15px 0px;
+    padding: 5px 30px;
+    text-align: inherit;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+
+.btn-outline-success:hover{
+    background-color: #002960 !important;
+    color: white !important;
+    border-color: white !important;
+}
+
+.Header{
+    height: 620px;
+    margin-bottom: 50px;
+}
+
+.Header .Background-Image{
+    position: relative;
+    width: 100%;
+    height: 620px;
+    z-index: -1;
+}
+
+.Header .Eclips_Image{
+    position: absolute;
+    width: 12%;
+    right: 40px;
+    top: 100px;
+}
+ 
+.Header .Vector_1{
+    position: absolute;
+    width: 14%;
+    left: 575px;
+    top: 450px;
+    z-index: 1;
+}
+
+.Header .vector_2{
+    position: absolute;
+    width: 9%;
+    left: 0px;
+    top: 254px;
+    z-index: 1;
+}
+
+.Header .Vector_3{
+    position: absolute;
+    width: 14%;
+    left: 525px;
+    top: 405px;
+    z-index: 1;
+}
+
+.Header .Dots{
+    position: absolute;
+    width: 16%;
+    right: 205px;
+    top: 100px;
+    z-index: 1;
+} 
+
+.Header .Charecter{
+    position: absolute;
+    width: 36%;
+    right: 90px;
+    top: 117px;
+    height: 482px;
+    z-index: 1;
+}
+
+.Header .container .row .Banner{
+    color: white;
+    position: absolute;
+    top: 190px;
+    margin-left: 85px;
+}
+
+.Banner h1{
+    font-size: 3.5rem;
+}
+
+.Banner p{
+    font-size: 17px;
+}
+
+/*-------------------*/
+
+.List{
+    padding: 50px 0px;
+    margin: 50px 0px;
+}
+
+.List .container .row{
+    padding-left: 10%;
+    /* width: 100%; */
+    gap: 30px;
+}
+
+.row .Cart_1,.row .Cart_2,.row .Cart_3,.row .Cart_4,.row .Cart_5, .row .Cart_6{
+    background-color: #AFCEFA;
+    border: 2px solid #3888F8;
+    border-radius: 15px;
+    text-align: center;
+    height: 300px;
+    width: 30%;
+}
+
+.Cart_1 .Icon_Back,.Cart_2 .Icon_Back ,.Cart_3 .Icon_Back,.Cart_4 .Icon_Back,.Cart_5 .Icon_Back ,.Cart_6 .Icon_Back{
+    background-color: #002960;
+    border-radius: 15px;
+    margin: 75px 0px 30px 95px;
+}
+
+.Icon_Back img{
+    width: 100%;
+    padding: 10px
+}
+
+.Cart_1 h3 ,.Cart_2 h3,.Cart_3 h3 ,.Cart_4 h3 ,.Cart_5 h3 ,.Cart_6 h3{
+    color: #002960;
+}
+
+.E_Conversion .container .row .Section_Heading{
+    text-align: center;
+    margin-left: 15%;
+}
+
+.Section_Heading h3{
+    font-size: 40px;
+    color: #002960;
+    margin-bottom: 20px;
+}
+
+.row .Section_Body_Image img{
+    width: 100%;
+    margin-left: 30%;
+    margin-top: 40px;
+}
+
+.E_Conversion .List_Conversion{
+    background-color: #002960;
+    padding: 50px 0px;
+    margin: 50px 0px;
+}
+
+.List_Conversion .container .row{
+    gap: 100px;
+    color: white;
+    padding: 50px 0px;
+}
+
+.List_Conversion .container .row .E_Pub_Conversion ,.row .Layout_Conversion ,.row .Enhanced_Conversion ,.row .Pdf_Conversion{
+    border: 1px solid white;
+    position: relative;
+    margin-top: 30px;
+    width: 45%;
+    padding: 50px;
+    padding-bottom: 10px;
+}
+
+.E_Pub_Conversion img{
+    position: absolute;
+    top: -40px;
+    left: 30px;
+    width: 85px;
+}
+
+.Layout_Conversion img{
+    position: absolute;
+    top: -40px;
+    right: 30px;
+    width: 85px;
+}
+
+.Enhanced_Conversion img{
+    position: absolute;
+    top: -40px;
+    left: 30px;
+    width: 85px;
+}
+
+.Pdf_Conversion img{
+    position: absolute;
+    top: -40px;
+    right: 30px;
+    width: 85px;
+}
+
+.E_Pub_Conversion h3,.Layout_Conversion h3,.Enhanced_Conversion h3,.Pdf_Conversion h3{
+    color: #0097b2;
+    margin: 20px 0px;
+}
+
+.Edit_Service{
+    margin: 100px 0px;
+    padding: 50px 0px;
+    margin-bottom: 50px;
+}
+
+.Edit_Service .container .row .Edit_Service_Content{
+    padding-right: 20px;
+    margin-top: 100px;
+}
+
+.Edit_Service_Content h3{
+    color: #727272;
+    font-size: 3rem;
+    padding-bottom: 10px;
+}
+
+.Edit_Service_Content .row .col-5 ul li{
+    list-style: disc;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.row .Edit_Service_Img img{
+    width: 100%;    
+}
+
+.Edit_Service .Edit_Service_List{
+    background-color: #002960;
+    padding: 75px 0px;
+    margin-top: 50px;
+}
+
+.Edit_Service_List .container .row{
+    gap: 50px;
+    color: white;
+    padding: 50px 0px;
+}
+
+.row .Illustration ,.row .Type_Setting ,.row .Copy_Editing ,.row .Indexing{
+    border: 1px solid white;
+    position: relative;
+    margin-top: 30px;
+    width: 47%;
+    padding: 50px;
+    padding-bottom: 10px;
+}
+
+.Illustration h3 ,.Type_Setting h3 ,.Copy_Editing h3 ,.Indexing h3{
+    text-align: center;
+    color: #0097b2;
+    padding-bottom: 20px;
+    margin-top: 10px;
+}
+
+.Illustration img{
+    position: absolute;
+    top: -40px;
+    left: 30px;
+    width: 85px;
+}
+
+.Type_Setting img{
+    position: absolute;
+    top: -40px;
+    right: 30px;
+    width: 85px;
+}
+
+.Copy_Editing img{
+    position: absolute;
+    top: -40px;
+    left: 30px;
+    width: 85px;
+}
+
+.Indexing img{
+    position: absolute;
+    top: -40px;
+    right: 30px;
+    width: 85px;
+}
+
+.Accessibility .container .row .Accessibility_Sec{
+    text-align: center;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+
+.Accessibility_Sec h3{
+    font-size: 3rem;
+    color: #727272;
+}
+
+.Accessibility_Sec p{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 30px;
+}
+
+.Accessibility_Sec img{
+    width: 65%;
+}
+
+.Accessibility .Accessibility_List{
+    background-color: #002960;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.Accessibility_List .container .row{
+    gap: 50px;
+    color: white;
+    padding: 50px 0px;
+}
+
+.Accessibility_List .container .row .PDF,.row .E_Pub ,.row .Html_Conversion ,.row .Xml_Conversion{ 
+    border: 1px solid white;
+    position: relative;
+    margin-top: 30px;
+    width: 47%;
+    padding: 50px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.PDF h3 ,.E_Pub h3 ,.Html_Conversion h3 ,.Xml_Conversion h3{
+    text-align: center;
+    color: #0097b2;
+}
+
+.PDF p{
+    margin-bottom: 4px;
+}
+
+.PDF img{
+    position: absolute;
+    top: -40px;
+    left: 30px;
+    width: 85px;
+}
+
+
+.E_Pub img{
+    position: absolute;
+    top: -40px;
+    right: 30px;
+    width: 85px;
+}
+
+.Html_Conversion img{
+    position: absolute;
+    top: -40px;
+    left: 30px;
+    width: 85px;
+}
+
+.Xml_Conversion img{
+    position: absolute;
+    top: -40px;
+    right: 30px;
+    width: 85px;
+}
+
+.DTB{
+    margin: 100px 0px;
+    margin-bottom: 50px;
+    padding: 50px 0px;
+}
+
+.DTB .container .row .Dtb_Content{
+    text-align: center;
+}
+
+.Dtb_Content h3{
+    color: #727272;
+    font-size: 3rem;
+}
+
+
+.Dtb_Content p{
+    width: 80%;
+    margin-left: 10%;
+}
+
+.Dtb_Content img{
+    width: 65%;
+}
+
+.DTB_List{
+    background-color: #002960;
+    padding: 75px 0px;
+}
+
+.DTB_List .container .row{
+    gap: 50px;
+    color: white;
+    padding: 50px 0px;
+}
+
+.row .Indesign,.row .Illustration_List ,.row .Photoshop ,.row .Framemaker ,.row .Pagemaker ,.row .Mathml{
+    border: 1px solid white;
+    position: relative;
+    margin-top: 30px;
+    width: 47%;
+    padding: 50px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.Indesign img{
+    position: absolute;
+    top: -40px;
+    left: 30px;
+    width: 85px;
+}
+
+.Illustration_List img{
+    position: absolute;
+    top: -40px;
+    left: 30px;
+    width: 85px;
+}
+
+.Photoshop img{
+    position: absolute;
+    top: -40px;
+    left: 30px;
+    width: 85px;
+}
+
+.Framemaker img{
+    position: absolute;
+    top: -40px;
+    left: 30px;
+    width: 85px;
+}
+
+.Pagemaker img{
+    position: absolute;
+    top: -40px;
+    left: 30px;
+    width: 85px;
+}
+
+.Mathml img{
+    position: absolute;
+    top: -40px;
+    left: 30px;
+    width: 85px;
+}
+
+.Indesign h3 ,.Illustration_List h3 ,.Photoshop h3,.Framemaker h3,.Pagemaker h3,.Mathml h3{
+    color: #0097b2;
+    text-align: center;
+}
+
+.Proofreading .container .row .Proofreading_Cart{
+    padding-top: 50px;
+    text-align: center;
+}
+
+.Proofreading_Cart h3{
+    font-size: 3rem;
+    color: #727272;
+}
+
+.Proofreading_Cart p{
+    width: 805;
+    margin-left: 10%;
+}
+
+.Proofreading img{
+    width: 65%;
+}
+
+.Contact-Section .Background{
+    position: absolute;
+    width: 71%;
+    right: 0px;
+    z-index: -1;
+}
+
+.Contact-Section .container{ 
+    margin-left: 0px;
+    padding-left: 0px;
+    margin-top: 100px;
+}
+
+.Contact-Section .container .Row .contact_Image img{
+    width: 100%;
+    padding-top: 70px;
+}
+
+.Contact_Input{
+    float: right;
+    padding-top: 130px;
+    padding-left: 50px;
+}
+
+.Contact_Input h2{
+    color: #002960;
+    font-size: 40px;
+}
+
+.Contact_Input form{
+    padding-top: 5px;
+}
+
+.Contact_Input .right_input{
+    float: right;
+}
+
+.right_input p, .left_input p {
+    margin-bottom: 10px;
+    margin-top: 20px;
+    color: #002960;
+}
+
+
+.right_input input ,.left_input input{
+    width: 88%;
+    border: 1px solid #72727273;
+    height: 36px;
+    border-radius: 6px;
+}
+
+form input{
+    padding-left: 5px;
+}
+
+form .Project_Input{
+    width: 95%;
+    height: 59px;
+    border: 1px solid #72727273;
+    border-radius: 6px;
+}
+
+form .Privacy_Check{
+    display: flex;
+    gap: 10px;
+    padding-top: 36px;
+}
+
+.Contact_Input p{
+    margin-top: 36px;
+    margin-bottom: 10px;
+    color: #002960;
+}
+
+.Privacy_Check p{
+    margin-top: 13px;
+}
+
+
+/* ----------------------------MEDIA QUERY---------------- */
+
+@media (min-width:200px) {
+
+    .Header{
+        height: 200px;
+        margin-bottom: 20px;
+    }
+
+    .Header .Background-Image {
+        height: 200px;
+    }
+
+    .Header .Eclips_Image{
+        top: 83px;
+        right: 10px;
+    }
+
+    .Header .vector_2 {
+        top: 150px;
+    }
+
+    .Header .Charecter{
+        top: 161px;
+        height: 78px;
+        right: 21px;
+        width: 30%;
+    }
+
+    .Header .Vector_3 {
+        top: 121px;
+        left: 121px;
+    }
+
+    .Header .Vector_1{
+        top: 112px;
+        left: 125px;
+    }
+
+    .Banner h1 {
+        font-size: 20px;
+    }
+
+    .Banner p {
+        font-size: 7px;
+        width: 66%;
+    }
+
+
+    .Header .container .row .Banner{
+        top: 95px;
+        width: 94%;
+        margin-left: 9px;
+    }
+
+    .List {
+        padding: 20px 0px;
+        margin: 25px 0px;
+    }
+
+    .List .container .row {
+        padding-left: 10%;
+    }
+
+    .row .Cart_1, .row .Cart_2, .row .Cart_3, .row .Cart_4, .row .Cart_5, .row .Cart_6 {
+        height: 190px;
+        width: 90%;
+    }
+
+    .Cart_1 .Icon_Back, .Cart_2 .Icon_Back, .Cart_3 .Icon_Back, .Cart_4 .Icon_Back, .Cart_5 .Icon_Back, .Cart_6 .Icon_Back {
+        margin: 30px 0px 30px 53px;
+    }
+
+    .Cart_1 h3, .Cart_2 h3, .Cart_3 h3, .Cart_4 h3, .Cart_5 h3, .Cart_6 h3 {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .E_Conversion .container .row .Section_Heading{
+        margin-left: 0px;
+    }
+
+    .Section_Heading h3 {
+        font-size: 19px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .Section_Heading p{
+        font-size: 10px;
+    }
+
+    .row .Section_Body_Image img {
+        width: 80%;
+        margin-left: 11%;
+        margin-top: 20px;
+    }
+
+    .E_Conversion .List_Conversion {
+        background-color: #002960;
+        padding: 20px 0px;
+        margin: 10px 0px;
+    }
+
+    .List_Conversion .container .row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        color: white;
+        padding: 50px 0px;
+        /* gap: 50px; */
+    }
+
+    .List_Conversion .container .row .E_Pub_Conversion, .row .Layout_Conversion, .row .Enhanced_Conversion, .row .Pdf_Conversion{
+        padding: 10px;
+        margin-top: 10px;
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .E_Pub_Conversion img,.Enhanced_Conversion img  {
+        top: -23px;
+        left: 11px;
+        width: 40px;
+    }
+
+    .Layout_Conversion img,.Pdf_Conversion img  {
+        position: absolute;
+        top: -20px;
+        right: 30px;
+        width: 40px;
+    }
+
+    .E_Pub_Conversion h3, .Layout_Conversion h3, .Enhanced_Conversion h3, .Pdf_Conversion h3 {
+        margin: 10px 0px;
+        font-size: 13px;
+    }
+
+    .E_Pub_Conversion p, .Layout_Conversion p, .Enhanced_Conversion p, .Pdf_Conversion p {
+        font-size: 10px;
+    }
+
+    .Edit_Service {
+        margin: 10px 0px;
+        padding: 20px 0px;
+        margin-bottom: 20px;
+        overflow: hidden;
+    }
+
+    .Edit_Service .row{
+        flex-direction: column;
+    }
+
+    .Edit_Service .container .row .Edit_Service_Content {
+        padding-right: 0px;
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .Edit_Service_Content h3 {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .Edit_Service_Content p {
+        font-size: 12px;
+        width: 97%;
+    }
+
+    .Edit_Service_Content .row .col-5{
+        width: 95%;
+    }
+
+    .Edit_Service_Content .row .col-5 ul li{
+        font-size: 11px;
+    }
+
+    .Edit_Service_Img{
+        width: 100%;
+    }
+
+    .row .Edit_Service_Img img {
+        width: 70%;
+        margin-left: 11%;
+        margin-top: 20px;
+    }
+
+    .Edit_Service .Edit_Service_List {
+        padding: 15px 0px;
+        margin-top: 20px;
+    }
+
+    .Edit_Service_List .container .row {
+        gap: 50px;
+        padding: 20px 0px;
+    }
+
+    .row .Illustration, .row .Type_Setting, .row .Copy_Editing, .row .Indexing {
+        width: 90%;
+        margin-left: 5%;
+        padding: 10px;
+    }
+
+    .Illustration img,.Copy_Editing img,.PDF img,.Html_Conversion img,
+    .Indesign img,.Illustration_List img,.Photoshop img,.Framemaker img,.Pagemaker img,.Mathml img  {
+        position: absolute;
+        top: -24px;
+        left: 15px;
+        width: 40px;
+    }
+
+    .Type_Setting img,.Indexing img,.E_Pub img,.Xml_Conversion img{
+        position: absolute;
+        top: -25px;
+        right: 10px;
+        width: 40px;
+    }
+
+    .Illustration h3, .Type_Setting h3, .Copy_Editing h3, .Indexing h3,.PDF h3,
+     .E_Pub h3, .Html_Conversion h3, .Xml_Conversion h3 ,
+     .Indesign h3, .Illustration_List h3, .Photoshop h3, .Framemaker h3, .Pagemaker h3, .Mathml h3  {
+        font-size: 15px;
+        padding-bottom: 0px;
+        margin-top: 15px;
+    }
+
+    .Illustration p, .Type_Setting p, .Copy_Editing p, .Indexing p,
+    .PDF p, .E_Pub p, .Html_Conversion p, .Xml_Conversion p,
+    .Indesign p, .Illustration_List p, .Photoshop p, .Framemaker p, .Pagemaker p, .Mathml p  {
+        font-size: 10px;
+    }
+
+    .Accessibility_Sec h3 {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .Accessibility_Sec p {
+        width: 100%;
+        font-size: 10px;
+        text-align: justify;
+        margin-left: 0px;
+        margin-top: 6px;
+    }
+
+    .Accessibility .container .row .Accessibility_Sec {
+        text-align: center;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+
+    .Accessibility .Accessibility_List {
+        background-color: #002960;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .Accessibility_List .container .row {
+        padding: 20px 0px;
+        gap: 30px;
+    }
+
+    .Accessibility_List .container .row .PDF, .row .E_Pub, .row .Html_Conversion, .row .Xml_Conversion {
+        width: 90%;
+        margin-left: 5%;
+        padding: 10px;
+    }
+
+    .DTB {
+        margin: 20px 0px;
+        margin-bottom: 10px;
+        padding: 20px 0px;
+    }
+
+    .Dtb_Content h3 {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .Dtb_Content p {
+        width: 100%;
+        margin-left: 0%;
+        font-size: 11px;
+        text-align: justify;
+    }
+
+    .Dtb_Content img {
+        width: 65%;
+        margin-bottom: 25px;
+    }
+
+    .DTB_List {
+        padding: 20px 0px;
+    }
+
+    .DTB_List .container .row {
+        gap: 20px;
+        color: white;
+        padding: 10px 0px;
+    }
+
+    .row .Indesign, .row .Illustration_List, .row .Photoshop, .row .Framemaker, .row .Pagemaker, .row .Mathml{
+        width: 90%;
+        padding: 10px;
+        margin-left: 4%;
+    }
+
+    .Proofreading .container .row .Proofreading_Cart {
+        padding-top: 20px;
+    }
+
+    .Proofreading_Cart h3 {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .Proofreading_Cart p {
+        margin-left: 0%;
+        font-size: 10px;
+        text-align: justify;
+    }
+
+    /* ------------- */
+    .Contact-Section .container{
+        margin-top: 10px;
+    }
+
+    .Contact-Section .container .Row{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .Contact_Input {
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+
+    .Contact-Section .container .Row .contact_Image img{
+        padding-top: 10px;
+    }
+
+    .Contact_Input h2{
+        font-size: 15px;
+    }
+
+    .Contact_Input form{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Contact_Input p {
+        margin-top: 20px;
+        margin-bottom: 7px;
+        font-size: 15px;
+    }
+
+    .Contact_Input .Company{
+        margin-top: 212px;
+    }
+
+    .Contact_Input .right_input ,.Contact_Input .left_input{
+        width: 100%;
+    }
+
+    .right_input input, .left_input input {
+        height: 40px;
+        font-size: 14px;
+    }
+}
+
+
+@media (min-width:300px){
+
+    body .Nav_Bar{
+        position: sticky;
+        top: 0px;
+        z-index: 1000;
+    }
+
+    .navbar-collapse{
+        width: 95%;
+        z-index: 1000;
+        background-color: white;
+        position: absolute;
+        top: 60px;
+        left: 0px;
+        padding-left: 45px;
+        padding-bottom: 50px;
+    }
+
+    .Header{
+        height: 250px;
+        margin-bottom: 7%;
+    }
+
+    .Header .Background-Image{
+        height: 250px;
+    }
+
+    .Header .Eclips_Image{
+        right: 14px;
+    }
+
+    .Header .Vector_3 {
+        left: 59px;
+        top: 280px;
+    }
+
+    .Header .Vector_1{
+        top: 265px;
+        left: 59px;
+    }
+
+    .Header .vector_2{
+        top: 17%;
+    }
+
+    .Header .Charecter{
+        top: 132px;
+        height: 151px;
+        right: 19px;
+    }
+
+    .Header .container .row .Banner{
+        top: 105px;
+        margin-left: 24px;
+        width: 91%;
+    }
+
+    .Banner h1 {
+        font-size: 1rem;
+    }
+
+    .Banner p {
+        font-size: 10px;
+        width: 63%;
+        text-align: left;
+    }
+
+    .Edit_Service_List .container .row {
+        gap: 25px;
+        padding: 20px 0px;
+    }
+
+    .Cart_1 .Icon_Back, .Cart_2 .Icon_Back, .Cart_3 .Icon_Back, .Cart_4 .Icon_Back, .Cart_5 .Icon_Back, .Cart_6 .Icon_Back {
+        margin: 10% 0px 10% 35%;
+    }
+
+    .Accessibility_List .container .row {
+        padding: 20px 0px;
+        gap: 15px;
+    }
+
+    .Accessibility_Sec img {
+        width: 70%;
+    }
+
+    /* --------- */
+    .Contact-Section{
+        position: relative;
+    }
+
+    .Contact_Input h2 {
+        font-size: 20px;
+    }
+
+    .Contact-Section .Background {
+        top: 516px;
+        width: 100%;
+        height: 700px;
+    }
+
+    .Contact_Input {
+        padding-top: 10px;
+        padding-left: 45px;
+    }
+}
+
+@media(min-width:400px){
+    .Header .container .row .Banner{
+        margin-left: 33px;
+    }
+
+    .Header .Charecter{
+        right: 27px;
+        height: 150px;
+    }
+
+    .row .Cart_1, .row .Cart_2, .row .Cart_3, .row .Cart_4, .row .Cart_5, .row .Cart_6 {
+        height: 210px;
+        width: 75%;
+        margin-left: 7%;
+    }
+
+    .Cart_1 h3, .Cart_2 h3, .Cart_3 h3, .Cart_4 h3, .Cart_5 h3, .Cart_6 h3 {
+        font-size: 19px;
+    }
+
+    .Cart_1 h3, .Cart_2 h3, .Cart_4 h3, .Cart_5 h3, .Cart_6 h3 {
+        margin-top: 17%;
+    }
+
+    .Section_Heading p {
+        font-size: 13px;
+    }
+
+    .E_Pub_Conversion img, .Enhanced_Conversion img {
+        top: -23px;
+        left: 11px;
+        width: 45px;
+    }
+
+    .E_Pub_Conversion h3, .Layout_Conversion h3, .Enhanced_Conversion h3, .Pdf_Conversion h3 {
+        margin: 20px 0px;
+        font-size: 17px;
+    }
+    
+    .Layout_Conversion img, .Pdf_Conversion img {
+        top: -20px;
+        right: 30px;
+        width: 50px;
+    }
+
+    .E_Pub_Conversion p, .Layout_Conversion p, .Enhanced_Conversion p, .Pdf_Conversion p {
+        font-size: 13px;
+    }
+
+    .Edit_Service_Content h3 {
+        font-size: 1.4rem;
+    }
+
+    .Edit_Service_Content p {
+        font-size: 13px;
+    }
+
+    .Edit_Service_Content .row .col-5 ul li {
+        font-size: 13px;
+    }
+
+    .Illustration img, .Copy_Editing img, .PDF img, .Html_Conversion img, .Indesign img, .Illustration_List img, .Photoshop img, .Framemaker img, .Pagemaker img, .Mathml img {
+        left: 20px;
+        width: 45px;
+    }
+
+    .Type_Setting img, .Indexing img, .E_Pub img, .Xml_Conversion img {
+        right: 20px;
+        width: 45px;
+    }
+
+    .Illustration h3, .Type_Setting h3, .Copy_Editing h3, .Indexing h3, .PDF h3, .E_Pub h3, .Html_Conversion h3, .Xml_Conversion h3, .Indesign h3, .Illustration_List h3, .Photoshop h3, .Framemaker h3, .Pagemaker h3, .Mathml h3 {
+        font-size: 18px;
+    }
+
+    .Illustration p, .Type_Setting p, .Copy_Editing p, .Indexing p, .PDF p, .E_Pub p, .Html_Conversion p, .Xml_Conversion p, .Indesign p, .Illustration_List p, .Photoshop p, .Framemaker p, .Pagemaker p, .Mathml p {
+        font-size: 13px;
+    }
+
+    .Accessibility_Sec h3 {
+        font-size: 1.4rem;
+    }
+
+    .Accessibility_Sec p {
+        font-size: 13px;
+    }
+
+    .Proofreading_Cart h3 {
+        font-size: 1.4rem;
+    }
+
+    .Proofreading_Cart p {
+        font-size: 13px;
+    }
+
+    /* ---------------- */
+    .Contact-Section .Background {
+        top: 582px;
+        width: 100%;
+        height: 665px;
+    }
+
+
+    /* ---------------- */
+    .Contact_Input h2 {
+        font-size: 22px;
+    }
+
+    .Contact_Input p {
+        margin-top: 15px;
+        margin-bottom: 3px;
+        font-size: 17px;
+    }
+
+    .right_input input,
+    .left_input input {
+        height: 45px;
+    }
+
+    .Contact_Input .Company {
+        margin-top: 195px;
+    }
+
+    .Contact_Input h2 {
+        font-size: 20px;
+    }
+}
+
+@media(min-width:500px){
+    .row .Cart_1, .row .Cart_2, .row .Cart_3, .row .Cart_4, .row .Cart_5, .row .Cart_6 {
+        height: 249px;
+    }
+
+    .Edit_Service_Content .row .col-5 {
+        width: 45%;
+        margin-left: 5%;
+    }
+
+    .Edit_Service .row {
+        flex-direction: row;
+    }
+}
+
+@media(min-width:576px){
+    .Header .Background-Image {
+        height: 330px;
+    }
+
+    .Header {
+        height: 350px;
+    }
+
+    .Header .container .row .Banner{
+        width: 80%;
+    }
+
+    .Banner h1 {
+        font-size: 2rem;
+    }
+
+    .Header .Vector_3 {
+        left: 267px;
+        /* right: 200px; */
+        top: 275px;
+    }
+
+    .Header .Vector_1 {
+        left: 276px;
+        /* right: 200px; */
+        top: 256px;
+    }
+
+    .Header .vector_2 {
+        top: 22%;
+    }
+
+    .Header .Charecter {
+        right: 42px;
+        height: 219px;
+    }
+
+    .Banner p {
+        font-size: 12px;
+    }
+
+    .row .Cart_1, .row .Cart_2, .row .Cart_3, .row .Cart_4, .row .Cart_5, .row .Cart_6 {
+        height: 270px;
+    }
+
+    .Cart_1 .Icon_Back, .Cart_2 .Icon_Back, .Cart_3 .Icon_Back, .Cart_4 .Icon_Back, .Cart_5 .Icon_Back, .Cart_6 .Icon_Back {
+        margin: 13% 0px 10% 37%;
+    }
+
+    .Cart_1 h3, .Cart_2 h3, .Cart_3 h3, .Cart_4 h3, .Cart_5 h3, .Cart_6 h3 {
+        font-size: 22px;
+    }
+
+    .Section_Heading h3 {
+        font-size: 23px;
+        margin-bottom: 10px;
+    }
+
+    .Section_Heading p {
+        font-size: 15px;
+    }
+
+    .E_Pub_Conversion img, .Enhanced_Conversion img {
+        top: -29px;
+        left: 20px;
+        width: 55px;
+    }
+
+    .E_Pub_Conversion h3, .Layout_Conversion h3, .Enhanced_Conversion h3, .Pdf_Conversion h3 {
+        margin: 20px 0px;
+        font-size: 20px;
+    }
+
+    .E_Pub_Conversion p, .Layout_Conversion p, .Enhanced_Conversion p, .Pdf_Conversion p {
+        font-size: 15px;
+    }
+
+    .Layout_Conversion img, .Pdf_Conversion img {
+        top: -29px;
+        right: 30px;
+        width: 55px;
+    }
+
+    .Edit_Service_Content h3 {
+        font-size: 1.5rem;
+    }
+
+    .Edit_Service_Content p {
+        font-size: 15px;
+    }
+
+    .Edit_Service_Content .row .col-5 ul li {
+        font-size: 15px;
+    }
+
+    .Illustration img, .Copy_Editing img, .PDF img, .Html_Conversion img, .Indesign img, .Illustration_List img, .Photoshop img, .Framemaker img, .Pagemaker img, .Mathml img {
+        left: 20px;
+        width: 55px;
+    }
+
+    .Illustration h3, .Type_Setting h3, .Copy_Editing h3, .Indexing h3, .PDF h3, .E_Pub h3, .Html_Conversion h3, .Xml_Conversion h3, .Indesign h3, .Illustration_List h3, .Photoshop h3, .Framemaker h3, .Pagemaker h3, .Mathml h3 {
+        font-size: 20px;
+    }
+
+    .Illustration p, .Type_Setting p, .Copy_Editing p, .Indexing p, .PDF p, .E_Pub p, .Html_Conversion p, .Xml_Conversion p, .Indesign p, .Illustration_List p, .Photoshop p, .Framemaker p, .Pagemaker p, .Mathml p {
+        font-size: 15px;
+    }
+
+    .Type_Setting img, .Indexing img, .E_Pub img, .Xml_Conversion img {
+        right: 30px;
+        width: 55px;
+    }
+
+    .Accessibility_Sec h3 {
+        font-size: 1.5rem;
+    }
+
+    .Accessibility_Sec p {
+        font-size: 15px;
+    }
+
+    .Dtb_Content h3 {
+        font-size: 1.5rem;
+    }
+
+    .Dtb_Content p {
+        font-size: 15px;
+    }
+
+    .Proofreading_Cart p {
+        font-size: 14px;
+    }
+
+    /* --------------- */
+    .Contact-Section {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .Contact-Section .Background {
+        top: 850px;
+        height: 900px;
+        width: 100%;
+    }
+
+    .Contact-Section .container .row {
+        width: 100%;
+    }
+
+    .Contact_Input {
+        padding-top: 10px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .Contact_Input .right_input, .Contact_Input .left_input {
+        width: 50%;
+    }
+
+    .Contact_Input h2 {
+        font-size: 35px;
+        margin-top: 100px;
+    }
+
+    .right_input p,
+    .left_input p {
+        margin-bottom: 10px;
+        margin-top: 20px;
+        color: #002960;
+    }
+
+    .Contact_Input .Company {
+        margin-top: 20px;
+    }
+
+    .right_input input, .left_input input {
+        width: 90%;
+        height: 40px;
+    }
+
+    .Contact-Section .container .Row .contact_Image img {
+        padding-top: 30px;
+    }
+}
+
+@media(min-width:768px){
+
+    .Header {
+        height: 425px;
+    }
+
+    .Header .Background-Image {
+        height: 425px;
+    }
+
+    .Header .Vector_1 {
+        left: 362px;
+        /* right: 200px; */
+        top: 291px;
+    }
+
+    .Header .Vector_3 {
+        left: 342px;
+        /* right: 200px; */
+        top: 316px;
+    }
+
+    .Header .Charecter {
+        right: 55px;
+        height: 301px;
+    }
+
+    .Contact-Section .Background {
+        top: 1061px;
+        height: 650px;
+        width: 100%;
+    }
+
+    .Header .container .row .Banner {
+        margin-left: 45px;
+        top: 150px;
+    }
+
+    .Banner h1 {
+        font-size: 2.5rem;
+    }
+
+    .Banner p {
+        font-size: 14px;
+    }
+
+    .List {
+        padding: 30px 0px;
+        margin: 40px 0px;
+    }
+
+    .row .Cart_1, .row .Cart_2, .row .Cart_3, .row .Cart_4, .row .Cart_5, .row .Cart_6 {
+        width: 38%;
+        height: 200px;
+        margin-left: 3%;
+    }
+
+    .Section_Heading h3 {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    .Section_Heading p {
+        font-size: 16px;
+    }
+
+    .E_Pub_Conversion img, .Enhanced_Conversion img {
+        width: 65px;
+        top: -37px;
+    }
+
+    .E_Pub_Conversion h3, .Layout_Conversion h3, .Enhanced_Conversion h3, .Pdf_Conversion h3 {
+        margin: 30px 0px;
+        font-size: 22px;
+    }
+
+    .E_Pub_Conversion p, .Layout_Conversion p, .Enhanced_Conversion p, .Pdf_Conversion p {
+        font-size: 16px;
+    }
+
+    .List_Conversion .container .row {
+        gap: 50px;
+    }
+
+    .Layout_Conversion img, .Pdf_Conversion img {
+        top: -35px;
+        right: 30px;
+        width: 65px;
+    }
+
+    .row .Edit_Service_Img img {
+        width: 50%;
+        margin-left: 22%;
+        margin-top: 20px;
+    }
+
+    .Illustration img, .Copy_Editing img, .PDF img, .Html_Conversion img, .Indesign img, .Illustration_List img, .Photoshop img, .Framemaker img, .Pagemaker img, .Mathml img {
+        left: 20px;
+        width: 65px;
+        top: -35px;
+    }
+
+    .Type_Setting img, .Indexing img, .E_Pub img, .Xml_Conversion img {
+        right: 30px;
+        width: 65px;
+        top: -35px;
+    }
+
+    .Accessibility .Accessibility_List {
+        background-color: #002960;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .Accessibility_List .container .row {
+        padding: 20px 0px;
+        gap: 40px;
+    }
+
+    .DTB_List .container .row {
+        gap: 40px;
+        color: white;
+        padding: 10px 0px;
+    }
+
+    .row .Cart_1, .row .Cart_2, .row .Cart_3, .row .Cart_4, .row .Cart_5, .row .Cart_6 {
+        height: 250px;
+    }
+
+    /* ------------- */
+    .Contact-Section .Background {
+        top: 1061px;
+        height: 650px;
+        width: 100%;
+    }
+}
+
+@media (min-width:992px){
+
+    .navbar-collapse{
+        position: unset;
+        padding-left: 0px;
+        padding-bottom: 0px;
+        width: auto;
+    }
+
+    .Header {
+        height: 550px;
+    }
+
+
+    .Header .Background-Image {
+        height: 550px;
+    }
+
+    .Header .Vector_1 {
+        left: 462px;
+        /* right: 200px; */
+        top: 370px;
+    }
+
+    .Header .Vector_3 {
+        left: 431px;
+        /* right: 200px; */
+        top: 400px;
+    }
+
+    .Header .Charecter {
+        right: 73px;
+        height: 412px;
+    }
+
+    .Header .container .row .Banner {
+        margin-left: 10%;
+        top: 170px;
+        width: 80%;
+    }
+
+    .Banner p {
+        font-size: 17px;
+    }
+
+    .row .Section_Body_Image img {
+        width: 65%;
+        margin-left: 20%;
+    }
+
+    .E_Conversion .List_Conversion {
+        background-color: #002960;
+        padding: 40px 0px;
+        margin: 40px 0px;
+    }
+
+    .List_Conversion .container .row .E_Pub_Conversion, .row .Layout_Conversion, .row .Enhanced_Conversion, .row .Pdf_Conversion{
+        width: 45%;
+        margin-left: 2%;
+    }
+
+    .row .Illustration, .row .Type_Setting, .row .Copy_Editing, .row .Indexing {
+        width: 43%;
+        margin-left: 4%;
+        padding: 30px;
+    }
+
+    .Edit_Service_Content h3{
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .Edit_Service_Content p {
+        font-size: 16px;
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .Edit_Service_Content .row .col-5 {
+        width: 27%;
+        margin-left: 0%;
+    }
+
+    .Edit_Service_Content .row .List_1{
+        margin-left: 23%;
+    }
+
+    .row .Edit_Service_Img img {
+        width: 40%;
+        margin-left: 31%;
+    }
+
+    .Edit_Service .Edit_Service_List {
+        padding: 50px 0px;
+        margin-top: 50px;
+    }
+
+    .row .Illustration, .row .Type_Setting, .row .Copy_Editing, .row .Indexing {
+        width: 43%;
+        margin-left: 4%;
+        padding: 30px;
+    }
+
+    .Accessibility_Sec h3{
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+
+    .Accessibility_Sec p {
+        font-size: 16px;
+        width: 80%;
+        margin-left: 11%;
+    }
+
+    .Accessibility_List .container .row .PDF, .row .E_Pub, .row .Html_Conversion, .row .Xml_Conversion {
+        width: 45%;
+        margin-left: 0%;
+        padding: 22px;
+    }
+
+    .Accessibility_List .container {
+        padding-left: 5%;
+    }
+
+    .DTB_List {
+        padding: 50px 0px;
+    }
+
+    .Dtb_Content p {
+        font-size: 16px;
+        width: 80%;
+        margin-left: 11%;
+    }
+
+    .row .Indesign, .row .Illustration_List, .row .Photoshop, .row .Framemaker, .row .Pagemaker, .row .Mathml {
+        width: 43%;
+    }
+
+    .Proofreading_Cart h3 {
+        font-size: 2rem;
+        margin-bottom: 25px;
+    }
+
+    .Proofreading_Cart p{
+        font-size: 16px;
+        margin-left: 11%;
+        width: 80%;
+    }
+
+    /* -------------------- */
+    .Contact-Section {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    .Contact-Section .Background {
+        width: 70%;
+        top: 0px;
+        height: 727px;
+    }
+
+    .Contact-Section .container .Row {
+        flex-direction: row-reverse;
+    }
+
+    .Contact_Input {
+        padding-top: 80px;
+        padding-left: 5px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .right_input p,
+    .left_input p {
+        margin-bottom: 10px;
+        margin-top: 20px;
+        color: #002960;
+    }
+
+    .Contact_Input h2 {
+        margin-top: 0px;
+    }
+
+    .right_input input,
+    .left_input input {
+        width: 94%;
+        height: 36px;
+    }
+}
+
+@media(min-width:1100px){
+    .navbar-collapse {
+        flex-grow: 0.5 !important;
+    }
+
+    .Header .Vector_1 {
+        left: 530px;
+    }
+
+    .Header .Vector_3 {
+        left: 514px;
+    }
+}
+
+@media(min-width:1200px){
+    .Header {
+        height: 620px;
+    }
+
+    .Header .Background-Image {
+        height: 620px;
+    }
+
+    .Header .Vector_1 {
+        left: 571px;
+        top: 400px;
+    }
+
+    .Header .Vector_3 {
+        left: 546px;
+        top: 440px;
+    }
+
+    .Banner h1 {
+        font-size: 3rem;
+    }
+
+    .Header .container .row .Banner{
+        top: 190px;
+        width: 80%;
+    }
+
+    .Header .Charecter {
+        right: 87px;
+        height: 473px;
+    }
+
+    .List {
+        padding: 50px 0px;
+        margin: 50px 0px;
+    }
+
+    .row .Cart_1, .row .Cart_2, .row .Cart_3, .row .Cart_4, .row .Cart_5, .row .Cart_6 {
+        width: 26%;
+        height: 250px;
+        margin-left: 1%;
+    }
+
+
+    .Section_Heading h3 {
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+    }
+
+    .Section_Body_Image{
+        width: 100%;
+    }
+
+    .row .Section_Body_Image img {
+        width: 55%;
+        margin-top: 5%;
+        margin-left: 25%;
+    }
+
+    .Edit_Service_Content h3 {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .Edit_Service_Content p {
+        font-size: 17px;
+        text-align: center;
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .Edit_Service_Content .row .col-5 ul li {
+        font-size: 17px;
+    }
+
+    .Edit_Service_Content .row .List_1 {
+        margin-left: 29%;
+    }
+
+    .Edit_Service_Content .row .col-5 {
+        width: 27%;
+        margin-top: 2%;
+    }
+
+    .row .Edit_Service_Img img {
+        width: 75%;
+        margin-left: 70%;
+    }
+
+    .Accessibility_Sec img {
+        width: 50%;
+    }
+
+
+}
+
+@media (min-width:1400px){
+
+    .Header .Vector_1 {
+        left: 675px;
+        top: 450px;
+    }
+
+    .Header {
+        height: 700px;
+    }
+
+    .Header .Background-Image {
+        height: 700px;
+    }
+
+    .Header .Vector_3 {
+        left: 640px;
+        top: 492px;
+    }
+
+    .Header .Charecter {
+        right: 100px;
+        height: 542px;
+    }
+
+    .Banner h1 {
+        font-size: 4rem;
+    }
+}
+
+@media(min-width:1600px){
+
+    .Header {
+        height: 810px;
+    }
+
+    .Header .Background-Image {
+        height: 811px;
+    }
+
+    .Header .Charecter {
+        top: 23%;
+        right: 7%;
+        height: 542px;
+    }
+
+    .Header .vector_2 {
+        top: 32%;
+    }
+
+    .Header .Vector_1 {
+        left: 763px;
+        top: 513px;
+    }
+
+    .Header .Vector_3 {
+        top: 560px;
+        left: 712px;
+    }
+
+    .Header .container .row .Banner{
+        width: 75%;
+    }
+}
+
+@media (min-width:1900px){
+    .Header {
+        height: 900px;
+    }
+
+    .Header .Background-Image {
+        height: 900px;
+    }
+
+    .Header .container .row .Banner {
+        width: 74%;
+        margin-left: 0px;
+    }
+
+    .Banner h1 {
+        font-size: 5rem;
+    }
+
+    .Header .Charecter {
+        top: 21%;
+        right: 7%;
+        height: 638px;
+    }
+
+    .Header .Vector_1 {
+        left: 900px;
+        top: 513px;
+    }
+
+    .Header .Vector_3 {
+        top: 577px;
+        left: 856px;
+    }
+
+    .Banner p {
+        font-size: 23px;
+    }
+
+    /* ------------- */
+    .Contact-Section .Background {
+        width: 85%;
+        top: 29px;
+    }
+
+    .Contact-Section .container .Row{
+        width: 1800px;
+    }
+
+    .Contact-Section .container .row .contact_Image img {
+        width: 80%;
+    }
+
+    .right_input input, .left_input input {
+        width: 94%;
+        height: 50px;
+        font-size: 18px;
+    }
+
+    .right_input p, .left_input p {
+        margin-top: 50px;
+    }
+
+    .left_input .Company {
+        margin-top: 50px;
+    }
+
+    .Contact_Input h2{
+        font-size: 4rem;
+    }
+
+    .Contact-Section .container .Row form .Project_Text{
+        margin-top: 50px;
+    }
+
+    .Contact-Section .container .Row .contact_Image img {
+        width: 80%;
+    }
+}

@@ -1,0 +1,1085 @@
+*{
+    font-family: "Roboto",sans-serif;
+    margin: 0px;
+    scroll-behavior: smooth;
+    text-align: justify;
+
+}
+
+.container .row .bg-light {
+    background-color: #ffffff !important;
+}
+
+.navbar-collapse {
+    flex-grow: 0.6 !important;
+    align-items: center;
+}
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: .25rem 1rem;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    margin: 15px 0px;
+    padding: 5px 30px;
+    text-align: inherit;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+
+.navbar-nav {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.btn-outline-success{
+    color: #002960 !important;
+    border-color: #002960 !important;
+}
+
+.btn-outline-success:hover{
+    background-color: #002960 !important;
+    color: white !important;
+    border-color: white !important;
+}
+
+.Header{
+    height: 620px;
+    margin-bottom: 50px;
+}
+
+.Header .Background-Image{
+    position: relative;
+    width: 100%;
+    height: 620px;
+    z-index: -1;
+}
+
+.Header .Eclips_Image{
+    position: absolute;
+    width: 12%;
+    right: 40px;
+    top: 100px;
+}
+ 
+.Header .Vector_1{
+    position: absolute;
+    width: 14%;
+    left: 575px;
+    top: 450px;
+    z-index: 1;
+}
+
+.Header .vector_2{
+    position: absolute;
+    width: 9%;
+    left: 0px;
+    top: 254px;
+    z-index: 1;
+}
+
+.Header .Vector_3{
+    position: absolute;
+    width: 14%;
+    left: 525px;
+    top: 405px;
+    z-index: 1;
+}
+
+.Header .Dots{
+    position: absolute;
+    width: 16%;
+    right: 205px;
+    top: 100px;
+    z-index: 1;
+} 
+
+.Header .Charecter{
+    position: absolute;
+    width: 36%;
+    right: 90px;
+    top: 117px;
+    height: 482px;
+    z-index: 1;
+}
+
+.Header .container .row .Banner{
+    color: white;
+    position: absolute;
+    top: 190px;
+    margin-left: 85px;
+}
+
+.Banner h1{
+    font-size: 3.5rem;
+}
+
+.Banner p{
+    font-size: 17px;
+}
+
+.SEO_Body .container .row .SEO_Content{
+    margin: 50px 0px;
+    padding: 50px 0px;
+    margin-left: 17%;
+    text-align: center;
+}
+
+.SEO_Content img{
+    width: 100%;
+    margin-top: 30px;
+}
+
+.SEO_List{
+    background-color: #002960;
+    padding: 50px 0px;
+    margin:50px 0px;
+}
+
+.SEO_List .container .row .SEO_Details .SEO_Content{
+    text-align: center;
+    color: white;
+}
+
+.SEO_Content h2{
+    color: #0097b2;
+}
+
+.SEO_Content p{
+    width: 75%;
+    margin-left: 11%;
+}
+
+.SEO_Details .List_1 ,.SEO_Details .List_2 ,.SEO_Details .List_3{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    display: flex;
+    gap: 20px;
+}
+
+.List_1 .Cart_1 ,.List_1 .Cart_2 ,.List_1 .Cart_3 ,.List_2 .Cart_1 ,.List_2 .Cart_2 ,.List_2 .Cart_3,.List_3 .Cart_1 ,.List_3 .Cart_2 ,.List_3 .Cart_3{
+    background-color: white;
+    border-radius: 10px;
+    width: 32%;
+    padding-bottom: 30px;
+}
+
+.Cart_1 .Heading ,.Cart_2 .Heading ,.Cart_3 .Heading{
+    display: flex;
+    gap: 10px;
+}
+
+.Heading img{
+    width: 75px;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.Heading h3{
+    font-size: 1.2rem;
+    margin-top: 15%;
+    color: #0097b2;
+}
+
+.Cart_1 p ,.Cart_2 p ,.Cart_3 p{
+    margin-left: 40px;
+    margin-right: 15px;
+    margin-top: 20px;
+}
+
+
+.Contact-Section .Background{
+    position: absolute;
+    width: 71%;
+    right: 0px;
+    z-index: -1;
+}
+
+.Contact-Section .container{ 
+    margin-left: 0px;
+    padding-left: 0px;
+    margin-top: 100px;
+}
+
+.Contact-Section .container .Row .contact_Image img{
+    width: 100%;
+    padding-top: 70px;
+}
+
+.Contact_Input{
+    float: right;
+    padding-top: 130px;
+    padding-left: 50px;
+}
+
+.Contact_Input h2{
+    color: #002960;
+    font-size: 40px;
+}
+
+.Contact_Input form{
+    padding-top: 5px;
+}
+
+.Contact_Input .right_input{
+    float: right;
+}
+
+.right_input p, .left_input p {
+    margin-bottom: 10px;
+    margin-top: 20px;
+    color: #002960;
+}
+
+
+.right_input input ,.left_input input{
+    width: 88%;
+    border: 1px solid #72727273;
+    height: 36px;
+    border-radius: 6px;
+}
+
+form input{
+    padding-left: 5px;
+}
+
+form .Project_Input{
+    width: 95%;
+    height: 59px;
+    border: 1px solid #72727273;
+    border-radius: 6px;
+}
+
+form .Privacy_Check{
+    display: flex;
+    gap: 10px;
+    padding-top: 36px;
+}
+
+.Contact_Input p{
+    margin-top: 36px;
+    margin-bottom: 10px;
+    color: #002960;
+}
+
+.Privacy_Check p{
+    margin-top: 13px;
+}
+
+/* ----------------------------MEDIA QUERY---------------- */
+
+@media (min-width:200px) {
+
+    .Header{
+        height: 200px;
+        margin-bottom: 20px;
+    }
+
+    .Header .Background-Image {
+        height: 200px;
+    }
+
+    .Header .Eclips_Image{
+        top: 83px;
+        right: 10px;
+    }
+
+    .Header .vector_2 {
+        top: 150px;
+    }
+
+    .Header .Charecter{
+        top: 161px;
+        height: 78px;
+        right: 21px;
+        width: 30%;
+    }
+
+    .Header .Vector_3 {
+        top: 121px;
+        left: 121px;
+    }
+
+    .Header .Vector_1{
+        top: 112px;
+        left: 125px;
+    }
+
+    .Banner h1 {
+        font-size: 20px;
+    }
+
+    .Banner p {
+        font-size: 7px;
+        width: 66%;
+    }
+
+
+    .Header .container .row .Banner{
+        top: 95px;
+        width: 94%;
+        margin-left: 9px;
+    }
+
+    .SEO_Body .container .row .SEO_Content {
+        margin: 15px 0px;
+        padding: 15px 0px;
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .SEO_Content h1 {
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .SEO_Content img {
+        width: 78%;
+        margin-top: 15px;
+    }
+
+    .SEO_List {
+        background-color: #002960;
+        padding: 10px 0px;
+        margin: 20px 0px;
+    }
+
+    .SEO_Content h2 {
+        font-size: 15px;
+    }
+
+    .SEO_Content p {
+        width: 100%;
+        margin-top: 10px;
+        margin-left: 0px;
+        font-size: 11px;
+    }
+
+    .SEO_Details .List_1{
+        flex-wrap: wrap;
+        padding-top: 30px;
+    }
+
+    .List_1 .Cart_1, .List_1 .Cart_2, .List_1 .Cart_3{
+        width: 100%;
+    }
+
+    .Heading img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .Heading h3 {
+        font-size: 1rem;
+    }
+
+    .Cart_1 p, .Cart_2 p, .Cart_3 p {
+        margin-left: 10%;
+        margin-right: 7%;
+        margin-top: 6%;
+        font-size: 10px;
+    }
+
+
+    /* ------------- */
+    .Contact-Section .container{
+        margin-top: 10px;
+    }
+
+    .Contact-Section .container .Row{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .Contact_Input {
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+
+    .Contact-Section .container .Row .contact_Image img{
+        padding-top: 10px;
+    }
+
+    .Contact_Input h2{
+        font-size: 15px;
+    }
+
+    .Contact_Input form{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Contact_Input p {
+        margin-top: 20px;
+        margin-bottom: 7px;
+        font-size: 15px;
+    }
+
+    .Contact_Input .Company{
+        margin-top: 212px;
+    }
+
+    .Contact_Input .right_input ,.Contact_Input .left_input{
+        width: 100%;
+    }
+
+    .right_input input, .left_input input {
+        height: 40px;
+        font-size: 14px;
+    }
+}
+
+
+@media (min-width:300px){
+
+    body .Nav_Bar{
+        position: sticky;
+        top: 0px;
+        z-index: 1000;
+    }
+
+    .navbar-collapse{
+        width: 95%;
+        z-index: 1000;
+        background-color: white;
+        position: absolute;
+        top: 60px;
+        left: 0px;
+        padding-left: 45px;
+        padding-bottom: 50px;
+    }
+
+
+    .Header{
+        height: 250px;
+        margin-bottom: 7%;
+    }
+
+    .Header .Background-Image{
+        height: 250px;
+    }
+
+    .Header .Eclips_Image{
+        right: 14px;
+    }
+
+    .Header .Vector_3 {
+        left: 59px;
+        top: 280px;
+    }
+
+    .Header .Vector_1{
+        top: 265px;
+        left: 59px;
+    }
+
+    .Header .vector_2{
+        top: 17%;
+    }
+
+    .Header .Charecter{
+        top: 132px;
+        height: 151px;
+        right: 19px;
+    }
+
+    .Header .container .row .Banner{
+        top: 105px;
+        margin-left: 24px;
+        width: 91%;
+    }
+
+    .Banner h1 {
+        font-size: 1rem;
+    }
+
+    .Banner p {
+        font-size: 10px;
+        width: 63%;
+        text-align: left;
+    }
+
+    .SEO_List .container .row .SEO_Details .SEO_Content{
+        padding-top: 10%;
+    }
+
+    .SEO_Content h6{
+        font-size: 13px;
+        text-align: center;
+    }
+
+    /* --------- */
+    .Contact-Section{
+        position: relative;
+    }
+
+    .Contact-Section .Background {
+        top: 516px;
+        width: 100%;
+        height: 700px;
+    }
+
+    .Contact_Input h2 {
+        font-size: 20px;
+    }
+
+    .Contact_Input {
+        padding-top: 10px;
+        padding-left: 45px;
+    }
+}
+
+@media(min-width:400px){
+    .Header .container .row .Banner{
+        margin-left: 33px;
+    }
+
+    .Header .Charecter{
+        right: 27px;
+        height: 150px;
+    }
+
+    .SEO_Content h1 {
+        font-size: 18px;
+    }
+
+    .SEO_Content h2 {
+        font-size: 18px;
+    }
+
+    .SEO_Content p {
+        font-size: 12px;
+    }
+
+    .Heading h3 {
+        font-size: 1.2rem;
+        margin-top: 12%;
+    }
+
+    .Cart_1 p, .Cart_2 p, .Cart_3 p{
+        font-size: 12px;
+    }
+
+    /* ---------------- */
+    .Contact-Section .Background {
+        top: 582px;
+        width: 100%;
+        height: 665px;
+    }
+
+
+    /* ---------------- */
+    .Contact_Input h2 {
+        font-size: 22px;
+    }
+
+    .Contact_Input p {
+        margin-top: 15px;
+        margin-bottom: 3px;
+        font-size: 17px;
+    }
+
+    .right_input input,
+    .left_input input {
+        height: 45px;
+    }
+
+    .Contact_Input .Company {
+        margin-top: 195px;
+    }
+
+    .Contact_Input h2 {
+        font-size: 20px;
+    }
+}
+
+@media(min-width:576px){
+    .Header .Background-Image {
+        height: 330px;
+    }
+
+    .Header {
+        height: 350px;
+    }
+
+    .Banner h1 {
+        font-size: 2rem;
+    }
+
+    .Header .Vector_3 {
+        left: 267px;
+        /* right: 200px; */
+        top: 275px;
+    }
+
+    .Header .Vector_1 {
+        left: 276px;
+        /* right: 200px; */
+        top: 256px;
+    }
+
+    .Header .vector_2 {
+        top: 22%;
+    }
+
+    .Header .Charecter {
+        right: 42px;
+        height: 219px;
+    }
+
+    .Header .container .row .Banner{
+        width: 80%;
+    }
+
+    .Banner p {
+        font-size: 12px;
+    }
+
+    .SEO_Details .List_1 {
+        gap: 40px;
+    }
+
+    .SEO_Content h1 {
+        font-size: 23px;
+    }
+
+    .SEO_Content img {
+        width: 62%;
+    }
+
+    .SEO_Content h2 {
+        font-size: 22px;
+    }
+
+    .SEO_Content p {
+        font-size: 13px;
+    }
+
+    .List_1 .Cart_1, .List_1 .Cart_2, .List_1 .Cart_3 {
+        width: 65%;
+        margin-left: 17%;
+    }
+
+    .Cart_1 p, .Cart_2 p, .Cart_3 p {
+        font-size: 14px;
+    }
+
+    /* --------------- */
+    .Contact-Section {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .Contact-Section .Background {
+        top: 850px;
+        height: 900px;
+        width: 100%;
+    }
+
+    .Contact-Section .container .row {
+        width: 100%;
+    }
+
+    .Contact_Input .Company {
+        margin-top: 20px;
+    }
+
+    .Contact_Input {
+        padding-top: 10px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .Contact_Input .right_input, .Contact_Input .left_input {
+        width: 50%;
+    }
+
+    .Contact_Input h2 {
+        font-size: 35px;
+        margin-top: 100px;
+    }
+
+    .right_input p,
+    .left_input p {
+        margin-bottom: 10px;
+        margin-top: 20px;
+        color: #002960;
+    }
+
+    .right_input input, .left_input input {
+        width: 90%;
+        height: 40px;
+    }
+
+    .Contact-Section .container .Row .contact_Image img {
+        padding-top: 30px;
+    }
+}
+
+@media(min-width:768px){
+
+    .Header {
+        height: 425px;
+    }
+
+    .Header .Background-Image {
+        height: 425px;
+    }
+
+    .Header .Vector_1 {
+        left: 362px;
+        /* right: 200px; */
+        top: 291px;
+    }
+
+    .Header .Vector_3 {
+        left: 342px;
+        /* right: 200px; */
+        top: 316px;
+    }
+
+    .Header .Charecter {
+        right: 55px;
+        height: 301px;
+    }
+
+    .Contact-Section .Background {
+        top: 1061px;
+        height: 650px;
+        width: 100%;
+    }
+
+    .Header .container .row .Banner {
+        margin-left: 45px;
+        top: 150px;
+    }
+
+    .Banner h1 {
+        font-size: 2.5rem;
+    }
+
+    .Banner p {
+        font-size: 14px;
+    }
+
+    .SEO_Content h1 {
+        font-size: 30px;
+    }
+
+    .SEO_Content h2 {
+        font-size: 26px;
+        margin-top: 15px;
+    }
+
+    .SEO_Content p {
+        font-size: 15px;
+    }
+
+    .List_1 .Cart_1, .List_1 .Cart_2, .List_1 .Cart_3 {
+        width: 42%;
+        margin-left: 0%;
+    }
+
+    .SEO_Details .List_1 {
+        gap: 50px;
+        margin-left: 5%;
+        display: flex;
+    }
+
+    /* ------------- */
+    .Contact-Section .Background {
+        top: 1061px;
+        height: 650px;
+        width: 100%;
+    }
+}
+
+@media (min-width:992px){
+
+    .navbar-collapse{
+        position: unset;
+        padding-left: 0px;
+        padding-bottom: 0px;
+        width: auto;
+    }
+
+    .Header {
+        height: 550px;
+    }
+
+
+    .Header .Background-Image {
+        height: 550px;
+    }
+
+    .Header .Vector_1 {
+        left: 462px;
+        /* right: 200px; */
+        top: 370px;
+    }
+
+    .Header .Vector_3 {
+        left: 431px;
+        /* right: 200px; */
+        top: 400px;
+    }
+
+    .Header .Charecter {
+        right: 73px;
+        height: 412px;
+    }
+
+    .Header .container .row .Banner {
+        margin-left: 10%;
+        top: 170px;
+        width: 80%;
+    }
+
+    .Banner p {
+        font-size: 17px;
+    }
+
+    /* -------------------- */
+    .Contact-Section {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    .Contact-Section .Background {
+        width: 70%;
+        top: 0px;
+        height: 727px;
+    }
+
+    .Contact-Section .container .Row {
+        flex-direction: row-reverse;
+    }
+
+    .Contact_Input {
+        padding-top: 80px;
+        padding-left: 5px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .right_input p,
+    .left_input p {
+        margin-bottom: 10px;
+        margin-top: 20px;
+        color: #002960;
+    }
+
+    .Contact_Input h2 {
+        margin-top: 0px;
+    }
+
+    .right_input input,
+    .left_input input {
+        width: 94%;
+        height: 36px;
+    }
+}
+
+@media(min-width:1100px){
+    .navbar-collapse {
+        flex-grow: 0.5 !important;
+    }
+
+    .Header .Vector_1 {
+        left: 530px;
+    }
+
+    .Header .Vector_3 {
+        left: 514px;
+    }
+}
+
+@media(min-width:1200px){
+    .Header {
+        height: 620px;
+    }
+
+    .Header .Background-Image {
+        height: 620px;
+    }
+
+    .Header .Vector_1 {
+        left: 571px;
+        top: 400px;
+    }
+
+    .Header .Vector_3 {
+        left: 546px;
+        top: 440px;
+    }
+
+    .Banner h1 {
+        font-size: 3rem;
+    }
+
+    .Header .container .row .Banner{
+        top: 190px;
+    }
+
+    .Header .Charecter {
+        right: 87px;
+        height: 473px;
+    }
+
+
+}
+
+@media (min-width:1400px){
+
+    .Header .Vector_1 {
+        left: 675px;
+        top: 450px;
+    }
+
+    .Header {
+        height: 700px;
+    }
+
+    .Header .Background-Image {
+        height: 700px;
+    }
+
+    .Header .Vector_3 {
+        left: 640px;
+        top: 492px;
+    }
+
+    .Header .Charecter {
+        right: 100px;
+        height: 542px;
+    }
+
+    .Banner h1 {
+        font-size: 4rem;
+    }
+}
+
+@media(min-width:1600px){
+
+    .Header {
+        height: 810px;
+    }
+
+    .Header .Background-Image {
+        height: 811px;
+    }
+
+    .Header .Charecter {
+        top: 23%;
+        right: 7%;
+        height: 542px;
+    }
+
+    .Header .vector_2 {
+        top: 32%;
+    }
+
+    .Header .Vector_1 {
+        left: 763px;
+        top: 513px;
+    }
+
+    .Header .Vector_3 {
+        top: 560px;
+        left: 712px;
+    }
+
+    .Header .container .row .Banner{
+        width: 81%;
+    }
+}
+
+@media (min-width:1900px){
+    .Header {
+        height: 900px;
+    }
+
+    .Header .Background-Image {
+        height: 900px;
+    }
+
+    .Header .container .row .Banner {
+        width: 74%;
+        margin-left: 0px;
+    }
+
+    .Banner h1 {
+        font-size: 5rem;
+    }
+
+    .Header .Charecter {
+        top: 21%;
+        right: 7%;
+        height: 638px;
+    }
+
+    .Header .Vector_1 {
+        left: 900px;
+        top: 513px;
+    }
+
+    .Header .Vector_3 {
+        top: 577px;
+        left: 856px;
+    }
+
+    .Banner p {
+        font-size: 23px;
+    }
+
+    /* ------------- */
+    .Contact-Section .Background {
+        width: 85%;
+        top: 29px;
+    }
+
+    .Contact-Section .container .Row{
+        width: 1800px;
+    }
+
+    .Contact-Section .container .row .contact_Image img {
+        width: 80%;
+    }
+
+    .right_input input, .left_input input {
+        width: 94%;
+        height: 50px;
+        font-size: 18px;
+    }
+
+    .right_input p, .left_input p {
+        margin-top: 50px;
+    }
+
+    .left_input .Company {
+        margin-top: 50px;
+    }
+
+    .Contact_Input h2{
+        font-size: 4rem;
+    }
+
+    .Contact-Section .container .Row form .Project_Text{
+        margin-top: 50px;
+    }
+
+    .Contact-Section .container .Row .contact_Image img {
+        width: 80%;
+    }
+
+
+}
+
