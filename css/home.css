@@ -1183,6 +1183,12 @@ form .Privacy_Check {
     .Company_Exp p{
         text-align: center;
     }
+
+    .Contact-Section .Button {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 7%;
+}
 }
 
 @media(min-width:400px) {
