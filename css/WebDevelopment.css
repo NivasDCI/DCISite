@@ -1,0 +1,1385 @@
+*{
+    font-family: "Roboto",sans-serif;
+    margin: 0px;
+    scroll-behavior: smooth;
+    text-align: justify;
+}
+
+.container .row .bg-light {
+    background-color: #ffffff !important;
+}
+
+.navbar-collapse {
+    flex-grow: 0.6 !important;
+    align-items: center;
+}
+
+
+.navbar-nav {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: .25rem 1rem;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    margin: 15px 0px;
+    padding: 5px 30px;
+    text-align: inherit;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+
+.btn-outline-success{
+    color: #002960 !important;
+    border-color: #002960 !important;
+}
+
+.btn-outline-success:hover{
+    background-color: #002960 !important;
+    color: white !important;
+    border-color: white !important;
+}
+
+.Header{
+    height: 620px;
+    margin-bottom: 50px;
+}
+
+.Header .Background-Image{
+    position: relative;
+    width: 100%;
+    height: 620px;
+    z-index: -1;
+}
+
+.Header .Eclips_Image{
+    position: absolute;
+    width: 12%;
+    right: 40px;
+    top: 100px;
+}
+ 
+.Header .Vector_1{
+    position: absolute;
+    width: 14%;
+    left: 575px;
+    top: 450px;
+    z-index: 1;
+}
+
+.Header .vector_2{
+    position: absolute;
+    width: 9%;
+    left: 0px;
+    top: 254px;
+    z-index: 1;
+}
+
+.Header .Vector_3{
+    position: absolute;
+    width: 14%;
+    left: 525px;
+    top: 405px;
+    z-index: 1;
+}
+
+.Header .Dots{
+    position: absolute;
+    width: 16%;
+    right: 205px;
+    top: 100px;
+    z-index: 1;
+} 
+
+.Header .Charecter{
+    position: absolute;
+    width: 36%;
+    right: 90px;
+    top: 117px;
+    height: 482px;
+    z-index: 1;
+}
+
+.Header .container .row .Banner{
+    color: white;
+    position: absolute;
+    top: 190px;
+    margin-left: 85px;
+}
+
+.Banner h1{
+    font-size: 3.5rem;
+}
+
+.Banner p{
+    font-size: 17px;
+}
+
+
+.Web_Details{
+    margin-top: 90px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+
+section .container .Our_Details{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.Our_Details .First_Cart img,
+.Our_Details .Second_Cart img,
+.Our_Details .Third_Cart img,
+.Our_Details .Fourth_Cart img{
+    width: 60px;
+    text-align: left;
+}
+
+.Our_Details .Third_Cart img{
+    width: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.First_Cart h4,
+.Second_Cart h4,
+.Third_Cart h4,
+.Fourth_Cart h4{
+    color: #0097b2;
+    padding-top: 20px;
+}
+
+.First_Cart p,
+.Second_Cart p,
+.Third_Cart p,
+.Fourth_Cart p{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+section .container .row .Section_Topics{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-left: 10%;
+}
+
+.Section_Topics h2{
+    font-size: 40px;
+    color: #002960;
+}
+
+section .container .row .Development_Details{
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 50px;
+} 
+
+
+.Development_Details h2{
+    color: #727272;
+    margin-bottom: 10px;
+}
+
+.Development_Details p{
+    text-align: left;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+
+.Development_Details .cart_2{
+    margin-top: 50px;
+}
+
+.Development_Details .Cart_2 .row .List_1 ul{
+    padding-left: 0px;
+}
+
+.Development_Details .row{
+    gap: 0px;
+    /* margin-left: 17%; */
+    text-align: left;
+}
+.row .Development_Sample img{
+    padding-left: 100px;
+    width: 100%;
+    margin-top: 100px;
+}
+
+section .Website_Designs {
+    background-color: #efeded;
+    margin-top: 50px;
+    padding: 50px 0px;
+}
+
+.Website_Designs .container .row .List_Designs{
+    padding-top: 10px;
+    /* margin-left: 4%; */
+}
+
+.List_Designs .Cart_1 ,.List_Designs .Cart_2 ,.List_Designs .Cart_3{
+    display: flex;
+    /* gap: 25px; */
+}
+
+.List_Designs  .Cart_1 .List_1 ,.List_Designs  .Cart_1 .List_2 ,.List_Designs  .Cart_2 .List_1 ,.List_Designs  .Cart_2 .List_2 ,.List_Designs  .Cart_3 .List_2 ,.List_Designs  .Cart_3 .List_1{
+    width: 45%;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.List_1 img ,.List_2 img{
+    width: 100%;
+    /* margin-top: 40px;
+    margin-left: 40px; */
+}
+
+.Technologies {
+    padding-top: 50px;
+    margin: 50px 0px;
+}
+
+.Technologies .container .row .Tech_List{
+    text-align: center;
+    /* padding-left: 5%; */
+}
+
+.Tech_List h2{
+    font-size: 2rem;
+    padding-bottom: 30px;
+}
+
+.Tech_List .Row_1 ,.Tech_List .Row_2{
+    display: flex;
+    margin-top: 30px;
+    padding-left: 15%;
+    gap: 10px
+}
+
+.Tech_List .Row_1 .col-2 img,.Tech_List .Row_2 .col-2 img{
+    width: 50%;
+}
+
+.Row_2 {
+    margin-top: 30px;
+}
+
+.Row_1 .Css ,.Row_1 .Boot ,.Row_1 .JScript ,.Row_1 .React{
+    padding-top: 10px;
+}
+
+.Boot img{
+    width: 60%;
+    padding-top: 10px;
+}
+
+.Css img{
+    width: 45%;
+}
+
+
+.Contact-Section .Background{
+    position: absolute;
+    width: 71%;
+    right: 0px;
+    z-index: -1;
+}
+
+.Contact-Section .container{ 
+    margin-left: 0px;
+    padding-left: 0px;
+    margin-top: 100px;
+}
+
+.Contact-Section .container .Row .contact_Image img{
+    width: 100%;
+    padding-top: 70px;
+}
+
+.Contact_Input{
+    float: right;
+    padding-top: 130px;
+    padding-left: 50px;
+}
+
+.Contact_Input h2{
+    color: #002960;
+    font-size: 40px;
+}
+
+.Contact_Input form{
+    padding-top: 5px;
+}
+
+.Contact_Input .right_input{
+    float: right;
+}
+
+.right_input p, .left_input p {
+    margin-bottom: 10px;
+    margin-top: 20px;
+    color: #002960;
+}
+
+
+.right_input input ,.left_input input{
+    width: 88%;
+    border: 1px solid #72727273;
+    height: 36px;
+    border-radius: 6px;
+}
+
+form input{
+    padding-left: 5px;
+}
+
+form .Project_Input{
+    width: 95%;
+    height: 59px;
+    border: 1px solid #72727273;
+    border-radius: 6px;
+}
+
+form .Privacy_Check{
+    display: flex;
+    gap: 10px;
+    padding-top: 36px;
+}
+
+.Contact_Input p{
+    margin-top: 36px;
+    margin-bottom: 10px;
+    color: #002960;
+}
+
+.Privacy_Check p{
+    margin-top: 13px;
+}
+
+
+/* ----------------------------MEDIA QUERY---------------- */
+
+@media (min-width:200px) {
+
+    .Header{
+        height: 200px;
+        margin-bottom: 20px;
+    }
+
+    .Header .Background-Image {
+        height: 200px;
+    }
+
+    .Header .Eclips_Image{
+        top: 83px;
+        right: 10px;
+    }
+
+    .Header .vector_2 {
+        top: 150px;
+    }
+
+    .Header .Charecter{
+        top: 161px;
+        height: 78px;
+        right: 21px;
+        width: 30%;
+    }
+
+    .Header .Vector_3 {
+        top: 121px;
+        left: 121px;
+    }
+
+    .Header .Vector_1{
+        top: 112px;
+        left: 125px;
+    }
+
+    .Banner h1 {
+        font-size: 20px;
+    }
+
+    .Banner p {
+        font-size: 7px;
+        width: 66%;
+    }
+
+
+    .Header .container .row .Banner{
+        top: 95px;
+        width: 94%;
+        margin-left: 9px;
+    }
+
+
+    section .container .row .Development_Details {
+        text-align: center;
+        margin-top: 20px;
+        padding-top: 10px;
+    }
+
+    .Development_Details h2{
+        font-size: 13px;
+        text-align: justify;
+    }
+    
+    .Development_Details p{
+        margin-left: 0px;
+        font-size: 10px;
+        text-align: justify;
+    }
+
+    .Development_Details .Cart_2 h4{
+        font-size: 14px;
+    }
+
+    .Cart_2 .row{
+        flex-direction: column;
+    }
+
+    .Development_Details .Cart_2 .row .List_1 ul{
+        font-size: 11px;
+        margin-left: 10px;
+    }
+
+    .Cart_2 .row .List_2 ul{
+        font-size: 11px;
+        padding-left: 0px;
+        margin-left: 10px;
+    }
+
+    .row .Development_Sample img {
+        padding-left: 0px;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .Web_Details {
+        margin-top: 30px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        margin-bottom: 10px;
+    }
+
+    section .container .Our_Details {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .First_Cart, .Second_Cart, .Third_Cart, .Fourth_Cart {
+        padding-left: 4%;
+        width: 45%;
+    }
+
+
+    .First_Cart h4, .Second_Cart h4, .Third_Cart h4, .Fourth_Cart h4 {
+        font-size: 16px;
+        padding-top: 5px;
+    }
+
+    .Our_Details .First_Cart img, .Our_Details .Second_Cart img, .Our_Details .Third_Cart img, .Our_Details .Fourth_Cart img {
+        width: 40px;
+    }
+
+    .Our_Details .Fourth_Cart img{
+        width: 57px;
+    }
+
+    .First_Cart p, .Second_Cart p, .Third_Cart p, .Fourth_Cart p {
+        margin-top: 6px;
+        font-size: 12px;
+        text-align: left;
+    }
+
+    .Listing_Designs{
+        overflow: hidden;
+    }
+
+    section .container .row .Section_Topics {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        text-align: center;
+        margin-left: 2%;
+    }
+
+    .Section_Topics h2 {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .Section_Topics p {
+        font-size: 12px;
+        width: 96%;
+        margin-top: 20px;
+    }
+
+    section .Website_Designs {
+        background-color: #efeded;
+        margin-top: 0px;
+        padding: 8px 0px;
+    }
+
+    .Website_Designs .container .row .List_Designs {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .Technologies {
+        padding-top: 10px;
+        margin: 30px 0px;
+    }
+
+    .Tech_List h2 {
+        font-size: 1rem;
+        padding-bottom: 0px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .Tech_List .Row_1, .Tech_List .Row_2 {
+        margin-top: 13px;
+        padding-left: 0px;
+
+    }
+
+    .Row_1 .Html,.Row_1 .Css, .Row_1 .Boot, .Row_1 .JScript, .Row_1 .React {
+        padding-top: 0px;
+        text-align: center;
+    }
+
+    .Row_2 .Native,.Row_2 .Dot_Net,.Row_2 .Node,.Row_2 .Python,.Row_2 .MySql{
+        text-align: center;
+    }
+
+    .Boot img {
+        width: 60%;
+        padding-top: 2px;
+    }
+
+    /* ------------- */
+    .Contact-Section .container{
+        margin-top: 10px;
+    }
+
+    .Contact-Section .container .Row{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .Contact_Input {
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+
+    .Contact-Section .container .Row .contact_Image img{
+        padding-top: 10px;
+    }
+
+    .Contact_Input h2{
+        font-size: 15px;
+    }
+
+    .Contact_Input form{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Contact_Input p {
+        margin-top: 20px;
+        margin-bottom: 7px;
+        font-size: 15px;
+    }
+
+    .Contact_Input .Company{
+        margin-top: 212px;
+    }
+
+    .Contact_Input .right_input ,.Contact_Input .left_input{
+        width: 100%;
+    }
+
+    .right_input input, .left_input input {
+        height: 40px;
+        font-size: 14px;
+    }
+}
+
+
+@media (min-width:300px){
+
+    body .Nav_Bar{
+        position: sticky;
+        top: 0px;
+        z-index: 1000;
+    }
+
+    .navbar-collapse{
+        width: 95%;
+        z-index: 1000;
+        background-color: white;
+        position: absolute;
+        top: 60px;
+        left: 0px;
+        padding-left: 45px;
+        padding-bottom: 50px;
+    }
+
+
+    .Header{
+        height: 250px;
+        margin-bottom: 7%;
+    }
+
+    .Header .Background-Image{
+        height: 250px;
+    }
+
+    .Header .Eclips_Image{
+        right: 14px;
+    }
+
+    .Header .Vector_3 {
+        left: 59px;
+        top: 280px;
+    }
+
+    .Header .Vector_1{
+        top: 265px;
+        left: 59px;
+    }
+
+    .Header .vector_2{
+        top: 17%;
+    }
+
+    .Header .Charecter {
+        top: 131px;
+        height: 151px;
+        right: 30px;
+        width: 34%;
+    }
+
+    .Header .Dots{
+        right: 62px;
+    }
+
+    .Header .container .row .Banner{
+        top: 105px;
+        margin-left: 24px;
+        width: 91%;
+    }
+
+    .Banner h1 {
+        font-size: 1rem;
+    }
+
+    .Banner p {
+        font-size: 11px;
+        width: 63%;
+        text-align: left;
+    }
+
+    /* --------- */
+    .Contact-Section{
+        position: relative;
+    }
+
+    .Contact-Section .Background {
+        top: 516px;
+        width: 100%;
+        height: 700px;
+    }
+
+    .Contact_Input h2 {
+        font-size: 20px;
+    }
+
+    .Contact_Input {
+        padding-top: 10px;
+        padding-left: 45px;
+    }
+}
+
+@media(min-width:400px){
+    .Header .container .row .Banner{
+        margin-left: 33px;
+    }
+
+    .Header .Charecter{
+        right: 27px;
+        height: 150px;
+    }
+
+    section .container .Our_Details {
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .First_Cart, .Second_Cart, .Third_Cart, .Fourth_Cart {
+        padding-left: 0px;
+        margin-right: 20px;
+    }
+    .First_Cart ,.Third_Cart{
+        margin-left: 25px;
+        margin-right: 0px;
+    }
+
+    .Section_Topics h2 {
+        font-size: 21px;
+    }
+
+    .Section_Topics p {
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .List_1 img, .List_2 img {
+        width: 86%;
+        margin-left: 7%;
+    }
+
+    .Tech_List h2 {
+        font-size: 1rem;
+        padding-bottom: 20px;
+    }
+
+    .Contact-Section .Background {
+        top: 582px;
+        width: 100%;
+        height: 665px;
+    }
+
+
+    /* ---------------- */
+    .Contact_Input h2 {
+        font-size: 22px;
+    }
+
+    .Contact_Input p {
+        margin-top: 15px;
+        margin-bottom: 3px;
+        font-size: 17px;
+    }
+
+    .right_input input,
+    .left_input input {
+        height: 45px;
+    }
+
+    .Contact_Input .Company {
+        margin-top: 195px;
+    }
+
+    .Contact_Input h2 {
+        font-size: 20px;
+    }
+
+}
+
+@media(min-width:576px){
+
+    .Header .container .row .Banner{
+        width: 80%;
+    }
+
+
+    .Header .Background-Image {
+        height: 330px;
+    }
+
+    .Header {
+        height: 350px;
+    }
+
+    .Banner h1 {
+        font-size: 2rem;
+    }
+
+    .Header .Vector_3 {
+        left: 267px;
+        /* right: 200px; */
+        top: 275px;
+    }
+
+    .Header .Vector_1 {
+        left: 276px;
+        /* right: 200px; */
+        top: 256px;
+    }
+
+    .Header .vector_2 {
+        top: 22%;
+    }
+
+    .Header .Charecter {
+        right: 42px;
+        height: 219px;
+    }
+
+    .Banner p {
+        font-size: 12px;
+    }
+
+    .Development_Details h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .Development_Details p {
+        margin-left: 0px;
+        font-size: 14px;
+    }
+
+    .Development_Details .Cart_2 h4 {
+        font-size: 20px;
+    }
+
+    .Cart_2 .row {
+        flex-direction: row;
+    }
+
+    .Development_Details .Cart_2 .row .List_1 ul {
+        font-size: 14px;
+        margin-left: 5px;
+        padding-top: 20px;
+    }
+
+    .Cart_2 .row .List_2 ul {
+        font-size: 14px;
+        padding-top: 17px;
+        margin-left: 10px;
+    }
+
+    .row .Development_Sample img {
+        margin-left: 10%;
+        width: 75%;
+    }
+
+    .Web_Details {
+        margin-top: 50px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        margin-bottom: 50px;
+    }
+
+    .First_Cart, .Third_Cart {
+        margin-left: 5px;
+        margin-right: 0px;
+    }
+
+    .First_Cart, .Second_Cart, .Third_Cart, .Fourth_Cart {
+        padding-left: 0px;
+        margin-right: 5px;
+    }
+
+    section .container .row .Section_Topics {
+        margin-top: 20px;
+        margin-bottom: 30px;
+        text-align: center;
+        margin-left: 0%;
+    }
+
+    .Section_Topics h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .Section_Topics p {
+        font-size: 15px;
+        text-align: center;
+    }
+
+
+    /* --------------- */
+    .Contact-Section {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .Contact-Section .Background {
+        top: 850px;
+        height: 900px;
+        width: 100%;
+    }
+
+    .Contact-Section .container .row {
+        width: 100%;
+    }
+
+    .Contact_Input {
+        padding-top: 10px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .Contact_Input .right_input, .Contact_Input .left_input {
+        width: 50%;
+    }
+
+    .Contact_Input h2 {
+        font-size: 35px;
+        margin-top: 100px;
+    }
+
+    .right_input p,
+    .left_input p {
+        margin-bottom: 10px;
+        margin-top: 20px;
+        color: #002960;
+    }
+
+    .Contact_Input .Company {
+        margin-top: 20px;
+    }
+
+    .right_input input, .left_input input {
+        width: 90%;
+        height: 40px;
+    }
+
+    .Contact-Section .container .Row .contact_Image img {
+        padding-top: 30px;
+    }
+}
+
+@media(min-width:768px){
+
+    .Header {
+        height: 425px;
+    }
+
+    .Header .Background-Image {
+        height: 425px;
+    }
+
+    .Header .Vector_1 {
+        left: 362px;
+        /* right: 200px; */
+        top: 291px;
+    }
+
+    .Header .Vector_3 {
+        left: 342px;
+        /* right: 200px; */
+        top: 316px;
+    }
+
+    .Header .Charecter {
+        right: 55px;
+        height: 301px;
+    }
+
+    .Contact-Section .Background {
+        top: 1061px;
+        height: 650px;
+        width: 100%;
+    }
+
+    .Header .container .row .Banner {
+        margin-left: 45px;
+        top: 150px;
+    }
+
+    .Banner h1 {
+        font-size: 2.5rem;
+    }
+
+    .Banner p {
+        font-size: 14px;
+    }
+
+    .Development_Details p {
+        margin-left: 0px;
+        font-size: 16px;
+    }
+
+    .Development_Details .Cart_2 .row .List_1 ul{
+        margin-left: 50px;
+    }
+
+    .row .Development_Sample img {
+        margin-top: 50px;
+    }
+
+    .Our_Details .First_Cart img, .Our_Details .Second_Cart img, .Our_Details .Third_Cart img, .Our_Details .Fourth_Cart img {
+        width: 50px;
+    }
+
+    .First_Cart h4, .Second_Cart h4, .Third_Cart h4, .Fourth_Cart h4 {
+        font-size: 23px;
+        padding-top: 11px;
+    }
+
+    .First_Cart p, .Second_Cart p, .Third_Cart p, .Fourth_Cart p {
+        margin-top: 6px;
+        font-size: 17px;
+    }
+
+    .Technologies {
+        padding-top: 30px;
+        margin: 50px 0px;
+    }
+
+    .Tech_List h2 {
+        font-size: 2rem;
+    }
+
+    
+
+    /* ------------- */
+    .Contact-Section .Background {
+        top: 1061px;
+        height: 650px;
+        width: 100%;
+    }
+}
+
+@media (min-width:992px){
+
+    .navbar-collapse{
+        position: unset;
+        padding-left: 0px;
+        padding-bottom: 0px;
+        width: auto;
+    }
+
+    .Header {
+        height: 550px;
+    }
+
+
+    .Header .Background-Image {
+        height: 550px;
+    }
+
+    .Header .Vector_1 {
+        left: 462px;
+        /* right: 200px; */
+        top: 370px;
+    }
+
+    .Header .Vector_3 {
+        left: 431px;
+        /* right: 200px; */
+        top: 400px;
+    }
+
+    .Header .Charecter {
+        right: 73px;
+        height: 412px;
+    }
+
+    .Header .container .row .Banner {
+        margin-left: 10%;
+        top: 170px;
+        width: 80%;
+    }
+
+    .Banner p {
+        font-size: 17px;
+    }
+
+    section .container .Our_Details{
+        justify-content: space-around;
+    }
+
+    .Section_Topics h2 {
+        font-size: 30px;
+    }
+
+    section .Website_Designs{
+        padding:50px 0px;
+    }
+
+    .List_Designs .List_1,.List_Designs .List_2{
+        width: 47%;
+    }
+
+    .Technologies {
+        padding-top: 30px;
+        margin: 50px 0px;
+    }
+
+    /* -------------------- */
+    .Contact-Section {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    .Contact-Section .Background {
+        width: 70%;
+        top: 0px;
+        height: 850px;
+    }
+
+    .Contact-Section .container .Row {
+        flex-direction: row-reverse;
+    }
+
+    .Contact_Input {
+        padding-top: 80px;
+        padding-left: 5px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .right_input p,
+    .left_input p {
+        margin-bottom: 10px;
+        margin-top: 20px;
+        color: #002960;
+    }
+
+    .Contact_Input h2 {
+        margin-top: 0px;
+    }
+
+    .right_input input,
+    .left_input input {
+        width: 94%;
+        height: 36px;
+    }
+}
+
+@media(min-width:1100px){
+    .navbar-collapse {
+        flex-grow: 0.5 !important;
+    }
+
+    .Header .Vector_1 {
+        left: 530px;
+    }
+
+    .Header .Vector_3 {
+        left: 514px;
+    }
+
+    .Header .container .row .Banner{
+        width: 80%;
+    }
+}
+
+@media(min-width:1200px){
+    .Header {
+        height: 620px;
+    }
+
+    .Header .Background-Image {
+        height: 620px;
+    }
+
+    .Header .Vector_1 {
+        left: 571px;
+        top: 400px;
+    }
+
+    .Header .Vector_3 {
+        left: 546px;
+        top: 440px;
+    }
+
+    .Banner h1 {
+        font-size: 3rem;
+    }
+
+    .Header .container .row .Banner{
+        top: 190px;
+        width: 80%;
+    }
+
+    .Header .Charecter {
+        right: 87px;
+        height: 473px;
+    }
+
+    section .container .Our_Details {
+        flex-wrap: nowrap;
+        gap: 15px;
+        overflow: hidden;
+    }
+
+    .First_Cart, .Second_Cart, .Third_Cart, .Fourth_Cart {
+        width: 21%;
+    }
+
+    .Our_Details .Third_Cart img{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .Technologies .container .row{
+        padding-left: 10%;
+    }
+
+    .Contact-Section .Background{
+        height: 750px !important;
+    }
+
+
+}
+
+@media (min-width:1400px){
+
+    .Header .Vector_1 {
+        left: 675px;
+        top: 450px;
+    }
+
+    .Header {
+        height: 700px;
+    }
+
+    .Header .Background-Image {
+        height: 700px;
+    }
+
+    .Header .Vector_3 {
+        left: 640px;
+        top: 492px;
+    }
+
+    .Header .Dots {
+        right: 160px;
+    }
+
+    .Header .Charecter {
+        right: 100px;
+        height: 542px;
+    }
+
+    .Banner h1 {
+        font-size: 4rem;
+    }
+}
+
+@media(min-width:1600px){
+
+    .Header {
+        height: 810px;
+    }
+
+    .Header .Background-Image {
+        height: 811px;
+    }
+
+    .Header .Charecter {
+        top: 23%;
+        right: 7%;
+        height: 542px;
+    }
+
+    .Header .vector_2 {
+        top: 32%;
+    }
+
+    .Header .Vector_1 {
+        left: 763px;
+        top: 513px;
+    }
+
+    .Header .Vector_3 {
+        top: 560px;
+        left: 712px;
+    }
+
+    .Header .container .row .Banner{
+        width: 81%;
+    }
+}
+
+@media (min-width:1900px){
+    .Header {
+        height: 900px;
+    }
+
+    .Header .Background-Image {
+        height: 900px;
+    }
+
+    .Header .container .row .Banner {
+        width: 74%;
+        margin-left: 0px;
+    }
+
+    .Banner h1 {
+        font-size: 5rem;
+    }
+
+    .Header .Charecter {
+        top: 21%;
+        right: 7%;
+        height: 638px;
+    }
+
+    .Header .Vector_1 {
+        left: 900px;
+        top: 513px;
+    }
+
+    .Header .Vector_3 {
+        top: 577px;
+        left: 856px;
+    }
+
+    .Banner p {
+        font-size: 23px;
+    }
+
+    /* ------------- */
+    .Contact-Section .Background {
+        width: 85%;
+        top: 29px;
+        height: 850px !important;
+    }
+
+    .Contact-Section .container .Row{
+        width: 1800px;
+    }
+
+    .Contact-Section .container .row .contact_Image img {
+        width: 80%;
+    }
+
+    .right_input input, .left_input input {
+        width: 94%;
+        height: 50px;
+        font-size: 18px;
+    }
+
+    .right_input p, .left_input p {
+        margin-top: 50px;
+    }
+
+    .left_input .Company {
+        margin-top: 50px;
+    }
+
+    .Contact_Input h2{
+        font-size: 4rem;
+    }
+
+    .Contact-Section .container .Row form .Project_Text{
+        margin-top: 50px;
+    }
+
+    .Contact-Section .container .Row .contact_Image img {
+        width: 80%;
+    }
+}
