@@ -78,25 +78,21 @@ function SendEmail() {
     let project = projectField?.value || "";
     let isCheckboxChecked = checkboxField?.checked || false;  // Checked property of the checkbox
 
-    let finalmessage = `Dear DCI, 
+    let finalmessage = `let finalmessage = `Dear DCI, 
 
 
-                        I hope this message finds you well. We are reaching out from ${company} to express our keen intrest in
-                        working with your esteemed organized .Having reviewed your seervices/products, we are impressed with your reputation
-                        for excellence and believe there is grate synergy between our bussiness.
-                        
-                        we look forword to the opportunity to collabrate with you and explore how we can work together to achive mutual success.
-                         Pleace let us know a convenient time to discuss further or schedule a meeting. 
+I hope this message finds you well. We are reaching out from ${company} to express our keen intrest in working with your estemed organized .Having reviewed your services/products, we are impressed with your reputation for excellence and believe there is grate synergy between our bussiness.
+
+we look forword to the opportunity to collaborate with you and explore how we can work together to achive mutual success. Pleace let us know a convenient time to discuss further or schedule a meeting. 
+                         
+Thank you, and we look forword to buliding a fruitful relationship with you.
                          
                          
-                         Thank you, and we look forword to buliding a fruitful relationship with you.
-                         
-                         
-                         Best regards,
-                         ${name}.
-                         ${company}.
-                         ${email}
-                         ${phone}..`;
+Best regards,
+${name}.
+${company}.
+${email}
+${phone}..`;
 
     // Validation with existence check for style manipulation
     if (name.trim() === "") {
