@@ -267,10 +267,10 @@ form button:hover{
     }
     
     .Header .Charecter{
-        width: 34%;
+        width: 44%;
         right: 1%;
         top: 9%;
-        height: 220px;
+        height: 233px;
         z-index: 1;
     }
     
@@ -287,7 +287,8 @@ form button:hover{
 
     .Banner p {
         font-size: 12px;
-        width: 61%;
+        width: 45%;
+        text-align: left;
     }
 
     .Positions{
