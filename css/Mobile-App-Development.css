@@ -426,21 +426,26 @@ form .Privacy_Check{
 
 
     .Header{
-        height: 250px;
+        height: 500px;
         margin-bottom: 7%;
     }
 
     .Header .Background-Image{
-        height: 250px;
+        height: 500px;
     }
 
-    .Header .Eclips_Image{
-        right: 14px;
+    .Header .Cross_mark{
+        position: absolute;
+        width: 34px;
+        top: 325px;
+        left: 10%;
     }
 
-    .Header .Vector_3 {
-        left: 59px;
-        top: 280px;
+    .Header .Round {
+        top: 400px;
+        width: 80px;
+        right: 0px;
+        position: absolute;
     }
 
     .Header .Vector_1{
@@ -465,13 +470,15 @@ form .Privacy_Check{
     }
 
     .Banner h1 {
-        font-size: 1rem;
+        font-size: 2rem;
+        text-align: center;
     }
 
     .Banner p {
-        font-size: 10px;
-        width: 63%;
+        font-size: 14px;
+        width: 100%;
         text-align: left;
+        word-break: normal;
     }
 
 
@@ -498,9 +505,10 @@ form .Privacy_Check{
 
 @media (min-width:340px){
     .Header .Charecter {
-        top: 149px;
-        height: 117px;
-        right: 19px;
+        top: 335px;
+        height: 200px;
+        right: 21%;
+        width: 200px;
     }
 
     .Information .Content_inform h2{
