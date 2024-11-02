@@ -3,6 +3,7 @@
     margin: 0px;
     scroll-behavior: smooth;
     text-align: justify;
+    word-break: break-all;
 }
 
  .container .row .bg-light {
@@ -126,6 +127,101 @@
     font-size: 17px;
 }
 
+
+.Content .container .row .Information{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+}
+
+.Information .Content_inform h2{
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.Information .Content_inform p{
+    text-align: left !important;
+    word-break: normal;
+}
+
+.Information .Inform_Picture img{
+    width: 75%;
+    height: 500px;
+    margin-left: 20%;
+    margin-top: 13%;
+}
+
+.Body{
+    position: relative;
+    height: 700px;
+    margin:150px 0px;
+}
+
+
+.Body .Banner{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 670px;
+}
+
+.Body .container .row .Body_Picture{
+    width: 100%;
+}
+
+.Body .container .row .Body_Picture img{
+    width: 100%;
+}
+
+section .container .Android_Development h2{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+section .container .row .Android p{
+    text-align: left;
+    word-break: normal;
+}
+
+.Android{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Android .Content {
+    width: 40%;
+    margin-left: 33%;
+}
+
+.Android .Android_Pic img{
+    width: 40%;
+}
+
+
+.Development_images{
+    position: relative;
+    margin: 100px 0px;
+}
+
+.Development_images .Background{
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    height: 800px;
+}
+
+.Development_images .container .row .Demo img{
+    width: 75%;
+    margin: 50px 0px;
+}
+
+.Demo{
+    display: flex;
+    justify-content: center;
+}
 
 /*  */
 
@@ -397,6 +493,72 @@ form .Privacy_Check{
     .Contact_Input {
         padding-top: 10px;
         padding-left: 45px;
+    }
+}
+
+@media (min-width:340px){
+    .Header .Charecter {
+        top: 149px;
+        height: 117px;
+        right: 19px;
+    }
+
+    .Information .Content_inform h2{
+        font-size: 1.5rem;
+    }
+
+    .Information .Content_inform p{
+        font-size: 15px;
+    }
+
+    .Information .Inform_Picture img{
+        height: auto;
+        margin-left: 0px;
+    }
+
+    .Inform_Picture{
+        display: flex;
+        justify-content: center;
+    }
+
+    .Body{
+        height: 200px;
+        margin: 50px 0px;
+    }
+
+    .Body .Banner{
+        height: 180px;
+    }
+
+    section .container .Android_Development h2{
+        font-size: 1.7rem;
+    }
+
+    .Android {
+        flex-direction: column;
+    }
+
+    .Android .Content{
+        width: auto;
+        margin-left: 0px;
+    }
+
+    .Android .Android_Pic{
+        display: flex;
+        justify-content: center;
+    }
+
+    .Android .Android_Pic img {
+        width: 70%;
+    }
+
+    .Development_images .Background{
+        height: 275px;
+    }
+
+    .Development_images {
+        position: relative;
+        margin: 50px 0px;
     }
 }
 
