@@ -522,6 +522,7 @@ form .Privacy_Check{
     .Information .Inform_Picture img{
         height: auto;
         margin-left: 0px;
+        margin-top: 5%;
     }
 
     .Inform_Picture{
@@ -540,6 +541,10 @@ form .Privacy_Check{
 
     section .container .Android_Development h2{
         font-size: 1.7rem;
+    }
+
+    .Information .Inform_Picture img {
+        width: 60%;
     }
 
     .Android {
@@ -575,9 +580,17 @@ form .Privacy_Check{
         margin-left: 33px;
     }
 
-    .Header .Charecter{
-        right: 27px;
-        height: 150px;
+    .Header .Charecter {
+        right: 27%;
+        height: 183px;
+    }
+
+    .Body .Banner {
+        height: 215px;
+    }
+
+    .Development_images .Background {
+        height: 315px;
     }
 
     /*  */
@@ -595,6 +608,7 @@ form .Privacy_Check{
     }
 
     .Contact_Input p {
+        width: 75%;
         margin-top: 15px;
         margin-bottom: 3px;
         font-size: 17px;
@@ -614,6 +628,40 @@ form .Privacy_Check{
     }
 }
 
+@media (min-width:468px){
+    .Body {
+        height: 242px;
+        margin: 50px 0px;
+    }
+
+    .Body .Banner {
+        height: 242px;
+    }
+
+    .Development_images .Background {
+        height: 345px;
+    }
+}
+
+@media (min-width:500px){
+    .Body {
+        height: 248px;
+        margin: 50px 0px;
+    }
+
+    .Body .Banner {
+        height: 248px;
+    }
+
+    .Development_images .Background {
+        height: 350px;
+    }
+
+    .Contact-Section .Button{
+        margin-right: 5%;
+    }
+}
+
 @media(min-width:576px){
     .Header .Background-Image {
         height: 330px;
@@ -625,6 +673,7 @@ form .Privacy_Check{
 
     .Banner h1 {
         font-size: 2rem;
+        text-align: left;
     }
 
     .Header .container .row .Banner{
@@ -647,13 +696,40 @@ form .Privacy_Check{
         top: 22%;
     }
 
+    .Header .Cross_mark {
+        position: absolute;
+        width: 26px;
+        top: 285px;
+        left: 10%;
+        rotate: 90deg;
+    }
+
+    .Header .Round {
+        top: 200px;
+    }
+
     .Header .Charecter {
-        right: 42px;
-        height: 219px;
+        top: 131px;
+        right: 28px;
+        height: 187px;
     }
 
     .Banner p {
         font-size: 12px;
+        width: 57%;
+    }
+
+    .Body {
+        height: 300px;
+        margin: 50px 0px;
+    }
+
+    .Body .Banner {
+        height: 300px;
+    }
+
+    .Development_images .Background {
+        height: 400px;
     }
 
     .Contact-Section {
@@ -731,8 +807,14 @@ form .Privacy_Check{
     }
 
     .Header .Charecter {
-        right: 55px;
-        height: 301px;
+        width: 277px;
+        right: 33px;
+        height: 278px;
+    }
+
+    .Header .Cross_mark {
+        width: 34px;
+        top: 348px;
     }
 
     .Contact-Section .Background {
@@ -753,6 +835,24 @@ form .Privacy_Check{
     .Banner p {
         font-size: 14px;
     }
+
+    .Body{
+        height: 380px;
+    }
+
+    .Body .Banner {
+        height: 380px;
+    }
+
+    .Development_images .Background {
+        height: 493px;
+    }
+
+    .Contact_Input p {
+        width: 95%;
+    }
+
+    
 }
 
 @media (min-width:992px){
@@ -786,8 +886,19 @@ form .Privacy_Check{
     }
 
     .Header .Charecter {
-        right: 73px;
-        height: 412px;
+        width: 370px;
+        right: 35px;
+        height: 374px;
+    }
+
+    .Header .Round {
+        top: 235px;
+        width: 165px;
+    }
+
+    .Header .Cross_mark {
+        width: 40px;
+        top: 400px;
     }
 
     .Header .container .row .Banner {
@@ -798,6 +909,35 @@ form .Privacy_Check{
 
     .Banner p {
         font-size: 17px;
+    }
+
+    .Information .Content_inform h2 {
+        font-size: 2.2rem;
+    }
+
+    .Information .Content_inform p {
+        font-size: 17px;
+    }
+
+    .Information .Inform_Picture img {
+        width: 50%;
+    }
+
+    .Body {
+        height: 550px;
+        margin: 75px 0px;
+    }
+
+    .Body .Banner {
+        height: 550px;
+    }
+
+    section .container .Android_Development h2 {
+        font-size: 2.2rem;
+    }
+
+    .Development_images .Background {
+        height: 628px;
     }
 
     .Contact-Section {
@@ -864,6 +1004,8 @@ form .Privacy_Check{
     .Header .container .row .Banner {
         width: 78%;
     }
+
+    
     
 }
 
@@ -886,6 +1028,12 @@ form .Privacy_Check{
         top: 440px;
     }
 
+    .Header .Charecter {
+        right: 35px;
+        width: 473px;
+        height: 450px;
+    }
+
     .Banner h1 {
         font-size: 3rem;
     }
@@ -894,10 +1042,22 @@ form .Privacy_Check{
         top: 190px;
     }
 
-    .Header .Charecter {
-        right: 87px;
-        height: 473px;
+    .Information .Content_inform h2 {
+        font-size: 3rem;
     }
+
+    .Information .Inform_Picture img {
+        width: 75%;
+    }
+
+    .Development_images .Background {
+        height: 727px;
+    }
+
+    section .container .Android_Development h2 {
+        font-size: 3rem;
+    }
+
 
     .Contact-Section .Background{
         height: 750px !important;
@@ -924,13 +1084,31 @@ form .Privacy_Check{
         top: 492px;
     }
 
+    .Header .Cross_mark {
+        width: 58px;
+        top: 500px;
+    }
+
     .Header .Charecter {
-        right: 100px;
+        right: 60px;
         height: 542px;
+        width: 526px;
     }
 
     .Banner h1 {
         font-size: 4rem;
+    }
+
+    .Body {
+        height: 700px;
+    }
+
+    .Body .Banner{
+        height: 700px;
+    }
+
+    .Development_images .Background {
+        height: 840px;
     }
 }
 
@@ -964,8 +1142,14 @@ form .Privacy_Check{
         left: 712px;
     }
 
+    .Header .Round {
+        top: 235px;
+        width: 257px;
+    }
+
     .Header .container .row .Banner{
         width: 81%;
+        margin-left: 0px;
     }
 }
 
@@ -991,6 +1175,7 @@ form .Privacy_Check{
         top: 21%;
         right: 7%;
         height: 638px;
+        width: 640px;
     }
 
     .Header .Vector_1 {
