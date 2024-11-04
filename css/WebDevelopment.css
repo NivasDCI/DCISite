@@ -603,6 +603,7 @@ form .Privacy_Check{
 
     .Header .container .row .Banner_Img img {
         width: 85%;
+        margin-top: 10px;
     }
 
     
@@ -613,7 +614,7 @@ form .Privacy_Check{
 
     .Banner p {
         font-size: 14px;
-        text-align: center;
+        text-align: left;
     }
 
     /* --------- */
@@ -964,8 +965,9 @@ form .Privacy_Check{
     }
 
     .Header .container .row .Banner_Img img {
-        width: 75%;
+        width: 85%;
         margin-left: 85px;
+        margin-top: 50px;
     }
 
     section .container .Our_Details{
@@ -1038,7 +1040,7 @@ form .Privacy_Check{
 
 @media(min-width:1200px){
     .Header {
-        height: 800px;
+        height: 900px;
     }
 
     .Header .Background-Image {
@@ -1050,7 +1052,7 @@ form .Privacy_Check{
     }
 
     .Header .container .row .Banner_Img img {
-        width: 64%;
+        width: 90%;
         margin-left: 100px;
     }
 
@@ -1093,7 +1095,7 @@ form .Privacy_Check{
     }
 
     .Header {
-        height: 850px;
+        height: 1000px;
     }
 
     .Header .Background-Image {
@@ -1113,7 +1115,7 @@ form .Privacy_Check{
 @media(min-width:1600px){
 
     .Header {
-        height: 810px;
+        height: 1000px;
     }
 
     .Header .Background-Image {
@@ -1124,7 +1126,7 @@ form .Privacy_Check{
 
 @media (min-width:1900px){
     .Header {
-        height: 900px;
+        height: 1100px;
     }
 
     .Header .Background-Image {
