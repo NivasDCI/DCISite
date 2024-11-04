@@ -373,6 +373,11 @@ form .Privacy_Check{
     }
 
 
+    section .container .row{
+        align-items: center;
+    }
+
+
     section .container .row .Development_Details {
         text-align: center;
         margin-top: 20px;
@@ -742,7 +747,7 @@ form .Privacy_Check{
 
     .Development_Details p {
         margin-left: 0px;
-        font-size: 14px;
+        font-size: 17px;
     }
 
     .Development_Details .Cart_2 h4 {
@@ -754,13 +759,13 @@ form .Privacy_Check{
     }
 
     .Development_Details .Cart_2 .row .List_1 ul {
-        font-size: 14px;
+        font-size: 16px;
         margin-left: 5px;
         padding-top: 20px;
     }
 
     .Cart_2 .row .List_2 ul {
-        font-size: 14px;
+        font-size: 16px;
         padding-top: 17px;
         margin-left: 10px;
     }
