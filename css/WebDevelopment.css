@@ -57,65 +57,23 @@
 }
 
 .Header .Background-Image{
-    position: relative;
+    position: absolute;
     width: 100%;
     height: 620px;
     z-index: -1;
 }
 
-.Header .Eclips_Image{
-    position: absolute;
-    width: 12%;
-    right: 40px;
-    top: 100px;
-}
- 
-.Header .Vector_1{
-    position: absolute;
-    width: 14%;
-    left: 575px;
-    top: 450px;
-    z-index: 1;
+.Header .container .row {
+    flex-direction: column;
 }
 
-.Header .vector_2{
-    position: absolute;
-    width: 9%;
-    left: 0px;
-    top: 254px;
-    z-index: 1;
-}
 
-.Header .Vector_3{
-    position: absolute;
-    width: 14%;
-    left: 525px;
-    top: 405px;
-    z-index: 1;
-}
 
-.Header .Dots{
-    position: absolute;
-    width: 16%;
-    right: 205px;
-    top: 100px;
-    z-index: 1;
-} 
-
-.Header .Charecter{
-    position: absolute;
-    width: 36%;
-    right: 90px;
-    top: 117px;
-    height: 482px;
-    z-index: 1;
-}
 
 .Header .container .row .Banner{
     color: white;
-    position: absolute;
-    top: 190px;
     margin-left: 85px;
+    width: 100%;
 }
 
 .Banner h1{
@@ -124,6 +82,16 @@
 
 .Banner p{
     font-size: 17px;
+}
+
+.Header .container .row .Banner_Img{
+    width: 100%;
+    text-align: center;
+    margin-left: 45px;
+}
+
+.Header .container .row .Banner_Img img{
+    width: 65%;
 }
 
 
@@ -376,7 +344,7 @@ form .Privacy_Check{
 @media (min-width:200px) {
 
     .Header{
-        height: 200px;
+        height: 400px;
         margin-bottom: 20px;
     }
 
@@ -384,39 +352,17 @@ form .Privacy_Check{
         height: 200px;
     }
 
-    .Header .Eclips_Image{
-        top: 83px;
-        right: 10px;
-    }
-
-    .Header .vector_2 {
-        top: 150px;
-    }
-
-    .Header .Charecter{
-        top: 161px;
-        height: 78px;
-        right: 21px;
-        width: 30%;
-    }
-
-    .Header .Vector_3 {
-        top: 121px;
-        left: 121px;
-    }
-
-    .Header .Vector_1{
-        top: 112px;
-        left: 125px;
+    .Header .container .row .Banner{
+        margin-top: 30px;
     }
 
     .Banner h1 {
         font-size: 20px;
+        text-align: center;
     }
 
     .Banner p {
-        font-size: 7px;
-        width: 66%;
+        font-size: 14px;
     }
 
 
@@ -434,13 +380,13 @@ form .Privacy_Check{
     }
 
     .Development_Details h2{
-        font-size: 13px;
+        font-size: 17px;
         text-align: justify;
     }
     
     .Development_Details p{
         margin-left: 0px;
-        font-size: 10px;
+        font-size: 14px;
         text-align: justify;
     }
 
@@ -453,12 +399,12 @@ form .Privacy_Check{
     }
 
     .Development_Details .Cart_2 .row .List_1 ul{
-        font-size: 11px;
+        font-size: 14px;
         margin-left: 10px;
     }
 
     .Cart_2 .row .List_2 ul{
-        font-size: 11px;
+        font-size: 14px;
         padding-left: 0px;
         margin-left: 10px;
     }
@@ -503,7 +449,7 @@ form .Privacy_Check{
 
     .First_Cart p, .Second_Cart p, .Third_Cart p, .Fourth_Cart p {
         margin-top: 6px;
-        font-size: 12px;
+        font-size: 14px;
         text-align: left;
     }
 
@@ -519,12 +465,12 @@ form .Privacy_Check{
     }
 
     .Section_Topics h2 {
-        font-size: 14px;
+        font-size: 18px;
         text-align: center;
     }
 
     .Section_Topics p {
-        font-size: 12px;
+        font-size: 14px;
         width: 96%;
         margin-top: 20px;
     }
@@ -643,56 +589,30 @@ form .Privacy_Check{
 
 
     .Header{
-        height: 250px;
+        height: 400px;
         margin-bottom: 7%;
     }
 
     .Header .Background-Image{
-        height: 250px;
+        height: 350px;
     }
 
-    .Header .Eclips_Image{
-        right: 14px;
+    .Header .container .row .Banner_Img{
+        margin-left: 0px;
     }
 
-    .Header .Vector_3 {
-        left: 59px;
-        top: 280px;
+    .Header .container .row .Banner_Img img {
+        width: 75%;
     }
 
-    .Header .Vector_1{
-        top: 265px;
-        left: 59px;
-    }
-
-    .Header .vector_2{
-        top: 17%;
-    }
-
-    .Header .Charecter {
-        top: 131px;
-        height: 151px;
-        right: 30px;
-        width: 34%;
-    }
-
-    .Header .Dots{
-        right: 62px;
-    }
-
-    .Header .container .row .Banner{
-        top: 105px;
-        margin-left: 24px;
-        width: 91%;
-    }
+    
 
     .Banner h1 {
-        font-size: 1rem;
+        font-size: 2rem;
     }
 
     .Banner p {
-        font-size: 11px;
-        width: 63%;
+        font-size: 14px;
         text-align: left;
     }
 
@@ -718,13 +638,14 @@ form .Privacy_Check{
 }
 
 @media(min-width:400px){
-    .Header .container .row .Banner{
-        margin-left: 33px;
+
+    .Header {
+        height: 410px;
+        margin-bottom: 7%;
     }
 
-    .Header .Charecter{
-        right: 27px;
-        height: 150px;
+    .Header .Background-Image {
+        height: 400px;
     }
 
     section .container .Our_Details {
@@ -737,7 +658,7 @@ form .Privacy_Check{
         margin-right: 20px;
     }
     .First_Cart ,.Third_Cart{
-        margin-left: 25px;
+        margin-left: 0px;
         margin-right: 0px;
     }
 
@@ -776,6 +697,7 @@ form .Privacy_Check{
         margin-top: 15px;
         margin-bottom: 3px;
         font-size: 17px;
+        width: 91%;
     }
 
     .right_input input,
@@ -795,10 +717,6 @@ form .Privacy_Check{
 
 @media(min-width:576px){
 
-    .Header .container .row .Banner{
-        width: 80%;
-    }
-
 
     .Header .Background-Image {
         height: 330px;
@@ -810,27 +728,6 @@ form .Privacy_Check{
 
     .Banner h1 {
         font-size: 2rem;
-    }
-
-    .Header .Vector_3 {
-        left: 267px;
-        /* right: 200px; */
-        top: 275px;
-    }
-
-    .Header .Vector_1 {
-        left: 276px;
-        /* right: 200px; */
-        top: 256px;
-    }
-
-    .Header .vector_2 {
-        top: 22%;
-    }
-
-    .Header .Charecter {
-        right: 42px;
-        height: 219px;
     }
 
     .Banner p {
@@ -902,7 +799,7 @@ form .Privacy_Check{
     }
 
     .Section_Topics p {
-        font-size: 15px;
+        font-size: 17px;
         text-align: center;
     }
 
@@ -962,29 +859,13 @@ form .Privacy_Check{
 @media(min-width:768px){
 
     .Header {
-        height: 425px;
+        height: 575px;
     }
 
     .Header .Background-Image {
-        height: 425px;
+        height: 535px;
     }
 
-    .Header .Vector_1 {
-        left: 362px;
-        /* right: 200px; */
-        top: 291px;
-    }
-
-    .Header .Vector_3 {
-        left: 342px;
-        /* right: 200px; */
-        top: 316px;
-    }
-
-    .Header .Charecter {
-        right: 55px;
-        height: 301px;
-    }
 
     .Contact-Section .Background {
         top: 1061px;
@@ -1002,7 +883,12 @@ form .Privacy_Check{
     }
 
     .Banner p {
-        font-size: 14px;
+        font-size: 16px;
+    }
+
+    .Header .container .row .Banner_Img img {
+        width: 75%;
+        margin-left: 51px;
     }
 
     .Development_Details p {
@@ -1061,39 +947,25 @@ form .Privacy_Check{
     }
 
     .Header {
-        height: 550px;
+        height: 650px;
     }
 
 
     .Header .Background-Image {
-        height: 550px;
-    }
-
-    .Header .Vector_1 {
-        left: 462px;
-        /* right: 200px; */
-        top: 370px;
-    }
-
-    .Header .Vector_3 {
-        left: 431px;
-        /* right: 200px; */
-        top: 400px;
-    }
-
-    .Header .Charecter {
-        right: 73px;
-        height: 412px;
+        height: 625px;
     }
 
     .Header .container .row .Banner {
-        margin-left: 10%;
-        top: 170px;
-        width: 80%;
+        margin-top: 60px;
     }
 
     .Banner p {
         font-size: 17px;
+    }
+
+    .Header .container .row .Banner_Img img {
+        width: 75%;
+        margin-left: 85px;
     }
 
     section .container .Our_Details{
@@ -1162,52 +1034,30 @@ form .Privacy_Check{
     .navbar-collapse {
         flex-grow: 0.5 !important;
     }
-
-    .Header .Vector_1 {
-        left: 530px;
-    }
-
-    .Header .Vector_3 {
-        left: 514px;
-    }
-
-    .Header .container .row .Banner{
-        width: 80%;
-    }
 }
 
 @media(min-width:1200px){
     .Header {
-        height: 620px;
+        height: 800px;
     }
 
     .Header .Background-Image {
-        height: 620px;
+        height: 750px;
     }
 
-    .Header .Vector_1 {
-        left: 571px;
-        top: 400px;
+    .Header .container .row .Banner {
+        margin-top: 100px;
     }
 
-    .Header .Vector_3 {
-        left: 546px;
-        top: 440px;
+    .Header .container .row .Banner_Img img {
+        width: 64%;
+        margin-left: 100px;
     }
 
     .Banner h1 {
         font-size: 3rem;
     }
 
-    .Header .container .row .Banner{
-        top: 190px;
-        width: 80%;
-    }
-
-    .Header .Charecter {
-        right: 87px;
-        height: 473px;
-    }
 
     section .container .Our_Details {
         flex-wrap: nowrap;
@@ -1243,25 +1093,16 @@ form .Privacy_Check{
     }
 
     .Header {
-        height: 700px;
+        height: 850px;
     }
 
     .Header .Background-Image {
-        height: 700px;
+        height: 800px;
     }
 
-    .Header .Vector_3 {
-        left: 640px;
-        top: 492px;
-    }
 
     .Header .Dots {
         right: 160px;
-    }
-
-    .Header .Charecter {
-        right: 100px;
-        height: 542px;
     }
 
     .Banner h1 {
@@ -1279,29 +1120,6 @@ form .Privacy_Check{
         height: 811px;
     }
 
-    .Header .Charecter {
-        top: 23%;
-        right: 7%;
-        height: 542px;
-    }
-
-    .Header .vector_2 {
-        top: 32%;
-    }
-
-    .Header .Vector_1 {
-        left: 763px;
-        top: 513px;
-    }
-
-    .Header .Vector_3 {
-        top: 560px;
-        left: 712px;
-    }
-
-    .Header .container .row .Banner{
-        width: 81%;
-    }
 }
 
 @media (min-width:1900px){
@@ -1313,30 +1131,11 @@ form .Privacy_Check{
         height: 900px;
     }
 
-    .Header .container .row .Banner {
-        width: 74%;
-        margin-left: 0px;
-    }
 
     .Banner h1 {
         font-size: 5rem;
     }
 
-    .Header .Charecter {
-        top: 21%;
-        right: 7%;
-        height: 638px;
-    }
-
-    .Header .Vector_1 {
-        left: 900px;
-        top: 513px;
-    }
-
-    .Header .Vector_3 {
-        top: 577px;
-        left: 856px;
-    }
 
     .Banner p {
         font-size: 23px;
