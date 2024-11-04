@@ -1052,7 +1052,7 @@ form .Privacy_Check{
     }
 
     .Header .container .row .Banner_Img img {
-        width: 90%;
+        width: 75%;
         margin-left: 100px;
     }
 
@@ -1109,6 +1109,10 @@ form .Privacy_Check{
 
     .Banner h1 {
         font-size: 4rem;
+    }
+
+    .Header .container .row .Banner_Img img {
+        width: 90%;
     }
 }
 
