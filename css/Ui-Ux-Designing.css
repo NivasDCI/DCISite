@@ -277,11 +277,13 @@
         color: #002960;
         width: 68%;
         margin-left: 0px;
-        top: 193px !important;
+        top: 160px !important;
+        left: 0px;
     }
 
     .Banner h1{
         font-size: 1.5rem;
+        text-align: left;
     }
 
     .Banner p {
@@ -429,18 +431,18 @@
 @media (min-width:700px){
 
     .Header {
-        height: 400px;
+        height: 530px;
     }
 
     .Header .Background-Image {
-        height: 380px;
+        height: 500px;
         width: 112%;
     }
 
     .Header .container .row .Banner {
         width: 80%;
-        left: 0px;
-        top: 264px !important;
+        left: 23px;
+        top: 310px !important;
     }
 
     .Banner h1 {
@@ -449,6 +451,7 @@
 
     .Banner p {
         font-size: 17px;
+        width: 50%;
     }
 }
 
