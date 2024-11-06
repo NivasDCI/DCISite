@@ -15,7 +15,7 @@
 }
 
 .navbar-collapse {
-    flex-grow: 0.6 !important;
+    flex-grow: 0.5 !important;
     align-items: center;
 }
 
@@ -73,41 +73,31 @@
 
 .Header .container .row .Banner_Career{
     position: absolute;
-    top: 5%;
+    top: 20%;
     display: flex;
+    justify-content: center;
     align-items: center;
-}
-
-.Banner_Career .Main{
-    width: 50%;
-    margin-left: 20%;
-    
-}
-
-.Banner_Career .Banner h2,.Banner_Career .Banner_2 h2{
-    font-size: 80px;
-    color: #002960;
-    font-weight: 700;
-}
-
-.Banner_Career .Banner{
-    position: absolute;
-    left: 6%;
-}
-
-.Banner_Career .Banner_2{
-    position: absolute;
-    right: 28%;
+    z-index: 1;
+    left: 5%;
+    gap: 50px;
 }
 
 
-.Banner_Career {
-    width: 45%;
+.Banner_Career .Banner_Content{
+    color: #ffffff;
+    width: 40%;
 }
 
-.Banner_Career img{
-    width: 65%;
+.Banner_Career .Banner_Content h1{
+    font-size: 4rem;
+    text-align: center;
 }
+
+.Banner_Career .Banner_Img img{
+    width: 96%;
+}
+
+
 
 
 .Positions {
@@ -281,60 +271,37 @@ form button:hover{
     }
 
     .Header{
-        height: 225px;
+        height: 425px;
         margin-bottom: 50px;
     }
     
     .Header .Background-Image{
         position: relative;
-        width: 150%;
-        height: 230px;
+        width: 100%;
+        height: 430px;
         z-index: -1;
     }
 
     .Header .container .row .Banner_Career{
-        /* top: 41%; */
-        bottom: -37%;
-        display: flex;
-        align-items: center;
+        flex-direction: column;
+        left: 0px;
+        gap: 30px;
     }
-    
-    .Banner_Career .Main{
-        width: 45%;
-        display: flex;
-        align-items: flex-start;
-        height: 203px;
-        margin-left: 32%;
-        
+
+    .Banner_Career .Banner_Content{
+        width: 100%;
     }
-    
-    .Banner_Career .Banner h2,.Banner_Career .Banner_2 h2{
-        font-size: 24px;
-        color: #002960;
-        font-weight: 700;
+
+    .Banner_Career .Banner_Content h1{
+        font-size: 1.5rem;
     }
-    
-    .Banner_Career .Banner{
-        left: 6%;
+
+    .Banner_Career .Banner_Img img {
+        width: 100%;
     }
-    
-    .Banner_Career .Banner_2{
-        right: 4%;
-    }
-    
-    
-    /* .Banner_Career {
-        width: 45%;
-    } */
-    
-    .Banner_Career img{
-        width: 70%;
-        height: 171px;
-    }
-    
-    
+
     .Positions{
-        margin-top: 50px;
+        margin: 50px 0px;
     }
 
     .Positions .container .row .Position_List h1 {
@@ -434,11 +401,11 @@ form button:hover{
 @media (min-width:410px){
 
     .Header {
-        height: 300px !important;
+        height: 500px !important;
     }
 
     .Header .Background-Image {
-        height: 300px;
+        height: 500px;
     }
 
 
@@ -447,31 +414,22 @@ form button:hover{
 @media (min-width:560px){
 
     .Header {
-        height: 300px !important;
+        height: 600px !important;
     }
 
     .Header .Background-Image {
-        height: 300px;
+        height: 600px;
     }
 
+    .Banner_Career .Banner_Content h1 {
+        font-size: 2.5rem;
+    }
 
     #Document {
         width: auto;
     }
 }
 
-@media (min-width:660px){
-
-
-    .Header {
-        height: 400px !important;
-    }
-
-    .Header .Background-Image {
-        height: 400px;
-    }
-
-}
 
 @media (min-width:720px){
     
@@ -488,12 +446,21 @@ form button:hover{
 @media (min-width:760px){
 
     .Header {
-        height: 350px !important;
+        height: 750px !important;
     }
 
     .Header .Background-Image {
-        height: 350px;
+        height: 750px;
     }
+
+    .Positions .container .row .Position_List h1 {
+        font-size: 3rem !important;
+    }
+
+    .Position_List_1 h3, .Position_List_2 h3, .Position_List_3 h3 {
+        font-size: 2rem;
+    }
+
 
 }
 
@@ -501,16 +468,25 @@ form button:hover{
 
 
     .Header {
-        height: 500px !important;
+        height: 600px !important;
     }
 
     .Header .Background-Image {
-        height: 500px;
+        height: 600px;
+    }
+
+    .Header .container .row .Banner_Career {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .Banner_Career .Banner_Content {
+        width: 50%;
     }
 
 
     .contact {
-        height: calc(100vh - 300px);
+        height: calc(100vh - 200px);
         width: calc(100% - 40%) !important;
         left: calc(100% - 80%);
         top: 10%;
@@ -520,7 +496,7 @@ form button:hover{
 }
 
 @media (min-width:1200px){
-    
+
     .Header {
         height: 620px !important;
     }
@@ -545,6 +521,10 @@ form button:hover{
         height: 700px !important;
     }
 
+    .Banner_Career .Banner_Content h1 {
+        font-size: 3.5rem;
+    }
+
     .contact {
         width: calc(100% - 60%) !important;
         left: calc(100% - 70%);
@@ -558,6 +538,10 @@ form button:hover{
 
     .Header .Background-Image {
         height: 811px !important;
+    }
+
+    .Banner_Career .Banner_Content h1 {
+        font-size: 4rem;
     }
 }
 

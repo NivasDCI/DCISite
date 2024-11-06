@@ -10,7 +10,7 @@
 }
 
 .navbar-collapse {
-    flex-grow: 0.6 !important;
+    flex-grow: 0.5 !important;
     align-items: center;
 }
 
@@ -495,12 +495,15 @@
 
 @media (min-width:992px){
 
+    
+
     .navbar-collapse{
         position: unset;
         padding-left: 0px;
         padding-bottom: 0px;
         width: auto;
     }
+
 
     .Header .Background-Image {
         height: 600px;

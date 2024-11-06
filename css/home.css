@@ -1923,8 +1923,9 @@ form .Privacy_Check {
     }
 
 
+
     .navbar-collapse {
-        flex-grow: 0.4 !important;
+        flex-grow: 0.5 !important;
     }
 
     .Header_Banner {

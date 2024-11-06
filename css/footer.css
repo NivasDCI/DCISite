@@ -372,6 +372,7 @@ footer .container .footer-content {
   }
 }
 
+
 @media(min-width:1250px) {
 
   .wave {
@@ -465,6 +466,17 @@ footer .container .footer-content {
     margin-top: 0px;
   }
 }
+
+@media (min-width:1600px){
+  .navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    flex-basis: 35% !important;
+}
+
+}
+
+
+
 
 @media (min-width:1900px) {
 

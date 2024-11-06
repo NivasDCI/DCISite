@@ -476,7 +476,7 @@ form .Privacy_Check{
         top: 17%;
     }
 
-        .Header .Charecter {
+    .Header .Charecter {
         top: 300px;
         width: 80%;
         height: 196px;
@@ -984,7 +984,7 @@ form .Privacy_Check{
     .Banner{
         left: 5%;
         top: 31%;
-        z-index: 10000;
+        z-index: 100;
     }
 
 
