@@ -264,6 +264,20 @@ footer .container .footer-content {
 
 }
 
+@media (min-height:340px){
+  .navbar-collapse{
+      overflow-y: scroll;
+  height: 320px;
+  }
+}
+
+@media (min-height:600px){
+  .navbar-collapse{
+      overflow-y: hidden;
+  height: auto;
+  }
+}
+
 @media (min-width:560px) {
   .footer-content {
     justify-content: center !important;
