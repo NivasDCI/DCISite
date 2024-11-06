@@ -264,10 +264,24 @@ footer .container .footer-content {
 
 }
 
-@media (min-height:340px){
+@media (min-height:240px){
   .navbar-collapse{
       overflow-y: scroll;
-  height: 320px;
+  height: 220px;
+  }
+}
+
+@media (min-height:300px){
+  .navbar-collapse{
+      overflow-y: scroll;
+  height: 360px;
+  }
+}
+
+@media (min-height:400px){
+  .navbar-collapse{
+      overflow-y: scroll;
+  height: 400px;
   }
 }
 

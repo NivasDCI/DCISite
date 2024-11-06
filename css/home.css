@@ -1196,12 +1196,6 @@ form .Privacy_Check {
     
 }
 
-@media (min-height:340px){
-    .navbar-collapse{
-        overflow-y: scroll;
-    height: 320px;
-    }
-}
 
 @media(min-width:400px) {
 
