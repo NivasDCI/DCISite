@@ -613,7 +613,7 @@ form .Privacy_Check{
     }
 
     .Header .Charecter{
-        top: 75px;
+        top: 125px;
         height: 250px;
         right: 10px;
     }
@@ -669,7 +669,7 @@ form .Privacy_Check{
 
     .Header .Charecter {
         right: 10px;
-        height: 273px;
+        height: 300px;
     }
 
     .Marketing_Details h3 {
@@ -863,6 +863,12 @@ form .Privacy_Check{
 
     .Contact-Section .container .Row .contact_Image img {
         padding-top: 30px;
+    }
+}
+
+@media(min-width:600px){
+    .Header .Charecter{
+        top: 75px;
     }
 }
 
