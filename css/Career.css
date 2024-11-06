@@ -272,6 +272,14 @@ form button:hover{
 
 @media (min-width: 340px){
 
+    body .Nav_Bar {
+        position: sticky;
+        top: 0px;
+        z-index: 1000;
+        margin: 0px;
+        max-width: 100% !important;
+    }
+
     .Header{
         height: 225px;
         margin-bottom: 50px;

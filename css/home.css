@@ -10,6 +10,7 @@
     scroll-behavior: smooth;
     font-family: "Roboto", sans-serif;
     text-align: justify;
+    word-break: break-all;
 }
 
 body .Header {
@@ -1077,7 +1078,9 @@ form .Privacy_Check {
     body .Nav_Bar {
         position: sticky;
         top: 0px;
-        z-index: 1010;
+        z-index: 1000;
+        margin: 0px;
+        max-width: 100% !important;
     }
 
     .navbar-collapse {
@@ -1163,7 +1166,7 @@ form .Privacy_Check {
     .Contact-Section .Background {
         top: 400px;
         width: 100%;
-        height: 800px;
+        height: 800px !important;
     }
 
     .Contact_Input {
@@ -1185,10 +1188,12 @@ form .Privacy_Check {
     }
 
     .Contact-Section .Button {
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 7%;
-}
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 7%;
+    }
+
+    
 }
 
 @media(min-width:400px) {
@@ -2340,7 +2345,7 @@ form .Privacy_Check {
     }
 
     .Header_Content a {
-        margin-left: 39%;
+        margin-left: 6%;
     }
 
     .About_Image_Cart .Company_Exp {

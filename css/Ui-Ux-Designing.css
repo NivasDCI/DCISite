@@ -262,6 +262,14 @@
 
 @media (min-width:300px){
 
+    body .Nav_Bar {
+        position: sticky;
+        top: 0px;
+        z-index: 1000;
+        margin: 0px;
+        max-width: 100% !important;
+    }
+
     .Header {
         height: 250px;
         margin-bottom: 7%;

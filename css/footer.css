@@ -3,18 +3,19 @@
   margin: 0px;
   scroll-behavior: smooth;
   text-align: justify;
+  word-break: break-all;
 }
 
-.container-fluid .navbar-brand img{
+.container-fluid .navbar-brand img {
   width: auto;
 }
 
-.Contact-Section .Button{
+.Contact-Section .Button {
   display: flex;
   justify-content: flex-end;
 }
 
-.Contact-Section button{
+.Contact-Section button {
   padding: 5px 30px;
   border-radius: 10px;
   background-color: #002960;
@@ -23,7 +24,7 @@
   margin-top: 20px;
 }
 
-.Contact-Section button:hover{
+.Contact-Section button:hover {
   background-color: white;
   color: #002960;
   border: 2px solid #002960;
@@ -206,9 +207,22 @@ footer .container .footer-content {
 
   .wave {
     height: 6em;
-    animation: wave 48s -3s linear infinite;
+    animation: wave 19s -3s linear infinite;
     top: 0px;
     overflow: hidden;
+  }
+
+  .wave:nth-of-type(2) {
+    bottom: -1.25em;
+    animation: wave 7s linear reverse infinite;
+    opacity: 0.8;
+  }
+
+
+  .wave:nth-of-type(3) {
+    bottom: -2.5em;
+    animation: wave 12s -1s reverse infinite;
+    opacity: 0.9;
   }
 
   footer {
@@ -219,18 +233,18 @@ footer .container .footer-content {
     margin-top: 0px;
     margin-left: 20px;
     margin-right: 20px;
-}
+  }
 
   footer .container .footer-content {
     gap: 10px;
     justify-content: flex-start;
   }
 
-  .footer-column{
+  .footer-column {
     width: 100%;
   }
 
-  .footer-column .heading{
+  .footer-column .heading {
     margin-bottom: 15px;
   }
 
@@ -238,11 +252,11 @@ footer .container .footer-content {
     width: 35px;
   }
 
-  .footer-column h3{
+  .footer-column h3 {
     font-size: 1.5rem !important;
   }
 
-  .footer-column .address p{
+  .footer-column .address p {
     text-align: left;
     margin-bottom: 5px;
   }
@@ -250,64 +264,65 @@ footer .container .footer-content {
 
 }
 
-@media (min-width:560px){
-  .footer-content{
+@media (min-width:560px) {
+  .footer-content {
     justify-content: center !important;
   }
-  
+
   .footer-column {
     width: auto;
   }
 
-  .footer-column:nth-of-type(1),.footer-column:nth-of-type(2){
+  .footer-column:nth-of-type(1),
+  .footer-column:nth-of-type(2) {
     width: 45%;
   }
 
-  .footer-column:nth-of-type(3){
+  .footer-column:nth-of-type(3) {
     width: 80%;
   }
 
-  .footer-column:nth-of-type(4){
+  .footer-column:nth-of-type(4) {
     width: 60%;
     margin-top: 50px;
   }
 
-  .footer-column:nth-of-type(5){
+  .footer-column:nth-of-type(5) {
     width: auto;
     display: flex;
     justify-content: flex-end;
   }
 }
 
-@media (min-width:750px){
+@media (min-width:750px) {
 
-  footer{
+  footer {
     padding-top: 100px;
   }
 
-  .footer-column:nth-of-type(2){
+  .footer-column:nth-of-type(2) {
     display: flex;
     justify-content: flex-end;
   }
 
-  .footer-column:nth-of-type(3){
+  .footer-column:nth-of-type(3) {
     width: 55%;
     margin-top: 50px;
   }
 
-  .footer-column:nth-of-type(4){
+  .footer-column:nth-of-type(4) {
     margin-top: 50px;
     width: 43%;
   }
 
-  .footer-column:nth-of-type(5){
+  .footer-column:nth-of-type(5) {
     margin-top: 50px;
     width: 50%;
     display: flex;
     justify-content: flex-start;
   }
 
-  .footer-column:nth-of-type(6){
+  .footer-column:nth-of-type(6) {
     width: 50%;
   }
 
@@ -316,11 +331,35 @@ footer .container .footer-content {
     padding-left: 31px;
     margin-top: 50px;
 
-}
+  }
+
+  .wave {
+    height: 6em;
+    animation: wave 30s -3s linear infinite;
+    top: 0px;
+    overflow: hidden;
+  }
+
+  .wave:nth-of-type(2) {
+    bottom: -1.25em;
+    animation: wave 13s linear reverse infinite;
+    opacity: 0.8;
+  }
+
+
+  .wave:nth-of-type(3) {
+    bottom: -2.5em;
+    animation: wave 16s -1s reverse infinite;
+    opacity: 0.9;
+  }
+
+  .Contact-Section .Button {
+    margin-right: 10%;
+  }
 }
 
-@media (min-width:992px){
-  .footer-column{
+@media (min-width:992px) {
+  .footer-column {
     width: auto !important;
   }
 
@@ -328,88 +367,112 @@ footer .container .footer-content {
     gap: 50px;
   }
 
-  .footer-column:nth-of-type(3){
+  .footer-column:nth-of-type(3) {
     margin-top: 0px;
   }
 }
 
-@media(min-width:1250px){
+@media(min-width:1250px) {
+
+  .wave {
+    height: 6em;
+    animation: wave 48s -3s linear infinite;
+    top: 0px;
+    overflow: hidden;
+}
+
+  .wave:nth-of-type(2) {
+    bottom: -1.25em;
+    animation: wave 21s linear reverse infinite;
+    opacity: 0.8;
+}
+
+
+  .wave:nth-of-type(3) {
+    bottom: -2.5em;
+    animation: wave 25s -1s reverse infinite;
+    opacity: 0.9;
+}
+
   footer .container {
     margin: 50px 50px;
     max-width: fit-content;
     margin-bottom: 10px;
   }
-  
+
   footer .container .footer-content {
     display: flex;
     flex-direction: row;
     justify-content: flex-start !important;
-    flex-wrap:wrap;
-    column-gap:15%;
+    flex-wrap: wrap;
+    column-gap: 15%;
     color: white;
   }
-  
+
   .footer-column .heading {
     display: flex;
     gap: 10px;
     align-items: center;
     margin-bottom: 30px;
   }
-  
+
   .footer-content .footer-column h3 {
     font-size: 2rem;
     color: #0097b2;
     margin-top: 15px;
   }
-  
+
   .footer-column img {
     width: 40px;
   }
-  
+
   .footer-column ul {
     padding-left: 0px;
   }
-  
-  
+
+
   .footer-column ul li {
     list-style: none;
     margin-bottom: 10px;
   }
-  
+
   .footer-column ul li a {
     color: white;
     text-decoration: none;
     margin-top: 3px !important;
   }
-  
+
   .footer-column ul li a img {
     width: 25px !important;
     margin-right: 10px;
     margin-bottom: 5px;
   }
-  
+
   .Footer footer .legal-text {
     color: white;
     margin-top: 30px;
   }
 
-  .footer-column:nth-of-type(4),.footer-column:nth-of-type(5),.footer-column:nth-of-type(6){
+  .footer-column:nth-of-type(4),
+  .footer-column:nth-of-type(5),
+  .footer-column:nth-of-type(6) {
     margin-top: 0px;
   }
 }
 
-@media (min-width:1450px){
-  .footer-column:nth-of-type(5){
+@media (min-width:1450px) {
+  .footer-column:nth-of-type(5) {
     margin-top: 0px;
   }
 }
 
-@media (min-width:1900px){
+@media (min-width:1900px) {
 
-  footer .container .footer-content{
+  footer .container .footer-content {
     column-gap: 50px;
   }
-  .footer-content{
+
+  .footer-content {
     justify-content: center !important;
   }
 }

@@ -3,6 +3,7 @@
     margin: 0px;
     scroll-behavior: smooth;
     text-align: justify;
+    word-break: break-all;
 }
 
 .container .row .bg-light {
@@ -565,10 +566,12 @@ form .Privacy_Check{
 
 @media (min-width:300px){
 
-    body .Nav_Bar{
+    body .Nav_Bar {
         position: sticky;
         top: 0px;
         z-index: 1000;
+        margin: 0px;
+        max-width: 100% !important;
     }
 
     .navbar-collapse{
