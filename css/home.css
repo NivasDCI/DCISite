@@ -1196,6 +1196,13 @@ form .Privacy_Check {
     
 }
 
+@media (min-height:340px){
+    .navbar-collapse{
+        overflow-y: scroll;
+    height: 320px;
+    }
+}
+
 @media(min-width:400px) {
 
     body .Header {
@@ -1346,7 +1353,7 @@ form .Privacy_Check {
 
     .Header_Content {
         position: relative;
-        z-index: 1000;
+        z-index: 100;
         color: white;
     }
 
