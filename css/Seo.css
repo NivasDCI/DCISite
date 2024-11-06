@@ -535,8 +535,12 @@ form .Privacy_Check{
         margin-left: 33px;
     }
 
-    .Header .Charecter{
-        height: 180px;
+    .Header{
+        height:500px
+    }
+
+    .Header .Charecter {
+        height: 220px;
     }
 
     .SEO_Content h1 {
