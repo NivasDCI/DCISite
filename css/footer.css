@@ -262,31 +262,38 @@ footer .container .footer-content {
 
 }
 
-@media (min-height:240px){
-  .navbar-collapse{
-      overflow-y: scroll;
-  height: 220px;
+@media (min-height:240px) {
+  .navbar-collapse {
+    overflow-y: scroll;
+    height: 220px;
   }
 }
 
-@media (min-height:300px){
-  .navbar-collapse{
-      overflow-y: scroll;
-  height: 360px;
+@media (min-height:300px) {
+  .navbar-collapse {
+    overflow-y: scroll;
+    height: 300px;
   }
 }
 
-@media (min-height:400px){
-  .navbar-collapse{
-      overflow-y: scroll;
-  height: 400px;
+@media (min-height:400px) {
+  .navbar-collapse {
+    overflow-y: scroll;
+    height: 400px;
   }
 }
 
-@media (min-height:600px){
-  .navbar-collapse{
-      overflow-y: hidden;
-  height: auto;
+@media (min-height:600px) {
+  .navbar-collapse {
+    overflow-y: scroll;
+    height: calc(100vh - 60px);
+  }
+}
+
+@media (min-height:1100px) {
+  .navbar-collapse {
+    overflow-y: unset !important;
+    height: auto;
   }
 }
 
@@ -385,6 +392,17 @@ footer .container .footer-content {
 }
 
 @media (min-width:992px) {
+
+
+  .navbar-collapse {
+    overflow-y: unset !important;
+    height: auto !important;
+  }
+
+  .navbar-expand-lg .navbar-nav .dropdown-menu {
+    width: 250px;
+  }
+
   .footer-column {
     width: auto !important;
   }
@@ -406,20 +424,20 @@ footer .container .footer-content {
     animation: wave 48s -3s linear infinite;
     top: 0px;
     overflow: hidden;
-}
+  }
 
   .wave:nth-of-type(2) {
     bottom: -1.25em;
     animation: wave 21s linear reverse infinite;
     opacity: 0.8;
-}
+  }
 
 
   .wave:nth-of-type(3) {
     bottom: -2.5em;
     animation: wave 25s -1s reverse infinite;
     opacity: 0.9;
-}
+  }
 
   footer .container {
     margin: 50px 50px;
@@ -493,11 +511,11 @@ footer .container .footer-content {
   }
 }
 
-@media (min-width:1600px){
+@media (min-width:1600px) {
   .navbar-expand-lg .navbar-collapse {
     display: flex !important;
     flex-basis: 35% !important;
-}
+  }
 
 }
 
