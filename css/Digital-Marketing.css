@@ -356,7 +356,7 @@ form .Privacy_Check{
         top: 161px;
         height: 78px;
         right: 21px;
-        width: 30%;
+        width: 32%;
     }
 
     .Header .Vector_3 {
@@ -374,7 +374,7 @@ form .Privacy_Check{
     }
 
     .Banner p {
-        font-size: 7px;
+        font-size: 15px;
         width: 66%;
     }
 
@@ -399,12 +399,12 @@ form .Privacy_Check{
     }
 
     .Marketing_Details h3{
-        font-size: 12px;
+        font-size: 17px;
         margin-bottom: 10px;
     }
 
     .Marketing_Details p{
-        font-size: 9px;
+        font-size: 14px;
     }
 
     .Marketing_Startegy {
@@ -424,11 +424,11 @@ form .Privacy_Check{
     .Startegy_Details h3 {
         font-weight: 700;
         margin-bottom: 10px;
-        font-size: 15px;
+        font-size: 18px;
     }
 
     .Startegy_Details p{
-        font-size: 10px;
+        font-size: 15px;
     }
 
     .Managements {
@@ -448,11 +448,11 @@ form .Privacy_Check{
     }
 
     .Media_Management_Content p{
-        font-size: 10px;
+        font-size: 15px;
     }
 
     .Media_Management_Content ul li{
-        font-size: 10px;
+        font-size: 15px;
     }
 
     .Management_Pic img {
@@ -479,15 +479,15 @@ form .Privacy_Check{
     }
 
     .Marketing_Platform h3{
-        font-size: 15px;
+        font-size: 18px;
     }
 
     .Marketing_Platform p{
-        font-size: 10px;
+        font-size: 15px;
     }
 
     .Marketing_Platform ul li{
-        font-size: 10px;
+        font-size: 15px;
     }
 
     .Platform_Analys {
@@ -501,11 +501,11 @@ form .Privacy_Check{
     }
 
     .Analys_Statics p{
-        font-size: 10px;
+        font-size: 15px;
     }
 
     .Analys_Statics ul li{
-        font-size: 10px;
+        font-size: 15px;
     }
 
     .row .Analys_Pic img {
@@ -586,12 +586,12 @@ form .Privacy_Check{
     }
 
     .Header{
-        height: 250px;
+        height: 350px;
         margin-bottom: 7%;
     }
 
     .Header .Background-Image{
-        height: 250px;
+        height: 350px;
     }
 
     .Header .Eclips_Image{
@@ -600,11 +600,11 @@ form .Privacy_Check{
 
     .Header .Vector_3 {
         left: 59px;
-        top: 280px;
+        top: 340px;
     }
 
     .Header .Vector_1{
-        top: 265px;
+        top: 325px;
         left: 59px;
     }
 
@@ -613,9 +613,9 @@ form .Privacy_Check{
     }
 
     .Header .Charecter{
-        top: 132px;
-        height: 151px;
-        right: 19px;
+        top: 75px;
+        height: 250px;
+        right: 10px;
     }
 
     .Header .container .row .Banner{
@@ -625,11 +625,11 @@ form .Privacy_Check{
     }
 
     .Banner h1 {
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
 
     .Banner p {
-        font-size: 10px;
+        font-size: 15px;
         width: 63%;
         text-align: left;
     }
@@ -667,40 +667,40 @@ form .Privacy_Check{
         margin-left: 33px;
     }
 
-    .Header .Charecter{
-        right: 27px;
-        height: 150px;
+    .Header .Charecter {
+        right: 10px;
+        height: 273px;
     }
 
     .Marketing_Details h3 {
-        font-size: 16px;
+        font-size: 20px;
         margin-bottom: 13px;
     }
 
     .Marketing_Details p {
-        font-size: 13px;
+        font-size: 15px;
     }
 
     .Startegy_Details h3 {
         margin-bottom: 13px;
-        font-size: 18px;
+        font-size: 21px;
     }
 
     .Startegy_Details p {
-        font-size: 13px;
+        font-size: 15px;
     }
 
     .Media_Management_Content h3 {
-        font-size: 17px;
+        font-size: 19px;
         margin-bottom: 13px;
     }
 
     .Media_Management_Content p {
-        font-size: 13px;
+        font-size: 15px;
     }
 
     .Media_Management_Content ul li{
-        font-size: 13px;
+        font-size: 15px;
     }
 
     .Management_Pic img {
@@ -708,15 +708,15 @@ form .Privacy_Check{
     }
 
     .Marketing_Platform h3 {
-        font-size: 18px;
+        font-size: 21px;
     }
 
     .Marketing_Platform p {
-        font-size: 12px;
+        font-size: 16px;
     }
 
     .Marketing_Platform ul li{
-        font-size: 13px;
+        font-size: 16px;
     }
 
     .Platform_Analys .container .row .Analys_Statics h3 {
@@ -725,11 +725,11 @@ form .Privacy_Check{
     }
 
     .Analys_Statics p {
-        font-size: 13px;
+        font-size: 16px;
     }
 
     .Analys_Statics ul li{
-        font-size: 13px;
+        font-size: 16px;
     }
 
     /* ---------------- */
@@ -803,7 +803,7 @@ form .Privacy_Check{
 
     .Header .Charecter {
         right: 42px;
-        height: 219px;
+        height: 365px;
     }
 
     .Banner p {
@@ -890,7 +890,8 @@ form .Privacy_Check{
 
     .Header .Charecter {
         right: 55px;
-        height: 301px;
+        height: 476px;
+        width: 30%;
     }
 
     .Contact-Section .Background {
@@ -1002,6 +1003,10 @@ form .Privacy_Check{
 
 @media (min-width:992px){
 
+    .row{
+        align-items: center;
+    }
+
     .navbar-collapse{
         position: unset;
         padding-left: 0px;
@@ -1032,7 +1037,7 @@ form .Privacy_Check{
 
     .Header .Charecter {
         right: 73px;
-        height: 412px;
+        height: 608px;
     }
 
     .Header .container .row .Banner {
@@ -1125,6 +1130,11 @@ form .Privacy_Check{
     .Header .Vector_3 {
         left: 514px;
     }
+
+    .Header .Charecter {
+        right: 40px;
+        width: 26%;
+    }
 }
 
 @media(min-width:1200px){
@@ -1156,7 +1166,7 @@ form .Privacy_Check{
 
     .Header .Charecter {
         right: 87px;
-        height: 473px;
+        height: 676px;
     }
 
     .Contact-Section .Background{
@@ -1188,7 +1198,7 @@ form .Privacy_Check{
 
     .Header .Charecter {
         right: 100px;
-        height: 542px;
+        height: 764px;
     }
 
     .Banner h1 {
@@ -1207,9 +1217,9 @@ form .Privacy_Check{
     }
 
     .Header .Charecter {
-        top: 23%;
+        top: 8%;
         right: 7%;
-        height: 542px;
+        height: 882px;
     }
 
     .Header .vector_2 {
@@ -1228,6 +1238,7 @@ form .Privacy_Check{
 
     .Header .container .row .Banner{
         width: 81%;
+        margin-left: 4%;
     }
 }
 
@@ -1250,9 +1261,9 @@ form .Privacy_Check{
     }
 
     .Header .Charecter {
-        top: 21%;
+        top: 10%;
         right: 7%;
-        height: 638px;
+        height: 950px;
     }
 
     .Header .Vector_1 {
