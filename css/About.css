@@ -515,7 +515,7 @@ form .Privacy_Check{
     }
 
     .Profile_Details .container .row h2{
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
 
     .Profile .Profile_List{
@@ -711,7 +711,7 @@ form .Privacy_Check{
     }
 
     .Who_Content h2, .Company_Content h2, .What_Content h2, .Design_Content h2, .Support_Content h2{
-        font-size: 1rem !important;
+        font-size: 1.5rem !important;
     }
 
     .Who_Content p, .Company_Content p, .What_Content p, .Design_Content p, .Support_Content p {
@@ -727,7 +727,7 @@ form .Privacy_Check{
     }
 
     .Chooseing .container .row .Why_We_Cart p {
-        font-size: 13px;
+        font-size: 15px;
         margin-top: 10px;
     }
 
@@ -1164,7 +1164,7 @@ form .Privacy_Check{
         width: 88%;
         text-align: justify;
         margin-left: 3%;
-        font-size: 16px;
+        font-size: 17px;
     }
 
     .Chooseing .container .row {

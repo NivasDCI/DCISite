@@ -9,8 +9,6 @@
     padding: 0px;
     scroll-behavior: smooth;
     font-family: "Roboto", sans-serif;
-    text-align: justify;
-    word-break: break-all;
 }
 
 body .Header {
@@ -714,12 +712,12 @@ form .Privacy_Check {
     }
 
     .About_Content h5 {
-        font-size: 12px;
+        font-size:17px;
         margin-bottom: 10px;
     }
 
     .About_Content p {
-        font-size: 10px;
+        font-size: 15px;
     }
 
     .About_Content .Management_Info {
@@ -729,7 +727,7 @@ form .Privacy_Check {
     }
 
     .Management_Info h6 {
-        font-size: 12px;
+        font-size: 17px;
     }
 
     .About_Content .Anchertag {
@@ -740,7 +738,7 @@ form .Privacy_Check {
 
     .About_Content a {
         padding: 6px 7px;
-        font-size: 10px;
+        font-size: 15px;
         border-radius: 10px;
     }
 
@@ -776,12 +774,12 @@ form .Privacy_Check {
     }
 
     .Work_Row .Work_Row_Content h2 {
-        font-size: 1.5rem;
+        font-size: 2rem;
         text-align: center;
     }
 
     .Work_Row_Content p {
-        font-size: 13px;
+        font-size: 15px;
         text-align: center;
     }
 
@@ -849,7 +847,7 @@ form .Privacy_Check {
     .Seo_Cart_Content h4,
     .Digit_Cart_Content h4,
     .E-Pup_Cart_Content h4 {
-        font-size: 12px;
+        font-size: 16px;
         margin-bottom: 10px;
         text-align: center;
     }
@@ -860,7 +858,7 @@ form .Privacy_Check {
     .Seo_Cart_Content p,
     .Digit_Cart_Content p,
     .E-Pup_Cart_Content p {
-        font-size: 10px;
+        font-size: 15px;
         text-align: center;
 
     }

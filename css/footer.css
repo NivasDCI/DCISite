@@ -2,8 +2,6 @@
   font-family: "Roboto", sans-serif;
   margin: 0px;
   scroll-behavior: smooth;
-  text-align: justify;
-  word-break: break-all;
 }
 
 .container-fluid .navbar-brand img {
