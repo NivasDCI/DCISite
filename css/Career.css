@@ -491,7 +491,7 @@ form button:hover{
         left: calc(100% - 80%);
         top: 10%;
         bottom: 5%;
-        overflow-y: hidden !important;
+        overflow-y: scroll !important;
     }
 }
 
