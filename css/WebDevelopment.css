@@ -40,6 +40,15 @@
     border: 0;
 }
 
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav #navbarDropdown {
+    border-right: 4px solid #25ccea;
+  }
+
+  .dropdown ul li:nth-of-type(1) {
+    border-right: 4px solid #25ccea;
+    margin-right: 5px;
+  }
+
 .btn-outline-success{
     color: #002960 !important;
     border-color: #002960 !important;

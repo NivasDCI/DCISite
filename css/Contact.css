@@ -32,6 +32,10 @@
     border: 0;
 }
 
+.navbar-light .navbar-nav .nav-item:nth-child(5){
+    border-right: 4px solid #25ccea;
+  }
+
 .navbar-nav {
     display: flex;
     gap: 30px;

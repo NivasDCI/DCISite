@@ -8,6 +8,15 @@
   width: auto;
 }
 
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
+  border-right: 4px solid #002960;
+}
+
+.dropdown ul li:hover {
+  border-right: 4px solid #002960;
+  margin-right: 5px;
+}
+
 .Contact-Section .Button {
   display: flex;
   justify-content: flex-end;

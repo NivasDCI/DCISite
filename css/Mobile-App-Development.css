@@ -32,6 +32,15 @@
 }
 
 
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav #navbarDropdown {
+    border-right: 4px solid #25ccea;
+  }
+
+  .dropdown ul li:nth-of-type(2) {
+    border-right: 4px solid #25ccea;
+    margin-right: 5px;
+  }
+
 .navbar-nav {
     display: flex;
     gap: 30px;

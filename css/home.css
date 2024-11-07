@@ -51,6 +51,10 @@ body .Header {
     border: 0;
 }
 
+.navbar-light .navbar-nav .nav-item:nth-child(1){
+    border-right: 4px solid #25ccea;
+  }
+
 .btn-outline-success {
     color: #002960 !important;
     border-color: #002960 !important;
