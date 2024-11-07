@@ -2,8 +2,6 @@
     font-family: "Roboto",sans-serif;
     margin: 0px;
     scroll-behavior: smooth;
-    text-align: justify;
-    word-break: break-all;
 
 }
 
@@ -675,14 +673,11 @@ form .Privacy_Check{
     }
 
     .Section_Heading h3 {
-        font-size: 19px;
+        font-size: 25px;
         margin-bottom: 10px;
         text-align: center;
     }
 
-    .Section_Heading p{
-        font-size: 10px;
-    }
 
     .row .Section_Body_Image img {
         width: 80%;
@@ -727,12 +722,9 @@ form .Privacy_Check{
 
     .E_Pub_Conversion h3, .Layout_Conversion h3, .Enhanced_Conversion h3, .Pdf_Conversion h3 {
         margin: 10px 0px;
-        font-size: 13px;
+        font-size: 18px;
     }
 
-    .E_Pub_Conversion p, .Layout_Conversion p, .Enhanced_Conversion p, .Pdf_Conversion p {
-        font-size: 10px;
-    }
 
     .Edit_Service {
         margin: 10px 0px;
@@ -752,21 +744,16 @@ form .Privacy_Check{
     }
 
     .Edit_Service_Content h3 {
-        font-size: 1rem;
+        font-size: 1.5rem;
         text-align: center;
     }
 
     .Edit_Service_Content p {
-        font-size: 12px;
         width: 97%;
     }
 
     .Edit_Service_Content .row .col-5{
         width: 95%;
-    }
-
-    .Edit_Service_Content .row .col-5 ul li{
-        font-size: 11px;
     }
 
     .Edit_Service_Img{
@@ -813,7 +800,7 @@ form .Privacy_Check{
     .Illustration h3, .Type_Setting h3, .Copy_Editing h3, .Indexing h3,.PDF h3,
      .E_Pub h3, .Html_Conversion h3, .Xml_Conversion h3 ,
      .Indesign h3, .Illustration_List h3, .Photoshop h3, .Framemaker h3, .Pagemaker h3, .Mathml h3  {
-        font-size: 15px;
+        font-size: 19px;
         padding-bottom: 0px;
         margin-top: 15px;
     }
@@ -821,18 +808,18 @@ form .Privacy_Check{
     .Illustration p, .Type_Setting p, .Copy_Editing p, .Indexing p,
     .PDF p, .E_Pub p, .Html_Conversion p, .Xml_Conversion p,
     .Indesign p, .Illustration_List p, .Photoshop p, .Framemaker p, .Pagemaker p, .Mathml p  {
-        font-size: 10px;
+        font-size: 15px;
     }
 
     .Accessibility_Sec h3 {
-        font-size: 1rem;
+        font-size: 1.5rem;
         text-align: center;
     }
 
     .Accessibility_Sec p {
         width: 100%;
-        font-size: 10px;
-        text-align: justify;
+        font-size: 15px;
+        text-align: left;
         margin-left: 0px;
         margin-top: 6px;
     }
@@ -874,8 +861,7 @@ form .Privacy_Check{
     .Dtb_Content p {
         width: 100%;
         margin-left: 0%;
-        font-size: 11px;
-        text-align: justify;
+        text-align: left;
     }
 
     .Dtb_Content img {
@@ -904,14 +890,13 @@ form .Privacy_Check{
     }
 
     .Proofreading_Cart h3 {
-        font-size: 1rem;
+        font-size: 1.5rem;
         text-align: center;
     }
 
     .Proofreading_Cart p {
         margin-left: 0%;
-        font-size: 10px;
-        text-align: justify;
+        text-align: left;
     }
 
     /* ------------- */
@@ -985,52 +970,41 @@ form .Privacy_Check{
     }
 
     .Header{
-        height: 250px;
+        height: 450px;
         margin-bottom: 7%;
+        overflow: hidden;
     }
 
     .Header .Background-Image{
-        height: 250px;
-    }
-
-    .Header .Eclips_Image{
-        right: 14px;
-    }
-
-    .Header .Vector_3 {
-        left: 59px;
-        top: 280px;
-    }
-
-    .Header .Vector_1{
-        top: 265px;
-        left: 59px;
+        height: 350px;
     }
 
     .Header .vector_2{
         top: 17%;
     }
 
-    .Header .Charecter{
-        top: 132px;
-        height: 151px;
-        right: 19px;
+    .Header .Charecter {
+        top: 48%;
+        height: 160px;
+        right: 10%;
+        width: 86%;
     }
 
     .Header .container .row .Banner{
         top: 105px;
-        margin-left: 24px;
-        width: 91%;
+        margin-left: 0px;
+        width: 98%;
     }
 
     .Banner h1 {
-        font-size: 1rem;
+        font-size: 2rem;
+        text-align: center;
     }
 
     .Banner p {
-        font-size: 10px;
-        width: 63%;
-        text-align: left;
+        font-size: 16px;
+        width: 100%;
+        text-align: center;
     }
 
     .Edit_Service_List .container .row {
@@ -1073,13 +1047,24 @@ form .Privacy_Check{
 }
 
 @media(min-width:400px){
-    .Header .container .row .Banner{
-        margin-left: 33px;
+
+    .Header{
+        height: 500px;
+        margin-bottom: 7%;
+        overflow: hidden;
+    }
+
+    .Header .Background-Image{
+        height: 450px;
+    }
+
+    .Header .vector_2 {
+        top: 35%;
     }
 
     .Header .Charecter{
-        right: 27px;
-        height: 150px;
+        height: 210px;
+        top: 36%;
     }
 
     .row .Cart_1, .row .Cart_2, .row .Cart_3, .row .Cart_4, .row .Cart_5, .row .Cart_6 {
@@ -1088,17 +1073,11 @@ form .Privacy_Check{
         margin-left: 7%;
     }
 
-    .Cart_1 h3, .Cart_2 h3, .Cart_3 h3, .Cart_4 h3, .Cart_5 h3, .Cart_6 h3 {
-        font-size: 19px;
-    }
 
     .Cart_1 h3, .Cart_2 h3, .Cart_4 h3, .Cart_5 h3, .Cart_6 h3 {
         margin-top: 17%;
     }
 
-    .Section_Heading p {
-        font-size: 13px;
-    }
 
     .E_Pub_Conversion img, .Enhanced_Conversion img {
         top: -23px;
@@ -1117,21 +1096,6 @@ form .Privacy_Check{
         width: 50px;
     }
 
-    .E_Pub_Conversion p, .Layout_Conversion p, .Enhanced_Conversion p, .Pdf_Conversion p {
-        font-size: 13px;
-    }
-
-    .Edit_Service_Content h3 {
-        font-size: 1.4rem;
-    }
-
-    .Edit_Service_Content p {
-        font-size: 13px;
-    }
-
-    .Edit_Service_Content .row .col-5 ul li {
-        font-size: 13px;
-    }
 
     .Illustration img, .Copy_Editing img, .PDF img, .Html_Conversion img, .Indesign img, .Illustration_List img, .Photoshop img, .Framemaker img, .Pagemaker img, .Mathml img {
         left: 20px;
@@ -1143,29 +1107,6 @@ form .Privacy_Check{
         width: 45px;
     }
 
-    .Illustration h3, .Type_Setting h3, .Copy_Editing h3, .Indexing h3, .PDF h3, .E_Pub h3, .Html_Conversion h3, .Xml_Conversion h3, .Indesign h3, .Illustration_List h3, .Photoshop h3, .Framemaker h3, .Pagemaker h3, .Mathml h3 {
-        font-size: 18px;
-    }
-
-    .Illustration p, .Type_Setting p, .Copy_Editing p, .Indexing p, .PDF p, .E_Pub p, .Html_Conversion p, .Xml_Conversion p, .Indesign p, .Illustration_List p, .Photoshop p, .Framemaker p, .Pagemaker p, .Mathml p {
-        font-size: 13px;
-    }
-
-    .Accessibility_Sec h3 {
-        font-size: 1.4rem;
-    }
-
-    .Accessibility_Sec p {
-        font-size: 13px;
-    }
-
-    .Proofreading_Cart h3 {
-        font-size: 1.4rem;
-    }
-
-    .Proofreading_Cart p {
-        font-size: 13px;
-    }
 
     /* ---------------- */
     .Contact-Section .Background {
@@ -1217,32 +1158,22 @@ form .Privacy_Check{
 
 @media(min-width:576px){
     .Header .Background-Image {
-        height: 330px;
+        height: 530px;
     }
 
     .Header {
-        height: 350px;
+        height: 550px;
     }
 
     .Header .container .row .Banner{
-        width: 80%;
+        width: 95%;
+        margin-top: 50px;
     }
 
     .Banner h1 {
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
 
-    .Header .Vector_3 {
-        left: 267px;
-        /* right: 200px; */
-        top: 275px;
-    }
-
-    .Header .Vector_1 {
-        left: 276px;
-        /* right: 200px; */
-        top: 256px;
-    }
 
     .Header .vector_2 {
         top: 22%;
@@ -1250,11 +1181,11 @@ form .Privacy_Check{
 
     .Header .Charecter {
         right: 42px;
-        height: 219px;
+        height: 287px;
     }
 
     .Banner p {
-        font-size: 12px;
+        font-size: 16px;
     }
 
     .row .Cart_1, .row .Cart_2, .row .Cart_3, .row .Cart_4, .row .Cart_5, .row .Cart_6 {
@@ -1404,28 +1335,20 @@ form .Privacy_Check{
 @media(min-width:768px){
 
     .Header {
-        height: 425px;
+        height: 600px;
     }
 
     .Header .Background-Image {
-        height: 425px;
+        height: 525px;
     }
 
-    .Header .Vector_1 {
-        left: 362px;
-        /* right: 200px; */
-        top: 291px;
-    }
-
-    .Header .Vector_3 {
-        left: 342px;
-        /* right: 200px; */
-        top: 316px;
+    .Header .vector_2 {
+        top: 31%;
+        width: 12%;
     }
 
     .Header .Charecter {
-        right: 55px;
-        height: 301px;
+        height: 380px;
     }
 
     .Contact-Section .Background {
@@ -1435,8 +1358,7 @@ form .Privacy_Check{
     }
 
     .Header .container .row .Banner {
-        margin-left: 45px;
-        top: 150px;
+        top: 100px;
     }
 
     .Banner h1 {
@@ -1570,14 +1492,16 @@ form .Privacy_Check{
     }
 
     .Header .Charecter {
-        right: 73px;
-        height: 412px;
+        right: 3px;
+        height: 300px;
+        top: 22%;
+        width: 50%;
     }
 
     .Header .container .row .Banner {
         margin-left: 10%;
         top: 170px;
-        width: 80%;
+        width: 43%;
     }
 
     .Banner p {
@@ -1752,15 +1676,6 @@ form .Privacy_Check{
         height: 620px;
     }
 
-    .Header .Vector_1 {
-        left: 571px;
-        top: 400px;
-    }
-
-    .Header .Vector_3 {
-        left: 546px;
-        top: 440px;
-    }
 
     .Banner h1 {
         font-size: 3rem;
@@ -1768,12 +1683,18 @@ form .Privacy_Check{
 
     .Header .container .row .Banner{
         top: 190px;
-        width: 80%;
+        width: 40%;
+        margin-left: 7%;
+    }
+
+    .Header .vector_2 {
+        top: 48%;
+        width: 10%;
     }
 
     .Header .Charecter {
-        right: 87px;
-        height: 473px;
+        right: 0px;
+        height: 373px;
     }
 
     .List {
@@ -1859,14 +1780,15 @@ form .Privacy_Check{
         height: 700px;
     }
 
-    .Header .Vector_3 {
-        left: 640px;
-        top: 492px;
-    }
 
     .Header .Charecter {
-        right: 100px;
-        height: 542px;
+        height: 450px;
+    }
+
+    .Header .container .row .Banner {
+        top: 200px;
+        width: 47%;
+        margin-left: 1%;
     }
 
     .Banner h1 {
@@ -1885,13 +1807,12 @@ form .Privacy_Check{
     }
 
     .Header .Charecter {
-        top: 23%;
-        right: 7%;
+        top: 18%;
         height: 542px;
     }
 
     .Header .vector_2 {
-        top: 32%;
+        top: 60%;
     }
 
     .Header .Vector_1 {
@@ -1904,8 +1825,10 @@ form .Privacy_Check{
         left: 712px;
     }
 
-    .Header .container .row .Banner{
-        width: 75%;
+    .Header .container .row .Banner {
+        /* width: 75%; */
+        top: 28%;
+        left: 35px;
     }
 }
 
@@ -1918,8 +1841,11 @@ form .Privacy_Check{
         height: 900px;
     }
 
+    .Header .vector_2 {
+        top: 64%;
+    }
+
     .Header .container .row .Banner {
-        width: 74%;
         margin-left: 0px;
     }
 
@@ -1929,19 +1855,10 @@ form .Privacy_Check{
 
     .Header .Charecter {
         top: 21%;
-        right: 7%;
         height: 638px;
+        width: 54%;
     }
 
-    .Header .Vector_1 {
-        left: 900px;
-        top: 513px;
-    }
-
-    .Header .Vector_3 {
-        top: 577px;
-        left: 856px;
-    }
 
     .Banner p {
         font-size: 23px;
