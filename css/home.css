@@ -294,7 +294,7 @@ section .Work_Row {
 .First_Row .Web_Cart:hover,
 .App_Cart:hover,
 .Ui_Cart:hover,
-.Second_Row .Seo_Cart:hover,
+.Seo_Cart:hover,
 .Digit_Cart:hover,
 .E-Pup_Cart:hover {
     box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.1)inset,
@@ -722,12 +722,13 @@ form .Privacy_Check {
 
     .About_Content p {
         font-size: 15px;
+        margin-right: 10px;
     }
 
     .About_Content .Management_Info {
         margin-top: 9px;
         padding-bottom: 2px;
-        gap: 25px;
+        gap: 10px;
     }
 
     .Management_Info h6 {
@@ -792,8 +793,7 @@ form .Privacy_Check {
         margin-left: 5%;
     }
 
-    .Work_Cart_Section .First_Row,
-    .Work_Cart_Section .Second_Row {
+    .Work_Cart_Section .First_Row {
         flex-wrap: wrap;
         justify-content: center;
     }
@@ -822,6 +822,11 @@ form .Privacy_Check {
         margin-bottom: 3px;
     }
 
+    .First_Row a {
+        width: 70%;
+        text-decoration: none;
+    }
+
     .First_Row .Web_Cart,
     .App_Cart,
     .Ui_Cart,
@@ -830,7 +835,7 @@ form .Privacy_Check {
     .E-Pup_Cart {
         padding: 1%;
         border-radius: 8px;
-        width: 70%;
+        width: 90%;
     }
 
     .Ui_Cart .Ui_Cart_Img img,
@@ -1465,13 +1470,18 @@ form .Privacy_Check {
         padding-top: 90px;
     }
 
+    .First_Row a {
+        width: 47%;
+        text-decoration: none;
+    }
+
     .First_Row .Web_Cart,
     .First_Row .App_Cart,
     .First_Row .Ui_Cart,
     .First_Row .Seo_Cart,
     .First_Row .Digit_Cart,
     .First_Row .E-Pup_Cart {
-        width: 45%;
+        width: 85%;
     }
 
     .App_Cart .App_Cart_Img img,
@@ -2048,13 +2058,18 @@ form .Privacy_Check {
         gap: 40px;
     }
 
+    .First_Row a {
+        width: 30%;
+        text-decoration: none;
+    }
+
     .First_Row .Web_Cart,
     .First_Row .App_Cart,
     .First_Row .Ui_Cart,
     .First_Row .Seo_Cart,
     .First_Row .Digit_Cart,
     .First_Row .E-Pup_Cart {
-        width: 30%;
+        width: 100%;
     }
 
     .Counter_List {
@@ -2203,15 +2218,7 @@ form .Privacy_Check {
         margin-left: 10%;
     }
 
-    .First_Row .Web_Cart,
-    .First_Row .App_Cart,
-    .First_Row .Ui_Cart,
-    .First_Row .Seo_Cart,
-    .First_Row .Digit_Cart,
-    .First_Row .E-Pup_Cart {
-        width: 25%;
-        margin-left: 5%;
-    }
+    
 
     .Counter_List .Row {
         height: auto;
